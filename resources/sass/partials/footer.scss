@@ -1,0 +1,89 @@
+footer{
+    /*
+    *{
+        outline: 1px solid red;
+    }
+    */
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    h3{
+        font-weight: 800;
+        font-size: 17px;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+    }
+    h2{
+        font-size: 18px;
+        padding-right: 5px;
+        font-weight: 600;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;  
+    }
+    li > .list{
+        &:hover{
+            border-bottom:2px solid $border-bottom--hover--color;
+            transition: .1s;
+        }
+    }
+    li > a {
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .upper-text{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .bottom-text{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .copyright{
+        letter-spacing: -1px;
+        line-height: 55px;
+        font-size: 14px;
+    }
+    .fa-square-facebook:hover::before{
+        color: $fb--hover--color !important;
+        transition: .4s;
+    }
+    .fa-square-facebook:active::before {
+        color: $fb--active--color !important;
+    }
+    .fa-instagram:hover::before{
+        color:$instagram--hover--color;
+        transition: .4s;
+    }
+    .fa-instagram:active::before {
+        color: $instagram--active--color;
+    }
+    .fa-twitter:hover::before{
+        color: $twitter--hover--color;
+        transition: .4s;
+    }
+    .fa-twitter:active::before {
+        color: $twitter--active--color;
+    }
+    .fa-square-facebook::before,.fa-instagram::before.fa-twitter::before{
+        transition: .4s;
+    }
+        .fa-square-facebook::before{
+            font-size: 20px;
+        }
+        .fa-instagram::before{
+            font-size: 20px;
+        }
+        .fa-twitter::before{
+            font-size: 20px;
+        }
+}
