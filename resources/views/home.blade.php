@@ -13,9 +13,9 @@
 </div>
 
 
-<div class="footer">
+
     @include('components.footer')
-</div>
+
 
 
 
