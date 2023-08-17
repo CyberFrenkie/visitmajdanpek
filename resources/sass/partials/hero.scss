@@ -1,5 +1,6 @@
 .h-100vh {
   height: 100vh;
+  object-fit: cover;
 }
 
 .center {
@@ -17,5 +18,14 @@
 .lead {
   font-size: 90px;
   font-weight: 600;
+  font-family: 'Raleway', sans-serif;
   line-height: normal;
+
+  @media only screen and (max-width:1025px) {
+    font-size: 75px;
+  }
+
+  @media only screen and (max-width:768px) {
+    font-size: 50px;
+  }
 }
