@@ -1,7 +1,5 @@
-
-
-    <nav >
-        <p><p>
-            {{ __('home.nav') }}
-        </p></p>
-    </nav>
+<nav >
+    <p>
+        {{ __('home.nav') }}
+    </p>
+</nav>

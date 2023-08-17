@@ -2,8 +2,6 @@
 
 @section('wrapper')
 
-<h1 class="text-center">{{ __('home.welcome') }}</h1>
-
 <div class="header">
     @include('components.header')
 </div>
@@ -12,15 +10,6 @@
     @include('components.main')
 </div>
 
-
-
     @include('components.footer')
 
-
-
-
-
 @endsection
-
-
-
