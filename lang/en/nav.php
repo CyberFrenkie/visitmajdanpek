@@ -52,6 +52,26 @@ return [
         'text' => 'Kontakt',
       ],
     ],
+
+    'listItem6' => [
+      'class' => 'nav-item nav-item-right',
+      
+      'button' => [
+        'url' => '#',
+        'class' => 'button icon icon-lang',
+        'text' => 'EN',
+      ],
+    ],
+
+    'listItem7' => [
+      'class' => 'nav-item',
+      
+      'button' => [
+        'url' => '#',
+        'class' => 'button icon-search',
+        'text' => '',
+      ],
+    ],
   ],
 
 ];
