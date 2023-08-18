@@ -2,6 +2,83 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: "Nunito", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+//Padding/Margins
+$line-margin: 75px;
+$pre-hero-title-padding: 35px;
+$after-hero-title-padding: 20px;
+$pre-hero-paragraph-padding: 120px;
+$pre-hero-paragraph-margin: 40px;
+$after-hero-paragraph-padding: 120px;
+$after-hero-paragraph-margin: 40px;
+$first-container-margin: 100px;
+$first-container-bottom-margin: 80px;
+$buttons-padding: 27px;
+$hero-title-margin: 5px;
+$hero-text-margin: 45px;
+$hero-button-padding: 17px;
+$before-footer-title-padding: 15px;
+$before-footer-paragraph-padding: 10px;
+
+//fonts
+$pre-hero-title: 24px;
+$after-hero-title: 28px;
+$pre-hero-parahraph: 18px;
+$after-hero-paragraph: 17px;
+$buttons-font: 23px;
+$hero-title: 62px;
+$hero-button: 23px;
+$after-hero-button: 16px;
+$before-footer-title: 20px;
+$before-footer-paragraph-font: 16px;
+
+//colors
+$line-color: #000000;
+$buttons-color: #ffffff;
+$buttons-hover-color: #fc982d;
+$hero-button-color: #1d7964;
+$hero-button-hover-bg-color: #ffffff;
+$hero-button-hover-color: #000000;
+$after-hero-button-color: #1d7964;
+
+//transitions
+$transition: 0.3s;
+
+//width,height
+$line-width: 60%;
+$pre-hero-title-width: 45%;
+$after-hero-title-width: 45%;
+$pre-hero-paragraph-width: 80%;
+$after-hero-paragraph-width: 80%;
+$hero-img-height: 450px;
+$hero-img-width: 65%;
+$first-bg-img-width: 100%;
+$first-bg-img-height: 70%;
+$hero-title-width: 90%;
+$hero-text-width: 40%;
+$before-footer-image-height: 190px;
+$before-footer-image-width: 290px;
+$before-footer-title-width: 70%;
+$before-footer-paragraph-width: 75%;
+
+//border
+$hero-img-border: 7px;
+$hero-button-border: 2px solid #ffffff;
+$hero-button-radius: 7px;
+$before-footer-radius: 7px;
+
+//left,right,top,bottom
+$first-container-right: -5%;
+$buttons-bottom: -375px;
+$hero-title-bottom: -150px;
+$hero-title-left: 180px;
+$hero-text-bottom: -160px;
+$hero-text-left: 180px;
+$hero-button-bottom: -180px;
+$hero-button-left: 180px;
+
+//img
+$hero-img: url("../img/default-img.png");
