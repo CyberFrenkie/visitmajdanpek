@@ -1,3 +1,2 @@
-<nav>
-    @include('../partials/_navigation')
-</nav>
+@include('../partials/_navigation')
+@include('../partials/_hero')
