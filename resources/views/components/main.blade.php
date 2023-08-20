@@ -30,4 +30,66 @@
   
     @endforeach
   
-  </div>
+</div>
+
+
+
+{{-- Slide section --}}
+<div class="hero-mid my-5">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  
+      <div class="carousel-indicators">
+  
+        @foreach( __('home.hero.carousel.indicators') as $index => $indicator)
+  
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ $index }}" class="{{ $indicator['class'] }}" aria-current="{{ $indicator['class'] === 'active' ? 'true' : 'false' }}" aria-label="{{ $indicator['label'] }}"></button>
+      
+        @endforeach
+  
+      </div>
+  
+  
+  
+      <div class="carousel-inner">
+  
+        @foreach( __('home.hero.carousel.slides') as $index => $slide)
+  
+              <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+  
+                  <img src="{{ __('home.hero.carousel.image.src') }}" class="{{ __('home.hero.carousel.image.class') }}" alt="{{ __('home.her.carousel.image.alt') }}">
+  
+                  <div class="slide-link">
+                    
+                      <h1 class="slide-title">{{ $slide['title'] }}</h1>
+  
+                      <p class="slide-text">{{ $slide['text'] }}</p>
+  
+                      <a class="{{ $slide['button_class'] }} link">{{ $slide['button_text'] }}</a>
+  
+                  </div>
+  
+              </div>
+  
+          @endforeach
+  
+      </div>
+  
+  
+  
+      @foreach( __('home.hero.carousel.controls') as $controlKey => $control)
+  
+        <button class="{{ $control['class'] }}" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="{{ $control['slide'] }}">
+  
+          <span class="{{ $control['icon'] }}" aria-hidden="true"></span>
+  
+          <span class="visually-hidden">{{ __($control['label']) }}</span>
+  
+        </button>
+  
+      @endforeach
+  
+    </div>
+  
+</div>
+  
