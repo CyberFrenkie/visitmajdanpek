@@ -33,13 +33,6 @@
         }
     }
 
-    .hero-mid{
-        height: $slider-height;
-        .carousel,img,.carousel-inner,.carousel-item{
-            height: $full-width;
-        }
-    }
-
     .slide-link{
         position: absolute;
         left: 13%;        
@@ -61,4 +54,14 @@
         
     }
 
+    .second-content{
+        .card-img{        
+            @include news-card-img-param;
+        }
+    }
+
+
+    .news-link{
+       @include link-primary;
+    }
 }
