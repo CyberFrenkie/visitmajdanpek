@@ -33,4 +33,32 @@
         }
     }
 
+    .hero-mid{
+        height: $slider-height;
+        .carousel,img,.carousel-inner,.carousel-item{
+            height: $full-width;
+        }
+    }
+
+    .slide-link{
+        position: absolute;
+        left: 13%;        
+        bottom: 50%;
+        transform: translateY(50%);        
+        color: $color-primary;
+        
+        .slide-title{
+            font-size: $font-size-title-primary;
+        }
+
+        .slide-text{
+            font-size: $font-size-text-secondary;
+        }
+
+        .btn{
+            @include btn-primary;
+        }
+        
+    }
+
 }
