@@ -57,7 +57,7 @@
   
               <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
   
-                  <img src="{{ __('home.hero.carousel.image.src') }}" class="{{ __('home.hero.carousel.image.class') }}" alt="{{ __('home.her.carousel.image.alt') }}">
+                  <img src="{{ __('home.hero.carousel.image.src') }}" class="{{ __('home.hero.carousel.image.class') }}" alt="{{ __('home.hero.carousel.image.alt') }}">
   
                   <div class="slide-link">
                     

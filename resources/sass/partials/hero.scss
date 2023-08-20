@@ -1,7 +1,7 @@
 .header {
 
   .h-100vh {
-    height: 100vh;
+    height: $full-screen-height;
     object-fit: cover;
   }
 
@@ -19,8 +19,8 @@
 
   .lead {
     font-size: 90px;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+    font-weight: $font-weight-thick;
+    font-family: $font-family-raleway;
     line-height: normal;
 
     @media only screen and (max-width:1025px) {
