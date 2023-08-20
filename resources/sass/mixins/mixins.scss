@@ -1,0 +1,76 @@
+@mixin reset-default-text{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+@mixin reset-p-m {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin pseudo($top,$bottom,$left,$right,$display){
+    display:$display;
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+    content: '';   
+
+}
+
+@mixin btn-primary{
+    width: $btn-width;
+    background-color: $color-primary;            
+    font-size: $font-size-btn;
+    color: $color-link;
+    font-weight: $font-weight-thick;
+
+    &:hover{
+        color: $color-black;
+        background-color: $border-bottom--hover--color;
+    }
+}
+
+@mixin link-primary{
+    text-decoration: none;
+    color: $color-link;
+    font-size: $font-size-btn;
+    font-weight: $font-weight-medium;
+
+}
+
+@mixin card-default{
+    @include reset-p-m;
+    position: relative;
+    transition: $transition;    
+    border: none;
+    background: transparent;
+    
+    .card-img{
+        border-radius: 10px;
+    }
+    
+    &:hover{
+        scale: 1.1;
+    }
+}
+
+@mixin first-content-card{
+    .card{
+        height: 600px;
+        padding: 0 20px;
+        margin: 5px 0;
+    }
+    .card-img,.link{
+        height: $full-height;
+       
+    }
+}
+
+@mixin news-card-img-param{
+    height: 200px;
+    border-bottom-left-radius: 0;
+}
+
