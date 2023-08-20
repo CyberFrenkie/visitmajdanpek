@@ -1,7 +1,48 @@
 // Body
 $body-bg: #f8fafc;
+$body-font-color: #222222;
+
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
+$font-family-nunito: 'Nunito', sans-serif;
+$font-family-raleway: 'Raleway', sans-serif;
+$font-family-abril: 'Abril Fatface', sans-serif;
+$font-family-akaya: 'Akaya Telivigala', sans-serif;
+$font-family-aladin: 'Aladin', sans-serif;
+$font-family-allura: 'Allura', sans-serif;
+$font-family-asset: 'Asset', sans-serif;
+
+$font-size-btn: 1.2rem;
+
+$font-size-title-primary: 6rem;
+$font-size-title-secondary: 2rem;
+$font-size-title-special: 3rem;
+
+$font-size-text-primary: 1.5rem;
+$font-size-text-secondary: 1.2rem;
+
+$font-size-link: 1rem;
+
+$font-weight-thin: 200;
+$font-weight-medium: 400;
+$font-weight-thick: 600;
+
 $line-height-base: 1.6;
+
+
+//transitions
+$transition: all 0.5s ease-in-out;
+
+//width,height
+$full-width: 100%;
+$btn-width: 250px;
+
+$full-height: 100%;
+$full-screen-height: 100vh;
+$slider-height: 80vh;
+
+
+//img
+$hero-img: url("../img/default-img.png");
+$content-img: url("../img/content/content.png");
+$logo-img: url("../img/layout/logo.png");
