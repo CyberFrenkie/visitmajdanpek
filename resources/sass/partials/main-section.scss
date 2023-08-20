@@ -1,0 +1,36 @@
+.main{
+    
+    .link{
+        @include reset-default-text;
+        color: $color-black;
+    }
+    
+    .card{
+        @include card-default;
+    }
+    
+    .card-header{
+        position: absolute;
+        bottom: 7%;
+        left: 7%;
+        font-size: $font-size-title-special;
+        font-family: $font-family-sans-serif;
+        color: $color-primary;
+    }
+
+    .card-img,.news-img{
+        width: $full-width;
+    }
+
+    .first-content{
+        @include first-content-card;
+    }
+
+    .hero-mid{
+        height: $slider-height;
+        .carousel,img,.carousel-inner,.carousel-item{
+            height: $full-width;
+        }
+    }
+
+}
