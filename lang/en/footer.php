@@ -14,6 +14,7 @@ return [
         'list-title-class' => 'font1',
         'social-title' => 'Follow Us',
         'social-class' => 'font2',
+        'default-class' => 'default',
         'left-list' => [
           [      
                 'leftListValues' => [

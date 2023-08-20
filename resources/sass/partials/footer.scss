@@ -1,26 +1,14 @@
 footer{
-    /*
-    *{
-        outline: 1px solid red;
-    }
-    */
-    
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    p,ul{
-        padding: 0;
-        margin: 0;
-    }
-    ul {
-        list-style: none;
+    .default{
+        @include reset-default-text;
+        @include reset-p-m;
+        color: $color-black;
     }
     .font1,.bottom-text{
         font-weight: 800;
     }
     .font2,.upper-text, li > a{
-        font-weight: 600;
+        font-weight: $font-weight-thick;
     }
     .font1,.copyright{
         letter-spacing: -1px;
@@ -30,17 +18,15 @@ footer{
         text-transform: uppercase;
     }
     .font2{
-        font-size: 18px;
+        font-size: $font-size-btn;
         padding-right: 5px;
     }
     li > .list{
+        line-height: 30px;
         &:hover{
             border-bottom:2px solid $border-bottom--hover--color;
             transition: .1s;
         }
-    }
-    li > a {
-        line-height: 30px;
     }
     .upper-text{
         font-size: 12px;
@@ -55,7 +41,7 @@ footer{
     .fa-square-facebook:hover::before,.fa-instagram:hover::before,.fa-twitter:hover::before,.fa-square-facebook::before,
     .fa-instagram::before,
     .fa-twitter::before{
-        transition: .4s;
+        transition: $transition;
     }
     .fa-square-facebook:hover::before{
         color: $fb--hover--color ;
@@ -102,10 +88,5 @@ footer{
         margin-top: 1.5rem;
     }
 }
-@media only screen and (min-width:992) and (max-width:1400px){
-    .col-fix{
-    flex: 0 0 auto;
-    width: 50%;
-    }
-}
+
 
