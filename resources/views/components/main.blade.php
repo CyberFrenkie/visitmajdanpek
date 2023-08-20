@@ -92,4 +92,54 @@
     </div>
   
 </div>
+
+
+
+{{-- Third - news section --}}
+
+<div class="second-content row container-xl mx-auto">
+
+    @foreach( __('home.news') as $news )
+  
+      <h1 class="col-6 news-heading"> {{ $news['heading'] }} </h1>
+      
+      <p class="col-6 news-text"> {{ $news['paragraph'] }} </p>
+      
+      @foreach ( ($news['btn']) as $btn)
+  
+        <a href="{{ $btn['link'] }}" class="news-link link"> {{ $btn['text'] }} </a>
+          
+      @endforeach
+      
+  
+      <div class="card-wrap row mx-auto justify-content-between my-5">
+  
+        @foreach ( ($news['content']) as $content )
+  
+          <div class="card col-md-3 col-sm-12">
+          
+            <a href="{{ $content['link'] }}" class="card-link link" >
+  
+              <img src="{{ $content['img'] }}" alt="" class="card-img">
+  
+              <div class="card-content">
+  
+                <h1 class="card-info-header m-2"> {{ $content['head'] }} </h1>
+  
+                <p class="card-info-text m-2"> {{ $content['par'] }} </p>
+  
+              </div>
+  
+              
+            </a>                        
+              
+          </div>
+  
+        @endforeach
+          
+      </div>
+  
+    @endforeach
+  
+</div>
   
