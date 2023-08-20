@@ -1,4 +1,4 @@
-<div id="carouselExample" class="carousel slide" data-bs-ride="true">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         @foreach( __('hero.slides') as $slides )
             <div class="{{ $slides['class'] }}">
