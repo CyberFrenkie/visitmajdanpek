@@ -58,7 +58,7 @@ return [
       
       'button' => [
         'url' => '#',
-        'class' => 'button icon icon-lang',
+        'class' => 'button disable icon icon-lang',
         'text' => 'EN',
       ],
     ],
@@ -68,7 +68,7 @@ return [
       
       'button' => [
         'url' => '#',
-        'class' => 'button icon-search',
+        'class' => 'button disable icon-search',
         'text' => '',
       ],
     ],
