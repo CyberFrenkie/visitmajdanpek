@@ -97,7 +97,7 @@ return [
                     'button_class' => 'btn slide-btn',
                 ],
                 [
-                    'title' => 'Hotels',
+                    'title' => 'Popular locations',
                     'text' => 'Still searching dream destination?',
                     'button_text' => 'Read more',
                     'button_class' => 'btn slide-btn',
@@ -105,6 +105,65 @@ return [
             ],
         ],
 
+    ],
+    
+
+        
+   
+
+    'news' => [
+        [
+            'heading' => 'News',
+            'paragraph' => 'Still searching dream destination?',
+    
+            'btn' => [
+                [
+                    'text' => 'Read all articles',
+                    'link' => '/',
+                ],
+            ],
+    
+    
+            'content' => [
+                [
+                    'img' => 'img/content/content.png',        
+                    'head' => 'header',
+        
+                    'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
+                            Voluptatum iste est, facere, quis iusto, 
+                            magnam non rem nostrum magni obcaecati quisquam sit.',
+
+                    'link' => '/',
+                ],
+                
+                [
+                    'img' => 'img/content/content.png',        
+                    'head' => 'header',
+        
+                    'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
+                            Voluptatum iste est, facere, quis iusto, 
+                            magnam non rem nostrum magni obcaecati quisquam sit.',
+
+                    'link' => '/',
+                ],
+                
+                [
+                    'img' => 'img/content/content.png',        
+                    'head' => 'header',
+        
+                    'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
+                            Voluptatum iste est, facere, quis iusto, 
+                            magnam non rem nostrum magni obcaecati quisquam sit.',
+
+                    'link' => '/',
+                ],
+                
+            ],
+        ]
+       
     ],
    
 
