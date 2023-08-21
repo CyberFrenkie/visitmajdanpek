@@ -7,7 +7,10 @@
     
     .card{
         @include card-default;
+        max-width: 400px;
+        
     }
+   
     
     .card-header{
         position: absolute;
@@ -24,6 +27,13 @@
 
     .first-content{
         @include first-content-card;
+        
+            @media only screen and ( max-width: 600px ) {
+                .content-wrap{
+                    max-width: 400px;
+                }
+            }
+        
     }
 
     .hero-mid{
@@ -42,6 +52,11 @@
         
         .slide-title{
             font-size: $font-size-title-primary;
+        }
+        @media only screen and ( max-width: 600px ) {
+            .slide-title{
+                font-size: $font-size-title-primary-reduced;
+            }
         }
 
         .slide-text{
