@@ -74,3 +74,10 @@
     border-bottom-left-radius: 0;
 }
 
+
+
+@mixin arrow-animation{
+    &:hover .fa-arrow-right {
+        transform: translateX(15px);
+    }
+}

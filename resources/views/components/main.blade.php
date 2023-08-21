@@ -65,7 +65,7 @@
   
                       <p class="slide-text">{{ $slide['text'] }}</p>
   
-                      <a class="{{ $slide['button_class'] }} link">{{ $slide['button_text'] }}</a>
+                      <a class="{{ $slide['button_class'] }} link">{{ $slide['button_text'] }} <i class="fa-solid fa-arrow-right"></i></a>
   
                   </div>
   
@@ -107,7 +107,7 @@
     
     @foreach ( ($news['btn']) as $btn)
 
-      <a href="{{ $btn['link'] }}" class="news-link link"> {{ $btn['text'] }} </a>
+      <a href="{{ $btn['link'] }}" class="news-link link"> {{ $btn['text'] }} <i class="fa-solid fa-arrow-right"></i></a>
         
     @endforeach
     
