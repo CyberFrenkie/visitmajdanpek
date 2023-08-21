@@ -51,6 +51,7 @@
         .btn{
             @include btn-primary;
         }
+        @include arrow-animation;
         
     }
 
@@ -63,5 +64,6 @@
 
     .news-link{
        @include link-primary;
+       @include arrow-animation;
     }
 }
