@@ -1,6 +1,7 @@
 <footer class="my-5">
 
     <div class="container">
+        <hr class="col-md-4 col-sm-12 px-0">
         <div class="row">
             <div class="col-lg-3 my-4">
             <a href=" {{ trans('footer.far-left-link') }} " class=" {{ trans('footer.default-class') }} "> 
