@@ -2,6 +2,20 @@
 
 return [
 
+  'controls' => [
+    'prev' => [
+      'class' => 'carousel-control-prev',
+      'slide' => 'prev',
+      'label' => 'Previous',
+    ],
+
+    'next' => [
+      'class' => 'carousel-control-next',
+      'slide' => 'next',
+      'label' => 'Next',
+    ],
+  ],
+
   'slides' => [
     'slide1' => [
       'class' => 'carousel-item active',

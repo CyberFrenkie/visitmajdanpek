@@ -11,10 +11,10 @@
             </div>
         @endforeach
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="visually-hidden">Next</span>
-    </button>
+
+    @foreach( __('hero.controls') as $control )
+        <button class="{{ $control['class'] }}" type="button" data-bs-target="#carouselExample" data-bs-slide="{{ $control['slide'] }}">
+            <span class="visually-hidden">{{ $control['label'] }}</span>
+        </button>
+    @endforeach
 </div>
