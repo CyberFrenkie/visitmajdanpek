@@ -5,9 +5,9 @@
   @foreach( __('home.article') as $article )
 
     
-    <hr class="col-md-4 col-sm-12 mx-4">
+    <hr class="seperator col-md-4 col-sm-12">
 
-    <div class="col-12 px-3 row mx-auto justify-content-between">
+    <div class="content-wrap col-12 px-3 row  justify-content-between">
 
       <h1 class="col-md-4 col-sm-12  card-heading"> {{ $article['heading'] }} </h1>
 
@@ -103,13 +103,13 @@
 
 {{-- Third - news section --}}
 
-<div class="second-content container-xl mx-auto ">
+<div class="second-content container-xl ">
 
 @foreach( __('home.news') as $news )
 
-  <hr class="col-md-4 col-sm-12 px-5 mx-5">
+  <hr class="col-md-4 col-sm-12 ">
 
-  <div class="col-12 row mx-1 px-5 justify-content-between">
+  <div class="content-wrap col-12 row mx-1 justify-content-between">
 
     <h1 class="col-md-4 col-sm-12 news-heading px-0"> {{ $news['heading'] }} </h1>
         
@@ -132,7 +132,7 @@
 
     @foreach ( ($news['content']) as $content )
 
-      <div class="card col-md-3 col-sm-12 mx-auto">
+      <div class="card col-md-3 col-sm-12">
       
         <a href="{{ $content['link'] }}" class="card-link link" >
 

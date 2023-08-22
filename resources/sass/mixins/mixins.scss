@@ -3,10 +3,17 @@
     list-style-type: none;
 }
 
-
 @mixin reset-p-m {
     margin: 0;
     padding: 0;
+}
+
+
+@mixin absolute-position($position,$left,$bottom,$translate){
+    position: $position;
+    left: $left;        
+    bottom: $bottom;
+    transform: translateY($translate);
 }
 
 @mixin pseudo($top,$bottom,$left,$right,$display){
@@ -57,6 +64,9 @@
     }
 }
 
+
+
+
 @mixin first-content-card{
     .card{
         height: 600px;
@@ -64,8 +74,7 @@
         margin: 5px 0;
     }
     .card-img,.link{
-        height: $full-height;
-       
+        height: $full-height;       
     }
 }
 
@@ -81,3 +90,20 @@
         transform: translateX(15px);
     }
 }
+
+@mixin flex-center-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flex-center-colum{
+    @include flex-center-row;
+    flex-direction: column;
+}
+
+@mixin content-width{
+    max-width: 400px;
+}
+
