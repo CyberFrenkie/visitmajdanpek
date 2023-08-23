@@ -18,7 +18,7 @@
 
       .navbar-toggler {
         border-radius: 1px;
-        border: 0.1px solid $nav-color;
+        border: 0.1px solid $nav-color--grey;
         margin-top: 10px;
       }
 
@@ -61,7 +61,7 @@
           .button {
             display: block;
             padding: 27px 40px;
-            color: $nav-color;
+            color: $nav-color--grey;
             text-decoration: none;
             font-size: 19px;
 
@@ -94,7 +94,7 @@
                 font: normal 900 1em/1 "Font Awesome 6 Free";
                 font-weight: 900;
                 font-size: 20px;
-                color: $nav-color;
+                color: $nav-color--grey;
                 top: 32px;
                 right: 22px;
                 width: 5px;
@@ -148,4 +148,11 @@
     }
   }
 
+}
+
+.wrapper {
+  .nav-section {
+    position: relative;
+    background: $nav-color--dark-grey;
+  }
 }

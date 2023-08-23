@@ -4,14 +4,18 @@
 
 @section('wrapper')
 
-<div class="header">
-  @include('partials/_navigation')
-</div>
+<div class="wrapper container-fluid">
+  <div class="header">
+    @include('partials/_navigation')
+  </div>
 
-<div class="main">
-  
-</div>
+  <div class="main">
+    
+  </div>
 
-  @include('components.footer')
+  <div class="footer">
+    @include('components.footer')
+  </div>
+</div>
 
 @endsection
