@@ -1,0 +1,19 @@
+.sights-content {
+  padding: 60px 0;
+
+  .sights-text-con {
+    padding: 0 50px;
+
+    @media only screen and (max-width:800px) {
+      padding: 0 30px;
+    }
+  }
+
+  .sights-card {
+    padding: 50px;
+
+    @media only screen and (max-width:800px) {
+      padding: 30px;
+    }
+  }
+}
