@@ -4,14 +4,18 @@
 
 @section('wrapper')
 
-<div class="header">
-    @include('components.header')
-</div>
+<div class="home-wrapper container-fluid">
+    <div class="header">
+        @include('components.header')
+    </div>
 
-<div class="main">
-    @include('components.main')
-</div>
+    <div class="main">
+        @include('components.main')
+    </div>
 
-    @include('components.footer')
+    <div class="footer">
+        @include('components.footer')
+    </div>
+</div>
 
 @endsection

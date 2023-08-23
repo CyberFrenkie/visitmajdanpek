@@ -1,4 +1,4 @@
-body,.wrapper{
+body,.home-wrapper, .wrapper{
     @include reset-p-m;
     background-color: $color-primary;
     overflow-x: hidden;
