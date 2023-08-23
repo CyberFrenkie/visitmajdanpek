@@ -1,5 +1,7 @@
 @extends('layouts/layout')
 
+@section('title', 'VisitMajdanpek - Pocetna')
+
 @section('wrapper')
 
 <div class="header">

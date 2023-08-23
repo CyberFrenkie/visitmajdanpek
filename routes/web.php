@@ -15,3 +15,23 @@ use App\Http\Controllers\homeController;
 */
 
 Route::get('/',[homeController::class, 'index'] );
+
+Route::get('/home', function () {
+  return view('home') ;
+});
+
+Route::get('/sights', function () {
+  return view('sights') ;
+});
+
+Route::get('/about-majdanpek', function () {
+  return view('about-majdanpek') ;
+});
+
+Route::get('/about-us', function () {
+  return view('about-us') ;
+});
+
+Route::get('/contact', function () {
+  return view('contact') ;
+});

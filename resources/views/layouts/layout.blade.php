@@ -6,13 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-
     @vite(['resources/sass/main.scss', 'resources/js/app.js'])
 
-    <title>Document</title>
+    <title>@yield('title')</title></title>
 </head>
 <body> 
-
     <div class="wrapper container-fluid">
         @yield('wrapper')
     </div>
