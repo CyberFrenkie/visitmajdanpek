@@ -7,7 +7,7 @@ return [
       'class' => 'nav-item',
       
       'button' => [
-        'url' => '#',
+        'url' => '/home',
         'class' => 'button',
         'text' => 'Pocetna',
       ],
@@ -17,7 +17,7 @@ return [
       'class' => 'nav-item',
       
       'button' => [
-        'url' => '#',
+        'url' => '/sights',
         'class' => 'button',
         'text' => 'Znamenitosti',
       ],
@@ -27,7 +27,7 @@ return [
       'class' => 'nav-item',
         
       'button' => [
-        'url' => '#',
+        'url' => '/about-majdanpek',
         'class' => 'button',
         'text' => 'O Majdanpeku',
       ],
@@ -37,7 +37,7 @@ return [
       'class' => 'nav-item',
       
       'button' => [
-        'url' => '#',
+        'url' => '/about-us',
         'class' => 'button',
         'text' => 'O nama',
       ],
@@ -47,7 +47,7 @@ return [
       'class' => 'nav-item',
       
       'button' => [
-        'url' => '#',
+        'url' => '/contact',
         'class' => 'button',
         'text' => 'Kontakt',
       ],
