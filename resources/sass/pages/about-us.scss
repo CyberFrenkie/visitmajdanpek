@@ -1,0 +1,31 @@
+.main {
+    .about-us {
+        .header-title {
+            font-size: $font-size-title-primary-reduced;
+            margin-bottom: 15px;
+            color: $color-black;
+        }
+        .header-img {
+            width: 80vw;
+            height: auto;
+        }
+        .header-paragraph {
+            font-size: $font-size-text-primary;
+            font-weight: $font-weight-medium;
+            color: $color-black;
+            margin-bottom: 3.25rem;
+            padding-top: 1.25rem;
+        }
+    }
+    .about-us-card {
+        @include card-default;
+
+        .about-us-link {
+            @include reset-default-text;
+        }
+        .about-us-img-header {
+            color: $color-black;
+            font-size: $font-size-text-primary;
+        }
+    }
+}

@@ -1,114 +1,121 @@
-.main{
-    .seperator{
+.main {
+    .seperator {
         margin-left: 15px;
     }
-    @media only screen and ( max-width: 800px ) {
-        .seperator{
+    @media only screen and (max-width: 800px) {
+        .seperator {
             margin-left: 0;
         }
     }
 
-    
-    .link{
+    .link {
         @include reset-default-text;
         color: $color-black;
     }
-    
-    .card{
+
+    .card {
         @include card-default;
         margin-top: 5px;
-        
     }
 
-
-
-    @media only screen and ( max-width: 800px ) {
-        .card-wrap,.card,.card-link{
+    @media only screen and (max-width: 800px) {
+        .card-wrap,
+        .card,
+        .card-link {
             @include flex-center-colum;
         }
     }
-    
-   
-    
-    .card-header{
-        @include absolute-position(absolute,7%,7%,auto);  //($position,$left,$bottom,$translateY)       
+
+    .card-header {
+        @include absolute-position(
+            absolute,
+            7%,
+            7%,
+            auto
+        ); //($position,$left,$bottom,$translateY)
         font-size: $font-size-title-special;
         font-family: $font-family-sans-serif;
         color: $color-primary;
     }
 
-    .card-img,.news-img{
+    .card-img,
+    .news-img {
         width: $full-width;
     }
-    
-    @media only screen and ( max-width: 800px ) {
-        
-        .first-content,.second-content{
-            @include content-width;                        
+
+    @media only screen and (max-width: 800px) {
+        .first-content,
+        .second-content {
+            @include content-width;
         }
-        .first-content,.second-content,.content-wrap{
+        .first-content,
+        .second-content,
+        .content-wrap {
             @include reset-p-m;
         }
     }
-    .first-content{
+    .first-content {
         @include first-content-card;
-        
-            @media only screen and ( max-width: 800px ) {
-                
-                .content-wrap{
-                    @include content-width;
-                }
+
+        @media only screen and (max-width: 800px) {
+            .content-wrap {
+                @include content-width;
             }
-        
+        }
     }
 
-    .hero-mid{
+    .hero-mid {
         height: $slider-height;
-        .carousel,img,.carousel-inner,.carousel-item{
+        .carousel,
+        img,
+        .carousel-inner,
+        .carousel-item {
             height: $full-width;
         }
     }
 
-    .slide-link{
-        @include absolute-position(absolute,13%,50%,50%);  //($position,$left,$bottom,$translateY)          
+    .slide-link {
+        @include absolute-position(
+            absolute,
+            13%,
+            50%,
+            50%
+        ); //($position,$left,$bottom,$translateY)
         color: $color-primary;
-        
-        .slide-title{
+
+        .slide-title {
             font-size: $font-size-title-primary;
         }
-        @media only screen and ( max-width: 600px ) {
-            .slide-title{
+        @media only screen and (max-width: 600px) {
+            .slide-title {
                 font-size: $font-size-title-primary-reduced;
             }
         }
 
-        .slide-text{
+        .slide-text {
             font-size: $font-size-text-secondary;
         }
 
-        .btn{
+        .btn {
             @include btn-primary;
         }
         @include arrow-animation;
-        
     }
 
-    .second-content{
-        .card-img{        
+    .second-content {
+        .card-img {
             @include news-card-img-param;
         }
     }
 
-
-    .news-link{
-       @include link-primary;
-       @include arrow-animation;
+    .news-link {
+        @include link-primary;
+        @include arrow-animation;
     }
 }
 
-@media only screen and ( max-width: 800px ) {
-        
-    .main{
+@media only screen and (max-width: 800px) {
+    .main {
         @include flex-center-colum;
     }
 }
