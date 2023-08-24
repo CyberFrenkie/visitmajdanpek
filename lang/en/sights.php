@@ -4,15 +4,7 @@ return [
 
   'sights' => [
     [
-      'head' => 'Sights',
-      'par' => 'Still searching for dream destination?',
-
-      'btn' => [
-        'link' => '/',
-        'class' => 'news-link link px-0',
-        'text' => 'Read all articles',
-      ],
-
+      'head' => 'Znamenitosti',
       'content' => [
         [
           'link' => '/',

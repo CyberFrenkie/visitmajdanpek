@@ -1,19 +1,43 @@
-.about-majdanpek-section {
+.about-mpek-text-con {
+  padding: 100px 30px 0;
   height: auto;
-  padding-top: 100px;
 
   @media only screen and (max-width:480px) {
-    padding: 30px 0;
+    padding-top: 40px;
+  }
+
+  .marg {
+    margin: 10px 0 50px;
+  }
+}
+
+
+.about-majdanpek-section {
+  height: auto;
+  padding-top: 40px;
+
+  @media only screen and (max-width:480px) {
+    padding: 20px 0;
+  }
+
+  .row {
+    align-items: center;
   }
   
   .row-reverse {
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
   }
 
   .img {
-    height: 100%;
-    padding: 0 10px;
+    height: auto;
+    padding: 0 20px;
+
+    @media only screen and (max-width:767px) {
+      padding-top: 20px;
+    }
   }
 
   .title {

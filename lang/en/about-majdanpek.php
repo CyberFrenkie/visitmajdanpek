@@ -2,6 +2,7 @@
 
 return [
 
+  'head' => 'O Majdanpeku',
   'content' => [
     [
       'class' => 'row',
