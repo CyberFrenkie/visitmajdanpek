@@ -5,7 +5,7 @@ return [
 
         'header' => [
             [
-            'heading' => 'Our story',
+            'heading' => 'About us',
 
             'img' => '/img/content/content.png',
 

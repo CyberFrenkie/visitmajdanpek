@@ -1,19 +1,24 @@
 .main {
     .about-us {
         .header-title {
-            font-size: $font-size-title-primary-reduced;
-            margin-bottom: 15px;
+            font-size: 2.5rem;
             color: $color-black;
+            margin-top: 6rem;
+            position: relative;
+            right: -30px;
+            font-weight: 500;
         }
         .header-img {
             width: 80vw;
             height: auto;
+            margin-top: 4rem;
+            margin-bottom: 3.5rem;
         }
         .header-paragraph {
             font-size: $font-size-text-primary;
             font-weight: $font-weight-medium;
             color: $color-black;
-            margin-bottom: 3.25rem;
+            margin-bottom: 7rem;
             padding-top: 1.25rem;
         }
     }

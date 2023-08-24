@@ -12,10 +12,11 @@
   <div class="main container">
     <header class="about-us row">
       @foreach( __('about-us.about-us.header') as $hero)
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-sm-12">
           <h1 class="header-title">{{ $hero['heading'] }}</h1>
+          <hr class="seperator col-md-4 col-sm-12 ">
           <img src="{{ $hero['img'] }}" alt="" class="header-img img-fluid">
-          <p class="header-paragraph">{{ $hero['paragraph'] }}</p>
+          <p class="header-paragraph text-center">{{ $hero['paragraph'] }}</p>
         </div>
       @endforeach
     </header>
