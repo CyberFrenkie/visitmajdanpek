@@ -35,3 +35,5 @@ Route::get('/about-us', function () {
 Route::get('/contact', function () {
   return view('contact') ;
 });
+
+

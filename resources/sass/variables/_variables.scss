@@ -4,6 +4,9 @@ $body-font-color: #222222;
 
 
 // Typography
+
+   //Family
+
 $font-family-nunito: 'Nunito', sans-serif;
 $font-family-raleway: 'Raleway', sans-serif;
 $font-family-abril: 'Abril Fatface', sans-serif;
@@ -11,6 +14,10 @@ $font-family-akaya: 'Akaya Telivigala', sans-serif;
 $font-family-aladin: 'Aladin', sans-serif;
 $font-family-allura: 'Allura', sans-serif;
 $font-family-asset: 'Asset', sans-serif;
+
+
+
+   //Size
 
 $font-size-btn: 1.2rem;
 
@@ -23,6 +30,9 @@ $font-size-text-primary: 1.5rem;
 $font-size-text-secondary: 1.2rem;
 
 $font-size-link: 1rem;
+
+
+   //Weight
 
 $font-weight-thin: 200;
 $font-weight-medium: 400;
@@ -42,6 +52,13 @@ $full-height: 100%;
 $full-screen-height: 100vh;
 $slider-height: 80vh;
 
+//Radius
+$border-radius: 25px;
+
+
+//Margins
+
+$card-margin:20px;
 
 //img
 $hero-img: url("../img/default-img.png");
