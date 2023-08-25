@@ -117,8 +117,7 @@
 
 
 @mixin card-default{
-    @include reset-p-m;
-    @include scale-transition;
+    @include reset-p-m;    
     position: relative;      
     border: none;
     background: transparent;
