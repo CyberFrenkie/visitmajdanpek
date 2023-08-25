@@ -1,31 +1,41 @@
-.main {
-    .about-us {
-        .header-title {
-            font-size: $font-size-title-primary-reduced;
-            margin-bottom: 15px;
-            color: $color-black;
-        }
+.main-about-us {
+    min-height: 100vh;
+    
+    .about-mpek-text-con {
+      
         .header-img {
-            width: 80vw;
-            height: auto;
+            
         }
         .header-paragraph {
-            font-size: $font-size-text-primary;
-            font-weight: $font-weight-medium;
-            color: $color-black;
-            margin-bottom: 3.25rem;
-            padding-top: 1.25rem;
+           padding: 30px 0;
         }
+        
     }
     .about-us-card {
-        @include card-default;
+        @include flex-center-row;
+        margin: $card-margin;
+        
+       
+        
 
         .about-us-link {
             @include reset-default-text;
+            @include link-hover-transition;
+            
         }
-        .about-us-img-header {
+
+        .about-us-img{
+            @include scale-transition;
+            border-radius: $border-radius;
+        }
+
+        .img-header {
+            
             color: $color-black;
-            font-size: $font-size-text-primary;
+            font-size: $font-size-title-secondary;
+            margin: $card-margin;
+           
+           
         }
     }
 }

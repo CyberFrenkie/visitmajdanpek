@@ -10,7 +10,7 @@
   </div>
 </div>
 
-  <div class="main">
+  <div class="main-contact">
     <div class="contact-bg-image img-fluid"></div>
       <div class="container">
         <div class="row justify-content-center">

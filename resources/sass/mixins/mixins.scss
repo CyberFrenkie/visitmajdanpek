@@ -1,3 +1,5 @@
+// Defaults
+
 @mixin reset-default-text{
     text-decoration: none;
     list-style-type: none;
@@ -27,18 +29,28 @@
 
 }
 
+@mixin content-width{
+    max-width: 400px;
+}
+
+
+
+
+
+// Buttons  &  Links
+
 @mixin btn-primary{
+    @include hover-transition;
+
     width: $btn-width;
     background-color: $color-primary;            
     font-size: $font-size-btn;
     color: $color-link;
     font-weight: $font-weight-thick;
 
-    &:hover{
-        color: $color-black;
-        background-color: $border-bottom--hover--color;
-    }
+    
 }
+
 
 @mixin link-primary{
     text-decoration: none;
@@ -48,24 +60,44 @@
 
 }
 
-@mixin card-default{
-    @include reset-p-m;
-    position: relative;
-    transition: $transition;    
-    border: none;
-    background: transparent;
-    
-    .card-img{
-        border-radius: 10px;
+
+
+
+// Animation & Transition
+
+@mixin arrow-animation{
+    &:hover .fa-arrow-right {
+        transform: translateX(15px);
     }
-    
+}
+
+@mixin scale-transition{
+    transition: $transition;  
     &:hover{
         scale: 1.1;
     }
 }
 
+@mixin hover-transition{
+    transition: $transition;  
+    &:hover{
+        color: $color-black;
+        background-color: $border-bottom--hover--color;
+    }
+}
+
+@mixin link-hover-transition{
+    border-bottom: 2px solid transparent; 
+    transition: $transition;
+    &:hover{                
+        border-bottom: 2px solid $color-link;
+    
+    }
+}
 
 
+
+// Cards
 
 @mixin first-content-card{
     .card{
@@ -84,12 +116,24 @@
 }
 
 
-
-@mixin arrow-animation{
-    &:hover .fa-arrow-right {
-        transform: translateX(15px);
+@mixin card-default{
+    @include reset-p-m;
+    @include scale-transition;
+    position: relative;      
+    border: none;
+    background: transparent;
+    
+    .card-img{
+        border-radius: 10px;
     }
+    
+    
 }
+
+
+
+
+// Flex
 
 @mixin flex-center-row{
     display: flex;
@@ -103,7 +147,5 @@
     flex-direction: column;
 }
 
-@mixin content-width{
-    max-width: 400px;
-}
+
 
