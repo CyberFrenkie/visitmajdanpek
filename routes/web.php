@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
+use App\Models\Sight;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +21,7 @@ Route::get('/home', function () {
   return view('home') ;
 });
 
-Route::get('/sights', function () {
-  return view('sights') ;
-});
+Route::get('/sights', [homeController::class, 'index2']);
 
 Route::get('/about-majdanpek', function () {
   return view('about-majdanpek') ;
