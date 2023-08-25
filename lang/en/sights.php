@@ -3,8 +3,8 @@
 return [
 
   'sights' => [
-    [
       'head' => 'Znamenitosti',
+
       'content' => [
         [
           'link' => '/',
@@ -82,8 +82,6 @@ return [
           'head' => 'header11',
           'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur alias veniam neque ratione beatae cupiditate fuga. Voluptatum iste est, facere, quis iusto, magnam non rem nostrum magni obcaecati quisquam sit.',
         ],
-
-      ],
     ],
   ],
 
