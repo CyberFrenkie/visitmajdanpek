@@ -10,7 +10,7 @@
   </div>
 </div>
 
-  <div class="main mt-2">
+  <div class="main">
     <div class="contact-bg-image img-fluid"></div>
       <div class="container">
         <div class="row justify-content-center">
