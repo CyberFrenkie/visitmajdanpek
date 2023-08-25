@@ -14,6 +14,10 @@
     .about-us-card {
         @include flex-center-row;
         margin: $card-margin;
+
+        @media only screen and (max-width:770px) {
+            margin: 20px auto;
+        }
         
        
         
