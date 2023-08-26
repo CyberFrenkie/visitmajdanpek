@@ -121,3 +121,7 @@ Prilikom svakog modifikovanja i testiranja projekta neophodno je pokrenuti kompa
  XAMP or LAMP required 
 
  Apache server, Mysql database, PHP
+
+ Nakon instalacije i povezivanja sa MySql serverom nu terminalu ili CMD-u pozicionirati se unutar foldera sa projketom i ookrenuti:
+ 
+ php artisan migrate:refresh --seed
