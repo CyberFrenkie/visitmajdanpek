@@ -11,9 +11,13 @@
       padding: 0 80px;
       display: flex;
 
-      .nav-img {
-        height: 30px;
-        object-fit: contain;
+      .navbar-brand {
+        margin-right: 0!important;
+
+        .nav-img {
+          height: 30px;
+          object-fit: contain;
+        }
       }
 
       .navbar-toggler {
