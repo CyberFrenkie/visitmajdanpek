@@ -103,8 +103,8 @@
 
         .btn {
             @include btn-primary;
+            @include arrow-animation;
         }
-        @include arrow-animation;
     }
 
     .second-content {
@@ -117,6 +117,8 @@
     .news-link {
         @include link-primary;
         @include arrow-animation;
+        
+        width: auto;
     }
 }
 
