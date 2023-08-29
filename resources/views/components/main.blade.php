@@ -111,7 +111,7 @@
 
   <div class="content-wrap col-12 row mx-1 justify-content-between">
 
-    <h1 class="col-md-4 col-sm-12 news-heading px-0"> {{ $news['heading'] }} </h1>
+    <h1 class="col-md-6 col-sm-12 news-heading px-0"> {{ $news['heading'] }} </h1>
         
     <p class="col-md-6 col-sm-12 news-text px-0"> {{ $news['paragraph'] }} </p>
 
