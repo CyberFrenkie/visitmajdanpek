@@ -1,8 +1,9 @@
 <?php
 
+use App\Models\Sight;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
-use App\Models\Sight;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,24 +16,33 @@ use App\Models\Sight;
 |
 */
 
-Route::get('/',[homeController::class, 'index'] );
 
-Route::get('/home', function () {
+// Homepage
+Route::get('/', function () {
   return view('home') ;
 });
 
-Route::get('/sights', [homeController::class, 'index2']);
+// Sights page
+Route::get('/sights', [homeController::class, 'index']);
 
+
+// Majdanpek page
 Route::get('/about-majdanpek', function () {
   return view('about-majdanpek') ;
 });
 
+// About us page
 Route::get('/about-us', function () {
   return view('about-us') ;
 });
 
+// Contact page
 Route::get('/contact', function () {
   return view('contact') ;
 });
+
+
+// Form controller route
+Route::post('/submit-contact-form', [ContactController::class, 'submitForm'])->name('submit.contact.form');
 
 
