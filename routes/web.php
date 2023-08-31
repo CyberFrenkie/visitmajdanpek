@@ -25,6 +25,9 @@ Route::get('/', function () {
 // Sights page
 Route::get('/sights', [homeController::class, 'index']);
 
+// Sight sigle page
+Route::get('/sight/{id}', [homeController::class, 'show']);
+
 
 // Majdanpek page
 Route::get('/about-majdanpek', function () {

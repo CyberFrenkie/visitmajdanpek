@@ -29,7 +29,7 @@
   
               <div class="card col-md-4 col-sm-12 sights-card">
   
-                <a href="{{ $item['link'] }}" class="card-link link" >
+                <a href="/sight/{{ $item['id'] }}" class="card-link link" >
                   
                   <img src="{{ $item['img'] }}" alt="" class="card-img img">
   
@@ -48,16 +48,14 @@
             @endforeach
   
           </div>   
+
           <div>
+
             {{ $sights->links() }}
-            </div>   
+            
+          </div>   
         
       </div>   
-   
-       
-      
-    
-   
 
   </div>
 
