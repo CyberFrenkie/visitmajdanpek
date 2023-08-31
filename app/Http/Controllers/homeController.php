@@ -14,4 +14,10 @@ class homeController extends Controller
         ]);
     }
 
+    public function show(Sight $id) {
+        return view('sight' , [
+            'sight' => Sight::find($id)
+        ]);
+    }
+
 }

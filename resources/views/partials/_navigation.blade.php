@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-dark bg-body-tertiary nav-section">
     <div class="container-fluid nav-box">
-        <a class="navbar-brand" href="#"><img src="img/layout/logo.png" class="img-fluid nav-img"></a>
+        <a class="navbar-brand" href="#"><img src="{{asset('img/layout/logo.png')}}" class="img-fluid nav-img"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
