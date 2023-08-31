@@ -2,6 +2,20 @@
     position: relative;
     width: 100%;
     padding-bottom: 50px;
+
+    .alert{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        font-size: 25px;
+    }
+    @media only screen and (max-width:800px){
+        .alert{
+            width: 100%;
+        }
+    }
+
     .contact-bg-image{
         background-image: url('../../public/img/content/content.png');
         position: absolute;
@@ -40,34 +54,34 @@
 }
 @media only screen and (max-width:1024px){
     .main-contact {
-            .form-styling {
-                width: 100%;
-                textarea{
-                    height: 38px;
+        .form-styling {
+            width: 100%;
+            textarea{
+                height: 38px;
+            }
+            .contact-us {
+                .contact-header-title {
+                    font-size: $font-size-title-special;
                 }
-                .contact-us {
-                    .contact-header-title {
-                        font-size: $font-size-title-special;
-                    }
-                    margin-bottom: 0.2rem!important;
-                }
+                margin-bottom: 0.2rem!important;
             }
         }
-    
-        .form-control{
-            text-align: center;
-        }
-        @media only screen and (min-width: 769px){
-            .main-contact{
-                padding-bottom:150px ;
-            }
-
-        }
-            
     }
-        @media only screen and (max-width:768px){
-            .main-contact{
-                padding-bottom: 0;
-            }
+
+    .form-control{
+        text-align: center;
+    }
+    @media only screen and (min-width: 769px){
+        .main-contact{
+            padding-bottom:150px ;
         }
+
+    }
+        
+}
+@media only screen and (max-width:768px){
+    .main-contact{
+        padding-bottom: 0;
+    }
+}
 

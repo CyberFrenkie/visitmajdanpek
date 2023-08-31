@@ -7,7 +7,7 @@ return [
       'class' => 'nav-item',
       
       'button' => [
-        'url' => '/home',
+        'url' => '/',
         'class' => 'button',
         'text' => 'Pocetna',
       ],
