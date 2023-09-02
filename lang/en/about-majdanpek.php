@@ -5,7 +5,6 @@ return [
   'head' => 'O Majdanpeku',
   'content' => [
     [
-      'class' => 'row',
       'img' => [
         'link' => '#',
         'src' => 'img/content/content.png',
@@ -23,7 +22,6 @@ return [
     ],
 
     [
-      'class' => 'row-reverse',
       'img' => [
         'link' => '#',
         'src' => 'img/content/content.png',
@@ -41,7 +39,6 @@ return [
     ],
 
     [
-      'class' => 'row',
       'img' => [
         'link' => '#',
         'src' => 'img/content/content.png',
