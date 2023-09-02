@@ -10,33 +10,31 @@
   </div>
 
   <div class="main">
-
     <div class="container about-mpek-text-con">
       <h1 class="news-heading px-0">{{ __('about-majdanpek.head') }}</h1>
       <hr class="seperator col-md-4 col-sm-12 marg">
     </div>
 
-    @foreach( __('about-majdanpek.content') as $content )
+    @foreach( __('about-majdanpek.content') as $index => $content )
       <div class="container about-majdanpek-section">
-        <div class="{{ $content['class'] }}">
-            <div class="col-md-5">
-              <h3 class="title">{{ $content['title'] }}</h3>
-              @foreach( $content['lead'] as $lead )
-                <p class="lead">{{ $lead['text'] }}</p>
-              @endforeach
-            </div>
-            
-            <div class="col-md-7">
-              <a href="{{ $content['img']['link'] }}"><img src="{{ $content['img']['src'] }}" class="img-fluid img"></a>
-            </div>
-        </div>  
+        <div class="content-wrap {{ $index % 2 == 0 ? 'flex-row' : 'flex-row-reverse' }}">
+          <div class="col-md-5">
+            <h3 class="title">{{ $content['title'] }}</h3>
+            @foreach( $content['lead'] as $lead )
+              <p class="lead">{{ $lead['text'] }}</p>
+            @endforeach
+          </div>
+          
+          <div class="col-md-7">
+            <a href="about-content-wrap"><img src="{{ $content['img']['src'] }}" class="img-fluid img"></a>
+          </div>
+        </div>
       </div>
     @endforeach
 
     <div class="container map-con">
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7153.17189158862!2d21.9376631!3d44.425033!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2srs!4v1692987015529!5m2!1sen!2srs" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
   </div>
 
   <div class="footer">

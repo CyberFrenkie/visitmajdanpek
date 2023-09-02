@@ -11,7 +11,6 @@
   }
 }
 
-
 .about-majdanpek-section {
   height: auto;
   padding-top: 40px;
@@ -20,43 +19,36 @@
     padding: 20px 0;
   }
 
-  .row {
-    align-items: center;
-  }
+  .content-wrap {
+    @include flex-center-row;
   
-  .row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+    .img {
+      height: auto;
+      padding: 0 20px;
 
-  .img {
-    height: auto;
-    padding: 0 20px;
-
-    @media only screen and (max-width:767px) {
-      padding-top: 20px;
+      @media only screen and (max-width:767px) {
+        padding-top: 20px;
+      }
     }
-  }
 
-  .title {
-    font-size: 35px;
-    padding: 20px;
+    .title {
+      font-size: 35px;
+      padding: 20px;
 
-    @media only screen and (max-width:500px) {
-      font-size: 32px;
-      padding: 10px;
+      @media only screen and (max-width:500px) {
+        font-size: 32px;
+        padding: 10px;
+      }
     }
-  }
 
-  .lead {
-    font-size: 18px;
-    padding: 20px;
+    .lead {
+      font-size: 18px;
+      padding: 20px;
 
-    @media only screen and (max-width:500px) {
-      font-size: 15px;
-      padding: 10px;
+      @media only screen and (max-width:500px) {
+        font-size: 15px;
+        padding: 10px;
+      }
     }
   }
 }
