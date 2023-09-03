@@ -1,4 +1,4 @@
-<footer class="my-5">
+<footer class="my-5 footer-height">
 
     <div class="container">
         <hr class="col-md-4 col-sm-12 px-0">

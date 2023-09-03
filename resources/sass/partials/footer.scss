@@ -1,4 +1,8 @@
+.footer-height{
+    height: $footer-height;
+}
 footer{
+    height: $footer-height;
     .default{
         @include reset-default-text;
         @include reset-p-m;
@@ -94,6 +98,11 @@ footer{
                 margin-top: 1.5rem;
             }
         }
+}
+ @media only screen and (max-width:1024px) {
+        .footer-height {
+                height: auto;
+         }
 }
 
 
