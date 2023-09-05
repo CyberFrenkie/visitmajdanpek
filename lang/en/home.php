@@ -4,42 +4,34 @@ return [
 
     'article' => [
         [
-            'heading' => 'Inspiration for your next trip',
+            'heading' => 'Inspiracija za vaše sledeće putovanje',
 
             'paragraph' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
                             Voluptatum iste est, facere, quis iusto, 
-                            magnam non rem nostrum magni obcaecati quisquam sit.',
-            
-
-
+                            magnam non rem nostrum magni obcaecati quisquam sit.',  
             
             'btn' => [
                 [
                     'img' => 'img/content/content.png',
-                    'text' => 'Trending',
+                    'text' => 'Prevoz',
                     'link' => '/',
-                ],
-           
+                ],           
                 [
                     'img' => 'img/content/content.png',
-                    'text' => 'Featured',
+                    'text' => 'Smeštaj',
                     'link' => '/',
-                ],
-           
+                ],           
                 [
                     'img' => 'img/content/content.png',
-                    'text' => 'Popular locations',
+                    'text' => 'Ustanove od značaja',
                     'link' => '/',
                 ],
             ]
-                
         ]
     ],
     
-
     'hero' => [
-
         'carousel' => [
             'indicators' => [
                 [
@@ -56,8 +48,8 @@ return [
                     'label' => 'Slide 3'
                 ],
             ],
-            'controls' => [
-    
+
+            'controls' => [    
                 'prev' => [
     
                     'class' => 'carousel-control-prev',
@@ -66,6 +58,7 @@ return [
                     'slide' => 'prev', 
     
                 ],
+
                 'next' => [
     
                     'class' => 'carousel-control-next',
@@ -83,46 +76,41 @@ return [
                 'alt' => 'Carousel Image',
     
             ],
+
             'slides' => [
                 [
-                    'title' => 'Trending',
-                    'text' => 'Still searching dream destination?',
-                    'button_text' => 'Read more',
+                    'title' => 'Preporučujemo',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'button_text' => 'Pročitaj više',
                     'button_class' => 'btn slide-btn',
                 ],
                 [
-                    'title' => 'Featured',
-                    'text' => 'still searching dream destination?',
-                    'button_text' => 'Read more',
+                    'title' => 'Popularno',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'button_text' => 'Pročitaj više',
                     'button_class' => 'btn slide-btn',
                 ],
                 [
-                    'title' => 'Popular locations',
-                    'text' => 'Still searching dream destination?',
-                    'button_text' => 'Read more',
+                    'title' => 'Manje poznato',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'button_text' => 'Pročitaj više',
                     'button_class' => 'btn slide-btn',
                 ],
             ],
         ],
-
     ],
-    
-
-        
    
-
     'news' => [
         [
-            'heading' => 'News',
-            'paragraph' => 'Still searching dream destination?',
+            'heading' => 'Novosti',
+            'paragraph' => 'Da li ste i dalje u potrazi za idealnom destinacijom?',
     
             'btn' => [
                 [
-                    'text' => 'Read all articles',
+                    'text' => 'Pročitaj sve članke',
                     'link' => '/',
                 ],
-            ],
-    
+            ],   
     
             'content' => [
                 [
@@ -135,8 +123,18 @@ return [
                             magnam non rem nostrum magni obcaecati quisquam sit.',
 
                     'link' => '/',
-                ],
-                
+                ],                
+                [
+                    'img' => 'img/content/content.png',        
+                    'head' => 'header',
+        
+                    'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
+                            Voluptatum iste est, facere, quis iusto, 
+                            magnam non rem nostrum magni obcaecati quisquam sit.',
+
+                    'link' => '/',
+                ],                
                 [
                     'img' => 'img/content/content.png',        
                     'head' => 'header',
@@ -148,23 +146,7 @@ return [
 
                     'link' => '/',
                 ],
-                
-                [
-                    'img' => 'img/content/content.png',        
-                    'head' => 'header',
-        
-                    'par' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                            Voluptatum iste est, facere, quis iusto, 
-                            magnam non rem nostrum magni obcaecati quisquam sit.',
-
-                    'link' => '/',
-                ],
-                
             ],
         ]
-       
-    ],
-   
-
+    ],  
 ];
