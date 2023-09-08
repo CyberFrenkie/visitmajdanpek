@@ -31,6 +31,12 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+        const scrollContainer = document.getElementById("scroller");
+
+        scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY-30;
+        });
     </script>
 </body>
 </html>
