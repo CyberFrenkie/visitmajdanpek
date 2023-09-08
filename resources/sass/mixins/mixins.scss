@@ -33,6 +33,11 @@
     max-width: 400px;
 }
 
+@mixin hero-cover($height,$width){
+    height: $height;
+    width: $width;
+    background-color: rgba(0,0,0,0.5);
+}
 
 
 
