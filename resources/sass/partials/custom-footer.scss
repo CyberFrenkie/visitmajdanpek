@@ -20,11 +20,59 @@
             height: 100px;
             border-radius: 20px;
             padding: 5px;
-            width: 90%;
+            width: 95%;
+    }
+    .cards-wrapper{
+        display: flex;
+    }
+    .card{
+        margin-right: 20px;
+        background-color: rgba(255,255,255,0.1);
+        border: 1px solid rgba(168, 165, 165, 0.5);
+        -webkit-box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
+    }
+    .card-body{
+        padding-top: 0;
+    }
+    .image-wrapper{
+        height:150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-wrapper > a > img{
+        max-width: 90%;
+        max-height: 90%;
     }
     .seperator {
         margin-left: 40px;
         margin-bottom: 25px;
+    }
+    .carousel-control-prev-icon,.carousel-control-next-icon{
+        padding: 15px;
+        background-image: none;
+        position: relative;
+        border-radius: 50%;
+    }
+    .carousel-control-next{
+        right: 30%;
+    }
+    .carousel-control-prev{
+        left: 30%;
+    }
+    .fa-chevron-right::before,.fa-chevron-left::before{
+        top: 50%;
+        transform: translate(-50%,);
+        position: absolute;
+        color: black;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .arrow-position{
+        position: relative;
+        margin-bottom: 90px;
     }
         
     @media only screen and (max-width: 800px) {
@@ -32,23 +80,14 @@
             margin-left: 0;
                 }
         }
-        .card-slider{
-            min-width: 300px;
-            height: auto;
-            padding: 20px;
-        }
-        .card{
-           box-shadow:  0 10px 30px rgba(0, 0, 0, 0.04);
-           border: none;
-           background-color: transparent;
-        }
         .img{
-            transition: .5s;
+            transition: $transition;
+            border-radius: $border-radius;
 
             &:hover{scale: 1.05;}
         }
         .green-hover{
-            transition: .5s;
+            transition: $transition;
                     -webkit-box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
                         -moz-box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
                         box-shadow: inset 0px 5px 40px -18px rgba(0, 0, 0, 0.2);
@@ -60,23 +99,6 @@
                 -webkit-box-shadow: inset 0px 5px 40px -18px rgba(2, 117, 50, 0.4);
                 -moz-box-shadow: inset 0px 5px 40px -18px rgba(2, 117, 50, 0.4);
                 box-shadow: inset 0px 5px 40px -18px rgba(2, 117, 50, 0.4);
-            }
-        }
-        .custom-scrollbar{
-            scrollbar-width: thin;
-            scrollbar-color:$scrollbar--default--color $scrollbar-thumb--color;
-            &::-webkit-scrollbar{
-                width: 100%;
-                height: 10px;
-            }
-            &::-webkit-scrollbar-track{
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            }
-            &::-webkit-scrollbar-thumb{
-                width: 5%;
-                height: 1px;
-                background-color: $scrollbar-thumb--color;
-                border-radius: 10px;
             }
         }
         @media only screen and (max-width: 768px) {
@@ -92,6 +114,16 @@
             .justify-evenly{
                 justify-content: space-evenly !important;
             }
+            .card:last-child{
+                display: none;
+            }
+            .card:nth-child(2){
+                margin-left: 20px;
+                margin-right: 0;
+            }
+            .pl-15 {
+                padding-left: 15px;
+            }
         }
         @media only screen and (min-width:320px){
             @media only screen and (max-width:425px){
@@ -100,6 +132,19 @@
                 }
                     .margin-b{
                         margin-bottom: 20px;
+                }
+                .card:not(:first-child){
+                    display: none;
+                }
+                .card{
+                    margin-right: 0;
+                }
+                .carousel-control-next {
+                    right: 20%;
+                }
+                    
+                .carousel-control-prev {
+                    left: 20%;
                 }
             }
         }
