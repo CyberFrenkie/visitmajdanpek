@@ -9,11 +9,13 @@
 
         <div class="main">
             @include('components.main')
+
+            @yield('news')
         </div>
 
         <div class="footer">
             @include('components.footer')
         </div>
     </div>
-
+    
 @endsection
