@@ -21,12 +21,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function adjustHeroHeight() {
     const scrollY = window.scrollY;
-    customHero.style.height = scrollY > 20 ? '30vh' : '100vh';
+    customHero.style.height = scrollY > 20 ? '35vh' : '100vh';
   }
 
   function adjustMiddleMargin() {
     const scrollY = window.scrollY;
-    middleElement.style.marginTop = scrollY > 20 ? '35vh' : '100vh';
+    middleElement.style.marginTop = scrollY > 20 ? '40vh' : '100vh';
   }
 
   window.addEventListener('scroll', () => {
