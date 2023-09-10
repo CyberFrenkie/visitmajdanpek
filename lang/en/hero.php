@@ -26,17 +26,23 @@ return [
         'alt' => 'First slide',
       ],
 
+      'vid' => [
+        'class' => 'img-fluid h-100vh',
+        'src' => 'img/content/video/majdanpek.mp4',
+        'alt' => 'First slide',
+      ],
+
       'text' => [
         'class' => 'carousel-caption center',
 
         'title' => [
           'class' => 'title',
-          'text' => 'Title1',
+          'text' => 'Majdanpek',
         ],
 
         'lead' => [
           'class' => 'lead',
-          'text' => 'Lorem ipsum dolor sit amet.',
+          'text' => 'Majdanpek u srcu',
         ],
       ],
     ],
@@ -47,7 +53,13 @@ return [
       'img' => [
         'class' => 'img-fluid h-100vh',
         'src' => 'img/hero/default-img.png',
-        'alt' => 'Second slide',
+        'alt' => 'First slide',
+      ],
+
+      'vid' => [
+        'class' => 'img-fluid h-100vh',
+        'src' => 'img/content/video/milanovac.mp4',
+        'alt' => 'First slide',
       ],
 
       'text' => [
@@ -55,15 +67,47 @@ return [
 
         'title' => [
           'class' => 'title',
-          'text' => 'Title2',
+          'text' => 'Milanovac',
         ],
 
         'lead' => [
           'class' => 'lead',
-          'text' => 'Lorem ipsum dolor sit amet.',
+          'text' => 'Milanovac preko brda',
+        ],
+      ],
+    ],
+
+    'slide3' => [
+      'class' => 'carousel-item',
+
+      'img' => [
+        'class' => 'img-fluid h-100vh',
+        'src' => 'img/hero/default-img.png',
+        'alt' => 'Lepenski vir',
+      ],
+
+      'vid' => [
+        'class' => 'img-fluid h-100vh',
+        'src' => 'img/content/video/lepenskiVir.mp4',
+        'alt' => 'Lepenski vir',
+      ],
+
+      'text' => [
+        'class' => 'carousel-caption center',
+
+        'title' => [
+          'class' => 'title',
+          'text' => 'Lepenski vir',
+        ],
+
+        'lead' => [
+          'class' => 'lead',
+          'text' => 'Arheolosko nalaziste',
         ],
       ],
     ],
   ],
+
+  
 
 ];

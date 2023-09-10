@@ -1,5 +1,26 @@
 .header {
+  .video-wrap{
+    height: 100vh;
+  }
+  .img-wrap{
+    display: none;
+  }
+  #video-background{
+    width: 100%;
+    background-color: $color-black;
+    
+  }
+  
+  @media only screen and (max-width:1200px) {
+    .video-wrap{
+      display: none;
+    }
+    .img-wrap{
+      display: block;
+    }
 
+    
+  }
   .h-100vh {
     height: $full-screen-height;
     object-fit: cover;
