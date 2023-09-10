@@ -4,7 +4,7 @@
     z-index: 2; 
     height: $nav-height;
     width: $full-width;
-    background: transparent !important;
+    background: $nav-color--dark-grey;
     position: absolute;
   
     .nav-box {

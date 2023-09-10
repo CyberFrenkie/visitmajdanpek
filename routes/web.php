@@ -45,6 +45,25 @@ Route::get('/contact', function () {
 });
 
 
+
+
+// Transportation page
+Route::get('/transportation', function () {
+  return view('secondary-pages/transportation') ;
+});
+
+// Hotels page
+Route::get('/hotels', function () {
+  return view('secondary-pages/hotels') ;
+});
+
+// Institutions page
+Route::get('/institutions', function () {
+  return view('secondary-pages/institutions') ;
+});
+
+
+
 // Form controller route
 Route::post('/submit-contact-form', [ContactController::class, 'submitForm'])->name('submit.contact.form');
 
