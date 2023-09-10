@@ -4,6 +4,7 @@ use App\Models\Sight;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\sightsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,34 +18,14 @@ use App\Http\Controllers\ContactController;
 */
 
 
-// Homepage
-Route::get('/', function () {
-  return view('home') ;
-});
+// // Homepage
+// Route::get('/', function () {
+//   return view('home') ;
+// });
 
-// Sights page
-Route::get('/sights', [homeController::class, 'index']);
+Route::get('/', [homeController::class, 'index']);
 
-// Sight sigle page
-Route::get('/sight/{id}', [homeController::class, 'show']);
-
-
-// Majdanpek page
-Route::get('/about-majdanpek', function () {
-  return view('about-majdanpek') ;
-});
-
-// About us page
-Route::get('/about-us', function () {
-  return view('about-us') ;
-});
-
-// Contact page
-Route::get('/contact', function () {
-  return view('contact') ;
-});
-
-
+Route::get('/new/{id}', [homeController::class, 'show']);
 
 
 // Transportation page
@@ -60,6 +41,32 @@ Route::get('/hotels', function () {
 // Institutions page
 Route::get('/institutions', function () {
   return view('secondary-pages/institutions') ;
+});
+
+
+
+
+
+// Sights page
+Route::get('/sights', [sightsController::class, 'index']);
+
+// Sight sigle page
+Route::get('/sight/{id}', [sightsController::class, 'show']);
+
+
+// Majdanpek page
+Route::get('/about-majdanpek', function () {
+  return view('about-majdanpek') ;
+});
+
+// About us page
+Route::get('/about-us', function () {
+  return view('about-us') ;
+});
+
+// Contact page
+Route::get('/contact', function () {
+  return view('contact') ;
 });
 
 
