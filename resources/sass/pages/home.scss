@@ -3,7 +3,9 @@ body,.home-wrapper, .wrapper{
     background-color: $color-primary;
     overflow-x: hidden;
 }
-
+.home-wrapper{
+    overflow-y: hidden;
+}
 #myBtn {
     display: none;
     position: fixed;

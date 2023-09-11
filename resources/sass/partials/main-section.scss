@@ -93,14 +93,18 @@
         .slide-title {
             font-size: $font-size-title-primary;
         }
-        @media only screen and (max-width: 600px) {
-            .slide-title {
-                font-size: $font-size-title-primary-reduced;
-            }
-        }
+        
 
         .slide-text {
             font-size: $font-size-text-secondary;
+        }
+        @media only screen and (max-width: 800px) {
+            .slide-title {
+                font-size: $font-size-title-primary-reduced;
+            }
+            .slide-text {
+                font-size: $font-size-text;
+            }
         }
 
         .btn {
