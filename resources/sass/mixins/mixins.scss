@@ -66,8 +66,6 @@
 }
 
 
-
-
 // Animation & Transition
 
 @mixin arrow-animation{
@@ -99,7 +97,6 @@
     
     }
 }
-
 
 
 // Cards
@@ -134,8 +131,10 @@
     
 }
 
-
-
+@mixin card-shadow($radius){
+    box-shadow: 0px 0px 5px $border-bottom--hover--color;
+    border-radius: $radius;
+}
 
 // Flex
 
@@ -150,6 +149,13 @@
     @include flex-center-row;
     flex-direction: column;
 }
+@mixin custom-flex($jc,$ai,$fd){
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+}
+
 
 
 
