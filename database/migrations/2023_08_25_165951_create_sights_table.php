@@ -15,8 +15,17 @@ return new class extends Migration
             $table->id();
             $table->string('link');
             $table->string('img');
+            $table->string('img1');
+            $table->string('img2');
+            $table->string('img3');
             $table->string('head');
+            $table->string('head1');
+            $table->string('head2');
+            $table->string('head3');
             $table->longText('par');
+            $table->longText('par1');
+            $table->longText('par2');
+            $table->longText('par3');
             $table->timestamps();
         });
     }
