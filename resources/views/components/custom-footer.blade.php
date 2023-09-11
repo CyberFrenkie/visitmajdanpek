@@ -66,79 +66,79 @@
                 </div>
             </div>
         </div>
-<div id="carouselExampleControls" class="carousel slide pl-15 pb-4" data-bs-ride="true">
-  <div class="carousel-inner mb-3">
-    <div class="carousel-item active">
-      <div class="cards-wrapper">
-                       @foreach( trans('custom-footer.slider') as $slider)
-                @foreach( ($slider['sliderValues1']) as $sliderValue1 )
-            <div class="card">
-                <div class="image-wrapper">
-                    <a href="{{ $sliderValue1['url'] }}" class="d-flex align-items-center justify-content-center">
-                    <img class="card-img-top img" src="{{ $sliderValue1['src'] }}" alt="Card Image">
-                    </a>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ $sliderValue1['header'] }}</h5>
-                    <p class="card-text">{{ $sliderValue1['text'] }}</p>
-                </div>
-            </div>
-            @endforeach
-        @endforeach
-        </div>
-    </div>
-    <div class="carousel-item">
-        <div class="cards-wrapper">
-            @foreach( trans('custom-footer.slider') as $slider)
-                @foreach( ($slider['sliderValues2']) as $sliderValue2 )
-            <div class="card">
-                <div class="image-wrapper">
-                    <a href="{{ $sliderValue1['url'] }}" class="d-flex align-items-center justify-content-center">
-                    <img class="card-img-top img" src="{{ $sliderValue1['src'] }}" alt="Card Image">
-                    </a>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ $sliderValue2['header'] }}</h5>
-                    <p class="card-text">{{ $sliderValue2['text'] }}</p>
+    <div id="carouselExampleControls" class="carousel slide pl-15 pb-4" data-bs-ride="true">
+        <div class="carousel-inner mb-3">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    @foreach( trans('custom-footer.slider') as $slider)
+                        @foreach( ($slider['sliderValues1']) as $sliderValue1 )
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <a href="{{ $sliderValue1['url'] }}" class="d-flex align-items-center justify-content-center">
+                                        <img class="card-img-top img" src="{{ $sliderValue1['src'] }}" alt="Card Image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $sliderValue1['header'] }}</h5>
+                                    <p class="card-text">{{ $sliderValue1['text'] }}</p>
+                                </div>
+                            </div>
+                        @endforeach
+                    @endforeach
                 </div>
             </div>
-            @endforeach
-        @endforeach
-        </div>
-    </div>
-    <div class="carousel-item">
-        <div class="cards-wrapper">
-                        @foreach( trans('custom-footer.slider') as $slider)
-                @foreach( ($slider['sliderValues3']) as $sliderValue3 )
-            <div class="card">
-                <div class="image-wrapper">
-                    <a href="{{ $sliderValue3['url'] }}" class="d-flex align-items-center justify-content-center">
-                    <img class="card-img-top img" src="{{ $sliderValue2['src'] }}" alt="Card Image">
-                    </a>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">{{ $sliderValue3['header'] }}</h5>
-                    <p class="card-text">{{ $sliderValue3['text'] }}</p>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    @foreach( trans('custom-footer.slider') as $slider)
+                        @foreach( ($slider['sliderValues2']) as $sliderValue2 )
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <a href="{{ $sliderValue1['url'] }}" class="d-flex align-items-center justify-content-center">
+                                        <img class="card-img-top img" src="{{ $sliderValue1['src'] }}" alt="Card Image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $sliderValue2['header'] }}</h5>
+                                    <p class="card-text">{{ $sliderValue2['text'] }}</p>
+                                </div>
+                            </div>
+                        @endforeach
+                    @endforeach
                 </div>
             </div>
-            @endforeach
-        @endforeach
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    @foreach( trans('custom-footer.slider') as $slider)
+                        @foreach( ($slider['sliderValues3']) as $sliderValue3 )
+                            <div class="card">
+                                <div class="image-wrapper">
+                                    <a href="{{ $sliderValue3['url'] }}" class="d-flex align-items-center justify-content-center">
+                                        <img class="card-img-top img" src="{{ $sliderValue2['src'] }}" alt="Card Image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ $sliderValue3['header'] }}</h5>
+                                    <p class="card-text">{{ $sliderValue3['text'] }}</p>
+                                </div>
+                            </div>
+                        @endforeach
+                    @endforeach
+                </div>
+            </div>
         </div>
+        <div class="arrow-position">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>  
     </div>
-  </div>
-  <div class="arrow-position">
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true">
-            <i class="fa-solid fa-chevron-left"></i>
-        </span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true">
-            <i class="fa-solid fa-chevron-right"></i>
-        </span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>  
-</div>
 </footer>
