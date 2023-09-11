@@ -21,7 +21,7 @@
 
       <div class="contact-bg-image img-fluid"></div>
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="contact-form-wrap row justify-content-center">
 
             {{-- Contact form --}}
             <form class="{{ __('contact.form-class') }} z-2 d-flex flex-column justify-content-center" method="post" action="{{ route('submit.contact.form') }}">
