@@ -56,10 +56,4 @@
   </div>
 </div>
 
-{{-- Third - news section --}}
-<div class="second-content container-xl ">
- 
-
-
-
-</div>
+{{-- Third section is on news.blade.php --}}

@@ -1,18 +1,19 @@
 .main-about-us {
     min-height: 100vh;
-    
-    .about-mpek-text-con {
+
+    .about-us{
+        .about-mpek-text-con {
       
-        .header-img {
-            
+            .header-paragraph {
+               padding: 30px 0;
+            }            
         }
-        .header-paragraph {
-           padding: 30px 0;
-        }
-        
+        .about-us-card{            
+            @include flex-center-row;
+        } 
     }
+    
     .about-us-card {
-        @include flex-center-row;
         margin: $card-margin;
 
         @media only screen and (max-width:770px) {
@@ -23,7 +24,7 @@
         .about-us-link {
             @include reset-default-text;
             @include link-hover-transition;
-            
+            height: 100%;            
         }
 
         .about-us-img{
@@ -31,13 +32,21 @@
             border-radius: $border-radius;
         }
 
-        .img-header {
-            
+        .img-header {            
             color: $color-black;
             font-size: $font-size-title-secondary;
             margin: $card-margin;
-           
-           
         }
     }
+
+    .partners{
+        .header-paragraph{
+            font-size: $font-size-text-primary;
+            color: $color-black;
+        }
+        .about-us-link{
+           @include custom-flex(space-between,center,column);           
+           @include card-shadow(25px);
+        }
+    }   
 }
