@@ -1,7 +1,7 @@
 .main-contact {
     position: relative;
     width: $full-width;
-    height: calc(100vh - #{$nav-height + $footer-height});
+    height: calc(100vh - #{$nav-height + $footer-height + 25px});
     overflow-y: hidden;
 
     @media only screen and (max-width:800px){
@@ -89,7 +89,8 @@
     }
     @media only screen and (min-width: 769px){
         .main-contact{
-            padding-bottom:150px ;
+            padding-bottom:0 ;
+            height: calc(100vh - 462px);
         }
 
     }
