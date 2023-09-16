@@ -23,16 +23,28 @@
     {{-- Main section --}}
     <div id="middle">
       <div class="container">
-        <div class="row">
+        <div class="row sight">
           @foreach( $sight as $index => $content )
-            <div class="d-flex  align-items-center justify-content-evenly flex-column-reverse {{ $index % 2 == 0 ? 'flex-lg-row-reverse' : 'flex-lg-row' }}">
-              <div class="col-lg-7 col-md-12 text-lg-start text-center">
-                <h3 class="title">{{ $content['head'] }}</h3>
-                <p class="lead">{{ $content['par'] }}</p>
+            <div class="d-flex  align-items-center justify-content-evenly flex-column }}">
+              <div class="row sight-content text-center ">
+                <h3 class="title col-12">{{ $content['head1'] }}</h3>
+                <p class="lead col-9">{{ $content['par1'] }}</p>
+
+                <img src="{{asset($item->img1)}}" class="card-img img col-3"  alt="img{{ $item->id }}">
               </div>
               
-              <div class="col-lg-4 col-md-12 me-2 mb-2 mb-sm-2">
-                <a href="/"><img src="{{asset($item->img)}}" class="card-img img"></a>
+              <div class="row flex-row-reverse sight-content text-center">
+                <h3 class="title col-12">{{ $content['head2'] }}</h3>
+                <p class="lead col-9">{{ $content['par2'] }}</p>
+             
+                <img src="{{asset($item->img2)}}" class="card-img img col-3" alt="img{{ $item->id }}">
+              </div>
+              
+              <div class="row sight-content text-center">
+                <h3 class="title col-12">{{ $content['head3'] }}</h3>
+                <p class="lead col-9">{{ $content['par3'] }}</p>
+
+                <img src="{{asset($item->img3)}}" class="card-img img col-3" alt="img{{ $item->id }}">
               </div>
             </div>
             </div>
