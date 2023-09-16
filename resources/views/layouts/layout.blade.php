@@ -11,6 +11,11 @@
     <title>@yield('title')</title>
 </head>
 <body>
+    <div id="loader">
+        <div class="bounceball"></div>
+        <div class="text">Loading...</div>
+    </div>
+
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     
     @yield('wrapper')

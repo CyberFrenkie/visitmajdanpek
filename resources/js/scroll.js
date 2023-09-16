@@ -1,9 +1,8 @@
-// Custom hero & Top button
-
 document.addEventListener('DOMContentLoaded', function () {
   const mybutton = document.getElementById("myBtn");
   const customHero = document.getElementById("custom-hero");
   const middleElement = document.getElementById("middle");
+  const scrollContainer = document.getElementById("scroller");
 
   if (mybutton) {
     mybutton.addEventListener("click", topFunction);
@@ -34,14 +33,18 @@ document.addEventListener('DOMContentLoaded', function () {
     adjustHeroHeight();
     adjustMiddleMargin();
   });
+
+  if (scrollContainer) {
+    scrollContainer.addEventListener("wheel", (evt) => {
+      evt.preventDefault();
+      scrollContainer.scrollLeft += evt.deltaY - 30;
+    });
+  }
 });
 
+function hideLoader() {
+  const loader = document.getElementById("loader");
+  loader.style.display = "none";
+}
 
-// Scroller
-
-const scrollContainer = document.getElementById("scroller");
-
-scrollContainer.addEventListener("wheel", (evt) => {
-  evt.preventDefault();
-  scrollContainer.scrollLeft += evt.deltaY-30;
-});
+window.onload = hideLoader;
