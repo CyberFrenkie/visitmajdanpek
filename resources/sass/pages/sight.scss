@@ -2,3 +2,16 @@
   margin-top: 100vh;
   transition: margin 1s ease;
 }
+
+.sight{
+  .sight-content {
+    @include flex-center-row;
+    flex-wrap: wrap;
+  }
+  img{
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 300px;
+  }
+}
