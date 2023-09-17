@@ -90,13 +90,13 @@ return [
 
                 'images' => [
                     [
-                        'img' => '/img/content/content.png',
+                        'img' => '/img/content/partners/mpeklogo.png',
                         'title' => 'Opština Majdanpek',
                         'desciption' => 'Sponzor kursa za Web programiranje.',                        
                         'url' => 'https://majdanpek.rs/',
                     ],
                     [
-                        'img' => '/img/content/content.png',
+                        'img' => '/img/content/partners/bimpek.png',
                         'title' => 'Biznis inkubator',
                         'desciption' => 'Inicijator i organizator kursa za Web programiranje.',
                         'url' => 'https://www.bimajdanpek.rs/',
@@ -108,7 +108,7 @@ return [
                         'url' => 'https://www.toom.rs/',
                     ],
                     [
-                        'img' => '/img/content/content.png',
+                        'img' => '/img/content/partners/k-ка.jpg',
                         'title' => 'Klčesko Milan',
                         'desciption' => 'Izvor fotografija i snimaka na sajtu.',
                         'url' => 'https://www.facebook.com/profile.php?id=100009556535467',
