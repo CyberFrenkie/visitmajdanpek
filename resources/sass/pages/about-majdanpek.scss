@@ -13,7 +13,6 @@
 
 .about-majdanpek-section {
   height: auto;
-  padding-top: 40px;
 
   @media only screen and (max-width:480px) {
     padding: 20px 0;
@@ -21,6 +20,11 @@
 
   .content-wrap {
     @include flex-center-row;
+    text-align: justify;
+
+    @media only screen and (max-width:1024px) {
+      flex-direction: column!important;
+    }
   
     .img {
       height: auto;
