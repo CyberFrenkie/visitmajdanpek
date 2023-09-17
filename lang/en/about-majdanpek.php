@@ -18,9 +18,6 @@ return [
                     Majdanpek ima uređene sportske terene, sportski centar sa halom i bazenom i ski centar „Rajkovo“.
                     U neposrednoj blizini Majdanpeka, oko 3 km od centra grada, nalazi se jezero Veliki zaton i Rajkova pećina.',
         ],
-        [
-          'text' => '',
-        ],
       ],
     ],
 
@@ -74,9 +71,6 @@ return [
           koji je u Srbiji odomaćen u obliku majdan sa istim značenjem. Drugi deo imena grada jeste hidronim Pek, 
           koji podstiče, prema istraživanjima Muzeja u Majdanpeku, još iz dorimskih vremena. 
           Ime ove reke može se osnovano povezati sa grčkom rečju pékos, koja je nekada označavala ovčje runo.',
-        ],
-        [
-          'text' => ' ',
         ],
       ],
     ],

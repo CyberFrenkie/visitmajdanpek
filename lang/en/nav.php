@@ -59,19 +59,19 @@ return [
       'button' => [
         'url' => '#',
         'class' => 'button disable icon icon-lang',
-        'text' => 'EN',
+        'text' => 'RS',
       ],
     ],
 
-    'listItem7' => [
-      'class' => 'nav-item',
+    // 'listItem7' => [
+    //   'class' => 'nav-item',
       
-      'button' => [
-        'url' => '#',
-        'class' => 'button disable icon-search',
-        'text' => '',
-      ],
-    ],
+    //   'button' => [
+    //     'url' => '#',
+    //     'class' => 'button disable icon-search',
+    //     'text' => '',
+    //   ],
+    // ],
   ],
 
 ];
