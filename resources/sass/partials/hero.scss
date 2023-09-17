@@ -33,9 +33,16 @@
     top: 50%;
     transform: translate(0, -50%);
   }
-
+  .carousel-caption{
+    @include flex-center-colum;
+  }
+  .title,.lead{
+    background-color: $color-black-transparent-mid;
+    border-radius: $border-radius;
+    padding: 5px;
+  }
   .title {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .lead {
@@ -43,6 +50,7 @@
     font-weight: $font-weight-thick;
     font-family: $font-family-raleway;
     line-height: normal;
+   
 
     @media only screen and (max-width:1025px) {
       font-size: 75px;

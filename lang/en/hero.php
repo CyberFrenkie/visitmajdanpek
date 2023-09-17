@@ -37,12 +37,12 @@ return [
 
         'title' => [
           'class' => 'title',
-          'text' => 'Majdanpek',
+          'text' => 'U srcu',
         ],
 
         'lead' => [
           'class' => 'lead',
-          'text' => 'Majdanpek u srcu',
+          'text' => 'Majdanpek',
         ],
       ],
     ],
@@ -67,12 +67,12 @@ return [
 
         'title' => [
           'class' => 'title',
-          'text' => 'Milanovac',
+          'text' => 'Preko brda',
         ],
 
         'lead' => [
           'class' => 'lead',
-          'text' => 'Milanovac preko brda',
+          'text' => 'Donji Milanovac',
         ],
       ],
     ],
@@ -97,12 +97,12 @@ return [
 
         'title' => [
           'class' => 'title',
-          'text' => 'Lepenski vir',
+          'text' => 'Arheolosko nalaziste',
         ],
 
         'lead' => [
           'class' => 'lead',
-          'text' => 'Arheolosko nalaziste',
+          'text' => 'Lepenski vir',
         ],
       ],
     ],
