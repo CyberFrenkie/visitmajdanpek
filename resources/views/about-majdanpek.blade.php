@@ -28,7 +28,7 @@
             </div>
             
             <div class="col-md-4">
-              <a href="about-content-wrap"><img src="{{ asset($content['img']['src']) }}" class="img-fluid img"></a>
+              <img src="{{ asset($content['img']['src']) }}" class="img-fluid img">
             </div>
           </div>
         </div>
