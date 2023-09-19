@@ -169,6 +169,52 @@ return [
           'par5' => '', 
           'par6' => '',        
         ],
+
+        [
+          'link' => '/',
+  
+          'img' => '/',      
+          'img1' => '',      
+          'img2' => '',      
+          'img3' => '', 
+          'img4' => '',      
+          'img5' => '',      
+          'img6' => '', 
+  
+          'head' => 'Lepenski Vir',
+          'head1' => '',
+          'head2' => '',
+          'head3' => '',
+          'head4' => '',
+          'head5' => '',
+          'head6' => '',
+  
+          'par' => 'Lepenski Vir, često nazivan i "prapostojbinom evropske civilizacije,"
+                    predstavlja jedno od najstarijih i najznačajnijih arheoloških nalazišta u Srbiji i Evropi.
+                    Nalazi se na obali reke Dunav, nedaleko od Donjeg Milanovca,
+                    i datira iz perioda od oko 7000. do 6000. godine pre nove ere.',  
+  
+          'par1' => 'Lepenski Vir je postao svetski poznat zbog impresivnih arheoloških otkrića koja nam omogućavaju uvid u živote ljudi koji su tu živeli pre više od 8.000 godina.
+                     Otkriće je prvi put registrovano tokom 1960-ih godina,
+                     a kasnija istraživanja su otkrila mnoge fascinantne predmete, građevinske strukture i ostatke.',
+                    
+          'par2' => 'Jedan od najupečatljivijih elemenata Lepenskog Vira su kamene skulpture i reljefi koji prikazuju ljudske likove,
+                     životinje i mitološka bića. Ove skulpture, izrađene od lokalnog kamena,
+                     predstavljaju prava remek-dela primitivne umetnosti toga doba i imaju ključnu ulogu u razumevanju kulture i duhovnosti tadašnjih stanovnika.
+                     Pored skulptura, arheolozi su otkrili složene stambene strukture koje svedoče o razvijenom načinu života tog vremena.
+                     Kuće sa kružnim osnovama i posebnim prostorom za kućne oltare jasno ukazuju na prisustvo religijske prakse.',
+
+          'par3' => ' Lepenski Vir ima ogroman kulturni značaj i nalazi se na UNESCO-voj listi svetskog nasleđa.
+                      Za posetioce, ovo nalazište pruža izvanrednu priliku da istraže dugu istoriju i kulturno bogatstvo Balkana.
+                      Možete posetiti muzejski kompleks sa replikama originalnih skulptura, artefaktima i informacijama o ovoj izvanrednoj kulturi.
+                      Takođe, možete prošetati stazama kojima su hodali ljudi pre 8.000 godina i osetiti atmosferu tog davno prošlog vremena.',  
+
+          'par4' => 'Lepenski Vir je neprocenjivo arheološko nalazište koje nam pomaže da bolje razumemo prošlost Balkana.
+                     Ovo mesto pruža fascinantan uvid u život i kulturu ljudi koji su tu živeli pre više hiljada godina i predstavlja nezaboravnu destinaciju za istraživače i zaljubljenike u arheologiju.
+                     Ne propustite priliku da posetite ovu drevnu oazu na obali Dunava i da se prepustite putovanju kroz vreme.',
+          'par5' => '', 
+          'par6' => '',        
+        ],
         
     ],
   ],
