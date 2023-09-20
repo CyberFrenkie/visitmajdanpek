@@ -173,7 +173,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',
@@ -211,7 +211,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',
@@ -250,7 +250,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',
@@ -283,7 +283,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',
@@ -317,7 +317,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',
@@ -364,7 +364,7 @@ return [
       [
         'link' => '/',
 
-        'img' => '/',
+        'img' => 'img/content/content.png',
         'img1' => '',
         'img2' => '',
         'img3' => '',

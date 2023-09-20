@@ -40,13 +40,11 @@
     }
 
     .partners{
-        .header-paragraph{
-            font-size: $font-size-text-primary;
-            color: $color-black;
+        .about-us-img{
+            max-width: 200px;
+            max-height: 100px;
+            background-color: $color-primary;
         }
-        .about-us-link{
-           @include custom-flex(space-between,center,column);           
-           @include card-shadow(25px);
-        }
-    }   
+    }
+
 }

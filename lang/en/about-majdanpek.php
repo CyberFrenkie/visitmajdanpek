@@ -10,13 +10,46 @@ return [
         'src' => 'img/content/majdanpek/mpek-nocu.jpg',
       ],
 
-      'title' => '',
+      'title' => 'Opština Majdanpek',
+      'lead' => [
+        [
+          'text' => 'Teritorija opštine Majdanpek nalazi se u Istočnoj Srbiji, 
+          na obroncima Južnih Karpata, u vodotoku reke Dunav. Na 932 km2 nastanjeno 
+          je 23.704 stanovnika u dva gradska naselja: Majdanpek, 
+          koji je administrativni centar opštine i Donji Milanovac i 
+          12 seoskih naselja: Debeli Lug, Leskovo, Jasikovo, Vlaole, Rudna Glava, 
+          Crnajka, Klokočevac, Topolnica, Mosna, Golubinje, Miroč i Boljetin.
+          ',
+        ],
+        [
+          'text' => 'Opština Majdanpek se graniči sa opštinama Bor, Negotin, Kladovo, Golubac, 
+          Kučevo i Žagubica, a na severu Dunavom u dužini oko 54 kilometara sa 
+          Republikom Rumunijom. Reljef opštine je pretežno brdsko-planinski. 
+          Na području opštine Majdanpek preovladava kontinentalna klima.
+          
+          Na teritoriji opštine Majdanpek nalaze se zaštićeni objekti prirode: 
+          Nacionalni park Đerdap, Rajkova pećina, bigrena akumulacija 
+          Beli izvorac, prirodni kameni most Valja Prerast  i zaštićeni spomenici kulture: 
+          arheološko nalazište Lepenski vir, arheo metalurški lokalitet Rudna Glava, 
+          crkva Svetih aposltola Petra i Pavla, 
+          crkva Svetog Nikole, Kapetan Mišino zdanje i Tenkina kuća.'
+        ],
+      ],
+    ],
+
+    [
+      'img' => [
+        'link' => '#',
+        'src' => 'img/content/majdanpek/mpek-nocu.jpg',
+      ],
+
+      'title' => 'Majdanpek',
       'lead' => [
         [
           'text' => 'Majdanpek je administrativni centar opštine, naselje na 350 mnv, smešteno u dolini reke Mali Pek, 
-                    okruženo planinskim masivima, na magistralnom putu M 24 (Požarevac-Negotin). Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom. 
-                    Majdanpek ima uređene sportske terene, sportski centar sa halom i bazenom i ski centar „Rajkovo“.
-                    U neposrednoj blizini Majdanpeka, oko 3 km od centra grada, nalazi se jezero Veliki zaton i Rajkova pećina.',
+          okruženo planinskim masivima, na magistralnom putu M 24 (Požarevac-Negotin). Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom. 
+          Majdanpek ima uređene sportske terene, sportski centar sa halom i bazenom i ski centar „Rajkovo“.
+          U neposrednoj blizini Majdanpeka, oko 3 km od centra grada, nalazi se jezero Veliki zaton i Rajkova pećina.',
         ],
       ],
     ],
@@ -94,6 +127,33 @@ return [
           Da je Majdanpek istovremeno i drevno rudište, svedoče lokaliteti Rudna Glava i Praurija, koje arheometalurzi 
           datuju u vreme ranog eneolita (V milenijum stare ere). Rudna Glava je nepuna 24 km jugoistočno od Majdanpeka, 
           a Praurija se nalazi u samome krugu današnjeg rudnika.',
+        ],
+      ],
+    ],
+
+    [
+      'img' => [
+        'link' => '#',
+        'src' => 'img/content/majdanpek/rudnik.jpg',
+      ],
+
+      'title' => 'Donji Milanovac',
+      'lead' => [
+        [
+          'text' => ' Donji Milanovac je naselje na desnoj obali Dunava, na 75mnv,
+           u središnjem delu Đerdapa, na magistralnom putu M 25/1 
+           ( Požarevac – Kladovo) i biciklističkoj ruti „Euro velo 6”.  
+
+          Moderno je uređeno naselje sa prostranim gradskim parkom i 
+          šetalištem duž obale Dunava. U samom centru naselja nalazi se 
+          pristanište i granični prelaz za međunarodni rečni putnički saobraćaj. 
+          U Donjem Milanovcu nalazi se hotel „Lepenski vir”, sportski tereni, 
+          gradska plaža, objekti za privatan smeštaj turista, a od uslužnih objekata: 
+          autobuska stanica, pošta, banka, turistički info centar, restorani, 
+          prodavnice i kafe barovi.
+          
+          U neposrednoj blizini Donjeg Milanovca nalazi se arheološko 
+          nalazište Lepenski vir.',
         ],
       ],
     ],
