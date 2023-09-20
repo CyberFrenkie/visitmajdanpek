@@ -48,13 +48,12 @@
             <p class="header-paragraph">{{ $partners['paragraph'] }}</p>
           </div>
 
-          <div class="row about-us-card justify-content-between">
+          <div class="row justify-content-between">
             @foreach ( $partners['images'] as $i)
-              <div class="col-md-3 col-sm-12 px-2 about-us-card">
+              <div class="col-md-3 col-sm-12 px-2 about-us-card ">
                 <a href="{{ $i['url'] }}" class="about-us-link" target="blank">
                   <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
-                  <h1 class="img-header text-center">{{ $i['title'] }}</h1>
-                  <p class="header-paragraph text-center">{{ $i['desciption'] }}</p>
+                  
                 </a>
               </div>
             @endforeach
