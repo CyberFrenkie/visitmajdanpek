@@ -219,68 +219,6 @@ return [
         'img5' => '',
         'img6' => '',
 
-        'head' => 'Spomenik oslobodiocima Majdanpeka',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
-
-        'par' => 'Ski centar "RAJKOVO" se nalazi na severnoj strani brda u neposrednoj blizini Majdanpeka,gde sneg ostaje duže tokom proleća.
-                    Pristup centru je omogućen putem asfaltiranog puta koji inače povezuje Majdanpek i Donji Milanovac preko brda.',
-
-        'par1' => 'Ski lift je tipa "Sidro". Najviša tačka se nalazi na 750 metara nadmorske visine, a visinska razlika iznosi 200 metara.
-                     Duž lifta se protežu dve ski staze, jedna dugačka 1 kilometar (1000 metara), a druga oko 1,2 kilometara (1200metara).',
-
-        'par2' => 'Staza od 1000 metara je manje strma i preporučuje se početnicima, dok je druga staza, koja se proteže na 1200 metara (često nazvana "Crna staza"),
-                     znatno strmija i pruža pravo uživanje iskusnim ljubiteljima ovog sporta.',
-
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
-      ],
-
-      [
-        'link' => '/',
-
-        'img' => '/',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
-
-        'head' => 'Spomenik učesnicima Balkanskih ratova i Prvog svetskog rata',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
-
-        'par' => '',
-        'par1' => '',
-        'par2' => '',
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
-      ],
-
-      [
-        'link' => '/',
-
-        'img' => '/',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
-
         'head' => 'Kovilovo',
         'head1' => '',
         'head2' => '',
@@ -289,10 +227,21 @@ return [
         'head5' => '',
         'head6' => '',
 
-        'par' => '',
-        'par1' => '',
-        'par2' => '',
-        'par3' => '',
+        'par' => 'Vidikovac Kovilovo smješten je u istočnoj Srbiji, unutar Nacionalnog parka Đerdap.
+                  Sa svojih 358 metara nadmorske visine, pruža zadivljujući pogled na čitavu Donjomilanovačku kotlinu,
+                  protežući se od Grebena pa sve do Golubinja, što čini preko 25 kilometara panoramske lepote.',
+
+        'par1' => 'Da biste stigli do ovog prirodnog dragulja, putujte putem od Donjeg Milanovca prema Majdanpeku.
+                   Nakon pređenih nešto više od 3 kilometra, naići ćete na putokaz koji vodi ka vidikovcu.
+                   Na tom mestu možete ostaviti svoj automobil i krenuti pešačkom stazom prema ovom predivnom vidikovcu.',
+        'par2' => 'Staza koja vodi do Vidikovca Kovilovo proteže se na oko 1200 metara kroz šumu.
+                   Sa ukupnim nagibom od samo 3%, staza spada u kategoriju lakših staza.
+                   To znači da ćete stići do odredišta za svega dvadesetak minuta, dok ćete uživati u prirodnom okruženju.',
+
+        'par3' => 'Na samom vidikovcu, osim zadivljujućeg pogleda na Dunav, možete pronaći stolove i klupice, pružajući vam priliku da sednete,
+                   opustite se i potpuno uživate u trenutku.
+                   Vidikovac Kovilovo je mirniji i manje prometan u poređenju sa nekim drugim popularnijim vidikovcima, što ga čini idealnim mestom za opuštanje i kontemplaciju prirode.',
+
         'par4' => '',
         'par5' => '',
         'par6' => '',
@@ -319,9 +268,12 @@ return [
 
         'par' => ' Nacionalni park Đerdap se prostire duž granice između Srbije i Rumunije, duž reke Dunav.
                    Ovaj park obuhvata impresivan Đerdapski kanjon, koji je jedan od najdubljih kanjona na svetu.',
+
         'par1' => 'Park je poznat po svojim spektakularnim stenskim formacijama, prelepim vidikovcima, šumama i bogatom florom i faunom.',
+
         'par2' => 'Park je domaćin raznovrsnom biljnom i životinjskom svetu. Tu se mogu naći retke biljne vrste i brojne divlje životinje kao što su divlji konji,
                    orlovi, vidre i mnoge druge vrste. To ga čini idealnim mestom za posmatranje ptica i divlje životinje.',
+
         'par3' => '',
         'par4' => '',
         'par5' => '',
@@ -404,6 +356,7 @@ return [
         'par4' => 'Lepenski Vir je neprocenjivo arheološko nalazište koje nam pomaže da bolje razumemo prošlost Balkana.
                      Ovo mesto pruža fascinantan uvid u život i kulturu ljudi koji su tu živeli pre više hiljada godina i predstavlja nezaboravnu destinaciju za istraživače i zaljubljenike u arheologiju.
                      Ne propustite priliku da posetite ovu drevnu oazu na obali Dunava i da se prepustite putovanju kroz vreme.',
+
         'par5' => '',
         'par6' => '',
       ],
