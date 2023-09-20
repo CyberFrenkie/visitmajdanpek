@@ -9,7 +9,7 @@ class sightsController extends Controller
 {
     public function index() {
         return view('sights' , [
-            'sights' => Sight::latest()->paginate(3)
+            'sights' => Sight::latest()->paginate(9)
         ]);
     }
 
