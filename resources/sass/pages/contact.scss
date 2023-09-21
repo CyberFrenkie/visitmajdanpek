@@ -11,27 +11,41 @@
         z-index: 10;
         font-size: 25px;
     }
-
-    .form-styling,.contact-form-wrap,.container{
-        background-color: $color-black-transparent-mid;
-        height: $full-height;
-    }
-
     .contact-bg-image{
         background-image: url('../../public/img/content/majdanpek/majdanpek-starica.jpg');
+        position: relative;
         background-repeat: no-repeat;
-        position: absolute;
-        background-color: $color-black;
         width: $full-width;
-        height: $full-height;
-        background-size: 100%;
+        height: $full-screen-height;
+        background-size: cover;
+        padding: $contact-padding;
+        &::before{
+            @include pseudo(0,0,0,0,block);
+            position: absolute;
+            @include hero-cover($full-height,$full-width);
+            z-index: 1;
+        }
+        .contact-header-fs{
+            font-size: $font-size-title-primary;
+        }
+        .contact-fs{
+            font-size: $font-size-title-primary-reduced;
+        }
     }
     @media only screen and (max-width:850px){
         height: auto;
         overflow-y: auto;
         .contact-bg-image{
-            background-size: 100%;
-        } 
+            padding: 0;
+            padding-top: $contact-padding;
+            background-position: center;
+
+            .contact-header-fs{
+                font-size:$font-size-title-primary-reduced;
+            }
+            .contact-fs{
+                font-size: $font-size-text-primary;
+            }
         
         .alert{
             width: $full-width;
@@ -39,62 +53,64 @@
 
         
     }
-    .form-styling{
+}
+}
+.contact-form{
+    margin: 5rem 0;
+    .form-styling {
         position: relative;
         width: 40%;
         color: white;
         .send-button {
             @include btn-primary;
+            background-color: $border-bottom--hover--color;
+            color: $color-black;
             margin-top: 1.5rem;
+            &:hover{
+                background-color: #09b450;
             }
-            .contact-us{
+        }
+    
+        .contact-us {
             .contact-header-title {
                 font-size: $font-size-title-primary-reduced;
                 color: $color-primary;
             }
         }
     }
-}
-
-.form-group {
-    .form-control {
-        border-radius: 0;
-        opacity: 0.7;
-        font-weight: $font-weight-thick;
-        color: $nav-color--dark-grey;
-    }
-}
-
-.footer-margin{
-    margin-top: -34px;
-    margin-bottom: -40px;
-}
-
-@media only screen and (max-width:1024px){
-    .main-contact {
-        .form-styling {
+    .form-group {
+        .form-control {
+            border-radius: 0;
+            border-style:none none solid none;
+            font-weight: $font-weight-thick;
+            color: $nav-color--dark-grey;
+            background: transparent;
+            padding: 15px 15px 15px 0;
+            border-bottom: 1px solid hsla(0, 0%, 4%, 0.3);
             width: $full-width;
-            textarea{
-                height: 38px;
-            }
+        }
+    }
+    @media only screen and (min-width:769px) {
+        @media only screen and (max-width:1024px) {
+        .form-styling {
+            width: 70%; 
             .contact-us {
                 .contact-header-title {
                     font-size: $font-size-title-special;
                 }
-                margin-bottom: 0.2rem!important;
+                margin-bottom: 0.2rem !important;
             }
+        }    
+    }
+    }
+    @media only screen and (max-width: 768px){
+        .form-styling{
+            width: $full-width;
         }
     }
-
-    .form-control{
-        text-align: center;
-    }
-}
-
-
-@media only screen and (max-height:850px){
-    .main-contact{
-        height:auto;
-        overflow-y: auto;
-    }
+    @media only screen and (max-width:425px){
+        .form-control {
+                text-align: center;
+            }
+    }   
 }
