@@ -1,33 +1,19 @@
 <?php
 
 return [
-    'header' => [
-        'heading' => 'Contact us',
-        'img' => '/img/content/content.png'
-    ],
-
     'fields' => [
         
         'firstName' => [
-            'label' => 'First Name',
-            'placeholder' => 'Enter your first name',
+            'placeholder' => 'Enter your full name',
             'class' => 'form-control',
             'name' => 'firstName',
         ],
-        'lastName' => [
-            'label' => 'Last Name',
-            'placeholder' => 'Enter your last name',
-            'class' => 'form-control',
-            'name' => 'lastName',
-        ],
         'email' => [
-            'label' => 'Email Address',
             'placeholder' => 'Enter your email',
             'class' => 'form-control',
             'name' => 'email',
         ],
         'inquiry' => [
-            'label' => 'Tell us more',
             'placeholder' => 'Tell us more',
             'class' => 'form-control',
             'name' => 'message',
@@ -38,5 +24,6 @@ return [
     'contact-us-header-text' => 'Contact us',
     'form-class' => 'form-styling',
     'contact-us-header-class' => 'contact-header-title',
+    'contact-us-text' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur alias veniam neque ratione beatae cupiditate fuga. Voluptatum iste est, facere, quis iusto, magnam non rem nostrum magni obcaecati quisquam sit.',
     
 ];
