@@ -61,6 +61,11 @@
         </div>
       </div>
     </div>
+  <div class="visitmajdanpekemail">
+    <div class="container text-center contact-us-custom-border">
+      <p class="default contact-us-email-header">{!! trans('contact.contact-us-email') !!}</p>
+    </div>
+  </div>
 
     {{-- Footer --}}
     <div class="footer">
