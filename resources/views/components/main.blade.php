@@ -40,7 +40,7 @@
           <div class="slide-link">                  
             <h1 class="slide-title">{{ $slide['title'] }}</h1>
             <p class="slide-text">{{ $slide['text'] }}</p>
-            <a class="{{ $slide['button_class'] }} link">{{ $slide['button_text'] }} <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="{{ $slide['button_class'] }}">{{ $slide['button_text'] }} <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
       @endforeach

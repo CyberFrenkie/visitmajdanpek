@@ -3,9 +3,11 @@ body,.home-wrapper, .wrapper{
     background-color: $color-primary;
     overflow-x: hidden;
 }
+
 .home-wrapper{
     overflow-y: hidden;
 }
+
 #myBtn {
     display: none;
     position: fixed;
@@ -31,5 +33,26 @@ body,.home-wrapper, .wrapper{
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
+    }
+}
+
+.readMore {
+    @include arrow-animation;
+
+    padding: 13px 20px;
+    margin-top: 20px;
+    width: 190px;
+    background: $color-link;
+    color: $color-primary;
+    border-radius: 10px;
+
+    &:hover {
+        transition: $transition;
+        background: $nav-color--grey;
+        color: $color-black;
+    }
+
+    .fa-arrow-right {
+        transform: translateX(8px);
     }
 }
