@@ -1,3 +1,56 @@
+.visitmajdanpekemail{
+.default{
+    @include reset-default-text;
+    @include reset-p-m;
+    color: $color-black;
+}
+.contact-us-custom-border{
+    border-top: 22px ridge $color-link;
+    border-bottom: 22px groove $color-link;
+    border-radius: 0px 0px;
+    padding: 30px 15px;
+    width: 33%;
+    margin-bottom: 6rem;
+    transition: 1s;
+    &:hover{
+        border-radius: 90px 97px;
+    }
+    .contact-us-email-header{
+        font-size: $font-size-text-primary;
+    }
+    .contact-us-email{
+        font-size: $font-size-text-secondary;
+    }
+}
+@media only screen and (min-width:750px){
+    @media only screen and (max-width:1000px){
+    .contact-us-custom-border{
+        width: 66%;
+    }
+    }
+}
+@media only screen and (min-width:1001px) {
+    @media only screen and (max-width:1040px) {
+        .contact-us-custom-border {
+            width: 50%;
+        }
+    }
+}
+@media only screen and (max-width:425px){
+    .contact-us-custom-border{
+        width: 80%;
+        .contact-us-email-header {
+                font-size: $font-size-text-secondary;
+                font-weight: $font-weight-thick;
+            }
+        
+            .contact-us-email {
+                font-size: $font-size-text;
+                font-weight: $font-weight-thick;
+            }
+    }
+}
+}
 .main-contact {
     position: relative;
     width: $full-width;
@@ -18,7 +71,7 @@
         position: relative;
         background-repeat: no-repeat;
         width: $full-width;
-        height: $full-screen-height;
+        height: calc($full-screen-height - $nav-height);
         background-size: cover;
         padding: $contact-padding;
 
@@ -56,7 +109,7 @@
 }
 
 .contact-form{
-    margin: 5rem 0;
+    margin: 0 0 1rem 0;
 
     .form-styling {
         position: relative;
