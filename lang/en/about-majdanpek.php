@@ -31,7 +31,7 @@ return [
           Nacionalni park Đerdap, Rajkova pećina, bigrena akumulacija 
           Beli izvorac, prirodni kameni most Valja Prerast  i zaštićeni spomenici kulture: 
           arheološko nalazište Lepenski vir, arheo metalurški lokalitet Rudna Glava, 
-          crkva Svetih aposltola Petra i Pavla, 
+          crkva Svetih apostola Petra i Pavla, 
           crkva Svetog Nikole, Kapetan Mišino zdanje i Tenkina kuća.'
         ],
       ],

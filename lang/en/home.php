@@ -13,19 +13,19 @@ return [
             
             'btn' => [
                 [
-                    'img' => 'img/content/homepage/bus2.jpg',
-                    'text' => 'Prevoz',
-                    'link' => '/transportation',
-                ],           
+                    'img' => 'img/content/homepage/emergency.jpg',
+                    'text' => 'Ustanove od značaja',
+                    'link' => '/institutions',
+                ],    
                 [
                     'img' => 'img/content/homepage/hotel.jpg',
                     'text' => 'Smeštaj',
                     'link' => '/hotels',
-                ],           
+                ],   
                 [
-                    'img' => 'img/content/homepage/emergency.jpg',
-                    'text' => 'Ustanove od značaja',
-                    'link' => '/institutions',
+                    'img' => 'img/content/homepage/bus2.jpg',
+                    'text' => 'Prevoz',
+                    'link' => '/transportation',
                 ],
             ]
         ]
