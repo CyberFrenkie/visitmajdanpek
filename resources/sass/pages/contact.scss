@@ -1,4 +1,3 @@
-
 .main-contact {
     position: relative;
     width: $full-width;
@@ -11,7 +10,10 @@
         z-index: 10;
         font-size: 25px;
     }
-    .contact-bg-image{
+
+    .contact-bg-image {
+        @include overlay;
+
         background-image: url('../../public/img/content/majdanpek/majdanpek-starica.jpg');
         position: relative;
         background-repeat: no-repeat;
@@ -19,22 +21,20 @@
         height: $full-screen-height;
         background-size: cover;
         padding: $contact-padding;
-        &::before{
-            @include pseudo(0,0,0,0,block);
-            position: absolute;
-            @include hero-cover($full-height,$full-width);
-            z-index: 1;
-        }
+
         .contact-header-fs{
             font-size: $font-size-title-primary;
         }
+
         .contact-fs{
             font-size: $font-size-title-primary-reduced;
         }
     }
+
     @media only screen and (max-width:850px){
         height: auto;
         overflow-y: auto;
+
         .contact-bg-image{
             padding: 0;
             padding-top: $contact-padding;
@@ -43,29 +43,32 @@
             .contact-header-fs{
                 font-size:$font-size-title-primary-reduced;
             }
+
             .contact-fs{
                 font-size: $font-size-text-primary;
             }
         
-        .alert{
-            width: $full-width;
-        } 
-
-        
+            .alert{
+                width: $full-width;
+            }   
+        }
     }
 }
-}
+
 .contact-form{
     margin: 5rem 0;
+
     .form-styling {
         position: relative;
         width: 40%;
         color: white;
+
         .send-button {
             @include btn-primary;
             background-color: $border-bottom--hover--color;
             color: $color-black;
             margin-top: 1.5rem;
+
             &:hover{
                 background-color: #09b450;
             }
@@ -78,6 +81,7 @@
             }
         }
     }
+
     .form-group {
         .form-control {
             border-radius: 0;
@@ -90,27 +94,32 @@
             width: $full-width;
         }
     }
+
     @media only screen and (min-width:769px) {
         @media only screen and (max-width:1024px) {
-        .form-styling {
-            width: 70%; 
-            .contact-us {
-                .contact-header-title {
-                    font-size: $font-size-title-special;
+            .form-styling {
+                width: 70%; 
+                
+                .contact-us {
+                    .contact-header-title {
+                        font-size: $font-size-title-special;
+                    }
+
+                    margin-bottom: 0.2rem !important;
                 }
-                margin-bottom: 0.2rem !important;
-            }
-        }    
+            }    
+        }
     }
-    }
+
     @media only screen and (max-width: 768px){
         .form-styling{
             width: $full-width;
         }
     }
+
     @media only screen and (max-width:425px){
         .form-control {
-                text-align: center;
-            }
+            text-align: center;
+        }
     }   
 }
