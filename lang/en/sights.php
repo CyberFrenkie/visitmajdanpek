@@ -5,6 +5,11 @@ return [
   'sights' => [
     'head' => 'Znamenitosti',
 
+    'btn' => [
+      'class' => 'btn readMore',
+      'text' => 'Procitaj vise',
+    ],
+
     'content' => [
       [
         'link' => 'https://www.facebook.com/rajkovapecina/?locale=de_DE',

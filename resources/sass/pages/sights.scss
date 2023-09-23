@@ -28,6 +28,16 @@
       font-size: 30px;
     }
 
+    .readMore {
+      @include arrow-animation;
+
+      background: $color-link;
+      padding: 15px;
+      margin-top: 20px;
+      width: 170px;
+      color: $color-primary;
+    }
+
     .img {
       height: 220px;
       margin-bottom: 20px;
@@ -36,6 +46,14 @@
       &:hover{
         scale: 1.1;
       }
+    }
+
+    .shorten {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; 
+      -webkit-box-orient: vertical;
     }
   }
 }
