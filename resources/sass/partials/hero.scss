@@ -1,14 +1,18 @@
 .header {
   .video-wrap{
     height: 100vh;
+    z-index: -1;
+    
+    @include overlay;
   }
+
   .img-wrap{
     display: none;
   }
+
   #video-background{
     width: 100%;
     background-color: $color-black;
-    
   }
   
   @media only screen and (max-width:1200px) {
@@ -18,9 +22,8 @@
     .img-wrap{
       display: block;
     }
-
-    
   }
+
   .h-100vh {
     height: $full-screen-height;
     object-fit: cover;
@@ -33,14 +36,17 @@
     top: 50%;
     transform: translate(0, -50%);
   }
+
   .carousel-caption{
     @include flex-center-colum;
+    z-index: 1;
   }
+
   .title,.lead{
-    background-color: $color-black-transparent-mid;
     border-radius: $border-radius;
     padding: 5px;
   }
+
   .title {
     font-size: 35px;
   }
@@ -51,7 +57,6 @@
     font-family: $font-family-raleway;
     line-height: normal;
    
-
     @media only screen and (max-width:1025px) {
       font-size: 75px;
     }
@@ -60,5 +65,4 @@
       font-size: 50px;
     }
   }
-
 }
