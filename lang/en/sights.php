@@ -7,7 +7,7 @@ return [
 
     'btn' => [
       'class' => 'btn readMore',
-      'text' => 'Procitaj vise',
+      'text' => 'Pročitaj više',
     ],
 
     'content' => [

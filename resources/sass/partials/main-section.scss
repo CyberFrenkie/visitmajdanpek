@@ -125,11 +125,6 @@
                 font-size: $font-size-text;
             }
         }
-
-        .btn {
-            @include btn-primary;
-            @include arrow-animation;
-        }
     }
 
     .second-content {
