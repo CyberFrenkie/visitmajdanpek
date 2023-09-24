@@ -10,143 +10,146 @@
     padding: 0;
 }
 
-@mixin absolute-position($position,$left,$bottom,$translate) {
+@mixin absolute-position($position, $left, $bottom, $translate) {
     position: $position;
     left: $left;
     bottom: $bottom;
     transform: translateY($translate);
 }
 
-@mixin pseudo($top,$bottom,$left,$right,$display) {
+@mixin pseudo($top, $bottom, $left, $right, $display) {
     display: $display;
     position: absolute;
     top: $top;
     left: $left;
     right: $right;
     bottom: $bottom;
-    content: '';
+    content: "";
 }
 
-@mixin content-width{
+@mixin content-width {
     max-width: 400px;
 }
 
 @mixin overlay {
     &::before {
-        @include pseudo(0,0,0,0,block);  
+        @include pseudo(0, 0, 0, 0, block);
         z-index: 1;
         background-color: $color-black;
         opacity: 0.4;
     }
 }
 
-
 // Buttons  &  Links
 
-@mixin btn-primary{
+@mixin btn-primary {
     @include hover-transition;
 
     width: $btn-width;
-    background-color: $color-primary;            
+    background-color: $color-primary;
     font-size: $font-size-btn;
     color: $color-link;
     font-weight: $font-weight-thick;
 }
 
-@mixin link-primary{
+@mixin link-primary {
     text-decoration: none;
     color: $color-link;
     font-size: $font-size-btn;
     font-weight: $font-weight-medium;
 }
 
-
 // Animation & Transition
 
-@mixin arrow-animation{
+@mixin arrow-animation {
     &:hover .fa-arrow-right {
         transform: translateX(15px);
-        transition: .2s;
+        transition: 0.2s;
     }
 }
 
-@mixin scale-transition{
-    transition: $transition;  
-    &:hover{
+@mixin scale-transition {
+    transition: $transition;
+    &:hover {
         scale: 1.1;
     }
 }
 
-@mixin hover-transition{
-    transition: $transition;  
-    &:hover{
+@mixin hover-transition {
+    transition: $transition;
+    &:hover {
         color: $color-black;
         background-color: $border-bottom--hover--color;
     }
 }
 
-@mixin link-hover-transition{
-    border-bottom: 2px solid transparent; 
+@mixin link-hover-transition {
+    border-bottom: 2px solid transparent;
     transition: $transition;
-    &:hover{                
+    &:hover {
         border-bottom: 2px solid $color-link;
     }
 }
 
-
 // Cards
 
-@mixin first-content-card{
-    .card{
+@mixin first-content-card {
+    .card {
         height: 600px;
         padding: 0 20px;
         margin: 5px 0;
     }
-    .card-img,.link{
-        height: $full-height;      
+    .card-img,
+    .link {
+        height: $full-height;
     }
     .card-img {
         object-fit: cover;
     }
 }
 
-@mixin news-card-img-param{
+@mixin news-card-img-param {
     height: 200px;
     border-bottom-left-radius: 0;
 }
 
-@mixin card-default{
-    @include reset-p-m;    
-    position: relative;      
+@mixin card-default {
+    @include reset-p-m;
+    position: relative;
     border: none;
     background: transparent;
-    
-    .card-img{
+
+    .card-img {
         border-radius: 10px;
     }
 }
 
-@mixin card-shadow($radius){
+@mixin card-shadow($radius) {
     box-shadow: 0px 0px 5px $border-bottom--hover--color;
     border-radius: $radius;
 }
 
-
 // Flex
 
-@mixin flex-center-row{
+@mixin flex-center-row {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-@mixin flex-center-colum{
+@mixin about-mpek-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@mixin flex-center-colum {
     @include flex-center-row;
     flex-direction: column;
 }
 
-@mixin custom-flex($jc,$ai,$fd){
+@mixin custom-flex($jc, $ai, $fd) {
     display: flex;
     justify-content: $jc;
     align-items: $ai;
