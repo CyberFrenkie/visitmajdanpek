@@ -77,10 +77,10 @@ return [
       [
         'link' => 'https://www.facebook.com/profile.php?id=100008648025590&locale=de_DE',
 
-        'img' => 'img/content/prerast/stena.jpg',
-        'img1' => 'img/content/prerast/stena-reka.jpg',
+        'img' => 'img/content/prerast/prerast3.jpg',
+        'img1' => 'img/content/prerast/vpReka.jpg',
         'img2' => 'img/content/prerast/odmaraliste.jpg',
-        'img3' => 'img/content/prerast/prerast1.jpg',
+        'img3' => 'img/content/prerast/vp2.jpg',
         'img4' => '',
         'img5' => '',
         'img6' => '',

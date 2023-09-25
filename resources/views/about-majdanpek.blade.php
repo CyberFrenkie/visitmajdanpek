@@ -11,11 +11,16 @@
 
   {{-- Main section --}}
   <div class="main">
-
-    <div class="container about-mpek-text-con">
-      <h1 class="news-heading px-0">{{ __('about-majdanpek.head') }}</h1>
-      <hr class="seperator col-md-4 col-sm-12 marg">
+    <div class="majdanpek-hero">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 text-center z-2">
+            <h1 class="news-heading px-0">{{ __('about-majdanpek.head') }}</h1>
+          </div>
+        </div>
+      </div>
     </div>
+
 
     @foreach( __('about-majdanpek.content') as $index => $content )
     <div class="container about-majdanpek-section">

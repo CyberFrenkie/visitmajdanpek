@@ -52,7 +52,7 @@
             @foreach ( $partners['images'] as $i)
               <div class="col-md-3 col-sm-12 px-2 about-us-card ">
                 <a href="{{ $i['url'] }}" class="about-us-link" target="blank">
-                  <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
+                  <img src="{{ $i['img'] }}" alt="" class="about-us-img ">
                   
                 </a>
               </div>
