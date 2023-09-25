@@ -114,7 +114,7 @@ return [
                         'url' => 'https://npdjerdap.rs/?pismo=lat',
                     ],
                     [
-                        'img' => '/img/content/partners/GPDjerdap.svg',
+                        'img' => '/img/content/partners/GPDjerdap.png',
                         'title' => 'Turistička organizacija Majdanpek',
                         'desciption' => 'Izvor većine informacija na sajtu.',
                         'url' => 'https://geoparkdjerdap.rs/?pismo=lat',

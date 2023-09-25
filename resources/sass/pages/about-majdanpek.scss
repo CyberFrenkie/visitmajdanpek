@@ -11,10 +11,29 @@
     }
 }
 
+.majdanpek-hero{
+    @include overlay;
+
+    background-image: url('../../public/img/content/majdanpek/mpek2.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    width: $full-width;
+    height: calc($full-screen-height - $nav-height);
+    background-size: cover;
+    padding: $contact-padding;
+
+    .news-heading{
+        font-size: $font-size-title-primary;
+        color: $color-primary;
+    }
+
+
+    
+}
+
 .about-majdanpek-section {
     height: auto;
     margin-bottom: 20px;
-    
     
 
     @media only screen and (max-width: 480px) {
@@ -23,17 +42,16 @@
 
     .content-wrap {
         @include about-mpek-img;
+        @include content-space;
         text-align: justify;
-
-       
+              
 
         .img {
             width: 100%;
             height: 105%;
             padding: 15px;
-
-           
         }
+
         @media only screen and (max-width: 1024px) {
             width: auto;
             height: auto;

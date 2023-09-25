@@ -3,15 +3,18 @@
   transition: margin 1s ease;
 }
 
-.sight{
-  .sight-content {
-    @include flex-center-row;
-    flex-wrap: wrap;
-  }
-  img{
-    height: auto;
+.sight-content {
+  @include flex-center-row;
+  @include content-space;
+  flex-wrap: wrap;
+  
+  .img{
     max-height: 300px;
-    width: auto;
-    max-width: 300px;
+    width: 100%;
+  }
+
+  .lead{
+    text-align: justify;
   }
 }
+  
