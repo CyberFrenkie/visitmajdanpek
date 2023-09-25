@@ -13,21 +13,19 @@ return [
       'title' => 'Opština Majdanpek',
       'lead' => [
         [
-          'text' => 'Teritorija opštine Majdanpek nalazi se u Istočnoj Srbiji, 
+          'text' => 'Opština Majdanpek nalazi se u Istočnoj Srbiji, 
           na obroncima Južnih Karpata, u vodotoku reke Dunav. Na 932 km2 nastanjeno 
           je 23.704 stanovnika u dva gradska naselja: Majdanpek, 
           koji je administrativni centar opštine i Donji Milanovac i 
           12 seoskih naselja: Debeli Lug, Leskovo, Jasikovo, Vlaole, Rudna Glava, 
           Crnajka, Klokočevac, Topolnica, Mosna, Golubinje, Miroč i Boljetin.
-          ',
-        ],
-        [
-          'text' => 'Opština Majdanpek se graniči sa opštinama Bor, Negotin, Kladovo, Golubac, 
+          
+          Opština Majdanpek se graniči sa opštinama Bor, Negotin, Kladovo, Golubac, 
           Kučevo i Žagubica, a na severu Dunavom u dužini oko 54 kilometara sa 
           Republikom Rumunijom. Reljef opštine je pretežno brdsko-planinski. 
           Na području opštine Majdanpek preovladava kontinentalna klima.
           
-          Na teritoriji opštine Majdanpek nalaze se zaštićeni objekti prirode: 
+          U opštini Majdanpek nalaze se zaštićeni objekti prirode: 
           Nacionalni park Đerdap, Rajkova pećina, bigrena akumulacija 
           Beli izvorac, prirodni kameni most Valja Prerast  i zaštićeni spomenici kulture: 
           arheološko nalazište Lepenski vir, arheo metalurški lokalitet Rudna Glava, 
@@ -47,8 +45,10 @@ return [
       'lead' => [
         [
           'text' => 'Majdanpek je administrativni centar opštine, naselje na 350 mnv, smešteno u dolini reke Mali Pek, 
-          okruženo planinskim masivima, na magistralnom putu M 24 (Požarevac-Negotin). Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom. 
-          Majdanpek ima uređene sportske terene, sportski centar sa halom i bazenom i ski centar „Rajkovo“.
+          okruženo planinskim masivima, na magistralnom putu M 24 (Požarevac-Negotin). Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom.'
+        ],
+        [
+          'text' => 'Majdanpek ima uređene sportske terene, sportski centar sa halom i bazenom i ski centar „Rajkovo“.
           U neposrednoj blizini Majdanpeka, oko 3 km od centra grada, nalazi se jezero Veliki zaton i Rajkova pećina.',
         ],
       ],
@@ -68,7 +68,7 @@ return [
           Na Starici se nalazi uređena skijaška staza Rajkovo. Udaljena je četiri kilometra od grada, na putu prema 
           Donjem Milanovcu. Do skijališta se stiže asfaltnim putem. Skijaški centar Rajkovo poseduje skijaški lift tipa „sidro", 
           kapaciteta 1.100 skijaša na sat. Lift savladava visinsku razliku od 200 metara i opslužuje dve skijaške 
-          staze dužina 1.000 m i 1.200 m. Osim toga, skijalište Rajkovo raspolaže i motornim sankama i ski-tabačem za uređivanje staze.' ,
+          staze dužina 1.000 m i 1.200 m. Osim toga, skijalište Rajkovo raspolaže i motornim sankama i ski-tabačem za uređivanje staze.',
         ],
         [
           'text' => ' Pod Staricom, u mešovitoj šumi bukve, javora i hrasta smeštena je Rajkova pećina, na svega 3,5 
@@ -78,10 +78,12 @@ return [
            pećini ostavlja sam žubor potoka. Otvorena je za javnost, uz prisustvo 3000 ljudi, 
            kao druga turistička pećina u Srbiji, 12. septembra 1972. godine. Rajkova i Paskova 
            reka ističu iz svojih pećina i tvore Mali Pek, od koga je nizvodno napravljena veštačka 
-           jezerska akumulacija Veliki Zaton, koja ujedno predstavlja omiljeno izletište stanovnika Majdanpeka. 
-           Na oko 12 kilometra od Majdanpeka nalazi se na istoimenoj reci Valja Prerast ili Šuplja stena, prirodni 
-           kameni most, pod zaštitom države, pruža se od jugozapada ka severoistoku na dužini od 100 m, odnosno 26 m u 
-           visini gornje ivice luka. Raspon prerasta iznosi 150 m, a širina njenog otvora pri dnu u visini rečnog korita 9,7 m',
+           jezerska akumulacija Veliki Zaton, koja ujedno predstavlja omiljeno izletište stanovnika Majdanpeka.',
+        ],
+        [
+          'text' => 'Na oko 12 kilometra od Majdanpeka nalazi se na istoimenoj reci Valja Prerast ili Šuplja stena, prirodni 
+          kameni most, pod zaštitom države, pruža se od jugozapada ka severoistoku na dužini od 100 m, odnosno 26 m u 
+          visini gornje ivice luka. Raspon prerasta iznosi 150 m, a širina njenog otvora pri dnu u visini rečnog korita 9,7 m',
         ],
       ],
     ],
