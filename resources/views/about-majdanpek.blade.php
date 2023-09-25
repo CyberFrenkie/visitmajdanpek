@@ -20,15 +20,15 @@
     @foreach( __('about-majdanpek.content') as $index => $content )
     <div class="container about-majdanpek-section">
       <div class="content-wrap {{ $index % 2 == 0 ? 'flex-row' : 'flex-row-reverse' }}">
-        <div class="col-md-7">
+        <div class="col-md-7 content-wrapper">
           <h3 class="title">{{ $content['title'] }}</h3>
           @foreach( $content['lead'] as $lead )
           <p class="lead">{{ $lead['text'] }}</p>
           @endforeach
         </div>
 
-        <div class="col-md-5">
-          <img src="{{ asset($content['img']['src']) }}" class="img-fluid img">
+        <div class="col-md-5 img-wrap">
+          <img src="{{ asset($content['img']['src']) }}" class="img">
         </div>
       </div>
     </div>
