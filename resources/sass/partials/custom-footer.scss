@@ -21,22 +21,6 @@
     .tab-pane{
         height: auto;
     }
-    @media only screen and (min-width:960px){
-        @media only screen and (max-width:1024px){
-            .mr-5:not(.second-list):first-child{
-                margin-right: 1.5rem;
-            }
-            .mr-5:not(.second-list):nth-child(2) {
-                margin-right: 2.5rem;
-            }
-            .mr-5{
-                margin-right: 2rem;
-            }
-            .mr-4{
-                margin-right: 2rem;
-            }
-        }
-    }
                 @media only screen and (min-width:750px) {
                     @media only screen and (max-width:768px) {
                     .mr-5:not(.second-list):not(:nth-child(3)){
@@ -124,6 +108,12 @@
         transition: .7s;
         margin-left: 1.5rem!important;
     }
+    .phone,.laptop{
+        display: none;
+    }
+    .desk{
+        display: block;
+    }
         
     @media only screen and (max-width: 800px) {
         .seperator {
@@ -202,13 +192,37 @@
                 .carousel-control-prev {
                     left: 20%;
                 }
+                .phone{
+                    display: block;
+                }
+                .laptop,.desk{
+                    display: none
+                }
             }
         }
-        @media only screen and (min-width:1000px){
+        @media only screen and (min-width:960px){
             @media only screen and (max-width:1024px){
                 .custom-footer-font-size{
                     font-size: 20px;
                 }
+                .desk{
+                    display: none;
+                }
+                .mr-5:not(.second-list):first-child {
+                    margin-right: 1.5rem;
+                }
+                            
+                .mr-5:not(.second-list):nth-child(2) {
+                    margin-right: 2.5rem;
+                }
+                        
+                .mr-5 {
+                    margin-right: 2rem;
+                }
+                .mr-4 {
+                    margin-right: 2rem;
+                }
+                        
             }
         }
         #fullscreen{
@@ -224,11 +238,19 @@
             background-position: center center;
             background-color: rgba(0, 0, 0, 0.5);
         }
-        .fsmap{
+        .map{
             border-radius: $border-radius;
-            &:hover{
-                cursor:grab;
-            }
+            cursor: pointer;
         }
+        @media only screen and (min-width:768px) {
+            @media only screen and (max-width:1024px){
+                .laptop{
+                    display: block;
+                }
+                .desk{
+                    display: none;
+                }
+        }
+    }
 }
 

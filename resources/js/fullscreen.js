@@ -1,47 +1,20 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const fullscreenTriggers = document.querySelectorAll(".map");
-    const fullscreenOverlay = document.getElementById("fullscreen");
-    const viewportWidth = window.innerWidth;
+    const fullscreen = document.getElementById("fullscreen");
+    const images = document.querySelectorAll(".image-container img");
 
-  fullscreenTriggers.forEach(function (trigger) {
-    trigger.addEventListener("click", function (e) { //  Kad kliknes sliku da izracuna gde si kliknuo i tu da se pojavi ta slika tako to setuje backgroundimage kao src te slike
-      const srcset = trigger.getAttribute("srcset");
-      const src = getBestSrc(srcset, viewportWidth);
+    images.forEach((img) => {
+      img.addEventListener("click", (event) => {
+        const clickedImage = event.target;
+        const scrollY = window.scrollY;
+        const imgRect = clickedImage.getBoundingClientRect();
 
-      fullscreenOverlay.style.backgroundImage = `url(${src})`;
+        const topPosition = (scrollY + imgRect.top) * 100 / window.innerHeight - 50;
 
-       const clickY = ((e.clientY + window.scrollY) / window.innerHeight) * 100 - 55 + "vh";
+        fullscreen.style.backgroundImage = `url('${clickedImage.src}')`;
+        fullscreen.style.top =  `${topPosition}vh`;
+        fullscreen.style.display = "block";
+      });
 
-      
-      fullscreenOverlay.style.top = clickY;
-
-      
-      fullscreenOverlay.style.display = "block";
     });
+    fullscreen.addEventListener("click", () => {
+  fullscreen.style.display = "none";
   });
-  function getBestSrc(srcset, viewportWidth) {
-    if (!srcset) {
-      return "";  //  Za svaki slucaj u slucaju da nema srcset
-    }
-  }
-
-  fullscreenOverlay.addEventListener("click", function () {
-    fullscreenOverlay.style.display = "none"; //  Kada kliknes ponovo na sliku ona nestaje
-  });
-  function getBestSrc(srcset) { //  Odaberi koji ce src da kosriti iz src seta tako sto gleda width ekrana
-    const sources = srcset.split(", ");
-    let bestSrc = "";
-    let bestWidth = 0;
-
-    sources.forEach(function (source) {
-      const [url, width] = source.trim().split(" ");
-      const numericWidth = parseInt(width, 10);
-      if (numericWidth > bestWidth && numericWidth <= viewportWidth) {
-        bestSrc = url;
-        bestWidth = numericWidth;
-      }
-    });
-
-    return bestSrc || sources[0].trim().split(" ")[0];
-  }
-});
