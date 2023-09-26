@@ -145,5 +145,5 @@ return[
         'locations' => 'Lokacija Znamenitosti',
         'BG-pravac' => 'Pravac Iz Beograda',
         'NG-pravac' => 'Pravac Iz Negotina',
-        'Informations' => 'Za vise informacija klikni <a href="https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate" target="_blank" class="default move-arrow">OVDE</a><i class="fa-solid fa-arrow-right ms-2"></i>',
+        'Informations' => '<a href="https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate" target="_blank" class="default">Za vise informacija klikni OVDE<i class="move-arrow fa-solid fa-arrow-right ms-2"></i></a>',
 ];
