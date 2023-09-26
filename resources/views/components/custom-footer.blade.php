@@ -2,50 +2,25 @@
     <hr class="seperator col-md-4 col-sm-12">
     <div class="container">
         <div class="row ps-3">
-            <div class="col-lg-8 d-flex justify-content-between col-md-12 p-0 justify-evenly margin-b flex-d-column">
-                <ul class="default mr-6">
-                @foreach(trans('custom-footer.list1') as $list)
-                    @foreach( ($list['list1Values']) as $listValue)
-                    <li class="custom-footer-margin">
-                        @if($loop->last)
-                        <p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-20"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p>
-                        @else
-                        <i class="{{ $listValue['icon'] }} custom-footer-font-size"></i><a href="{{ $listValue['url'] }}" target="_blank" class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover">{{ $listValue['text'] }}</a>
-                        @endif
-                    </li>
-                    @endforeach
-                @endforeach    
-                </ul>
-                <ul class="default mr-6">
-                @foreach(trans('custom-footer.list2') as $list)
+            <div class="col-lg-8 d-flex col-md-12 p-0 flex-column mbms-2">
+            <ul class="d-flex default nav-tabs flex-d-column mb-2" role="tablist">
+            @foreach(trans('custom-footer.list1') as $list)
+                @foreach(($list['list1Values']) as $listValue)
+                    <li class="mr-5"><i class="{{ $listValue['icon'] }} custom-footer-font-size"></i><button class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover fw-extra-medium" type="button" data-bs-toggle="tab" data-bs-target="{{ $listValue['target'] }}" role="tab">{{ $listValue['text'] }}</button></li>
+                @endforeach
+            @endforeach
+            </ul>
+            <ul class="d-flex flex-d-column default mb-3">
+                @foreach( trans('custom-footer.list2') as $list)
                     @foreach( ($list['list2Values']) as $listValue)
-                    <li class="custom-footer-margin">
-                        @if($loop->last)
-                        <p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p>
-                        @else
-                        <i class="{{ $listValue['icon'] }} custom-footer-font-size"></i><a href="{{ $listValue['url'] }}" target="_blank" class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover">{{ $listValue['text'] }}</a>
-                        @endif
-                    </li>
+                    <li class="@if ($loop -> first ) mr-5 second-list @elseif ( $loop -> last ) me-2 @else mr-4 @endif "><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p></li>
                     @endforeach
-                @endforeach 
-                </ul>
-                <ul class="default">
-                @foreach(trans('custom-footer.list3') as $list)
-                    @foreach( ($list['list3Values']) as $listValue)
-                    <li class="custom-footer-margin">
-                        @if($loop->last)
-                        <p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p>
-                        @else
-                        <i class="{{ $listValue['icon'] }} custom-footer-font-size"></i><a href="{{ $listValue['url'] }}" target="_blank" class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover">{{ $listValue['text'] }}</a>
-                        @endif
-                    </li>
-                    @endforeach
-                @endforeach 
-                </ul>
+                @endforeach
+                </ul>      
             </div>
             <div class="col-lg-4 col-md-12 mb-3">
                 <div class="box">
-                 <ul class="default ">
+                 <ul class="default">
                     <li>   
                     <p class="text-center fw-extra-medium custom-footer-font-size">Social</p>
                     </li>
@@ -65,6 +40,56 @@
                 </ul>    
                 </div>
             </div>
+        </div>
+        <div class="tab-content my-5">
+            <div class="tab-pane fade my-5" id="location" role="tabpanel" tabindex="0">
+                <p class="text-center custom-footer-font-size">{{ trans('custom-footer.locations') }}</p>
+                <div class="d-flex justify-content-center align-items-center">
+                <img srcset="/img/content/mapa/location.png 1280w, /img/content/mapa/location2.png 1024w,
+                            /img/content/mapa/location4.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                </div>
+                <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
+            </div>
+            <div class="tab-pane fade" id="car-route" role="tabpanel" tabindex="0">
+                <div class="d-flex justify-content-evenly">
+                    <div class="me-5">
+                        <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img srcset="/img/content/mapa/location-bg.png 1280w, /img/content/mapa/location-bg2.png 1024w,
+                            /img/content/mapa/location-bg3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 100vw, 100w" class="map img-fluid mb-2"></img>
+                        </div>
+                        <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
+                    </div>
+                    <div>
+                        <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img srcset="/img/content/mapa/location-ng.png 1280w, /img/content/mapa/location-ng2.png 1024w,
+                            /img/content/mapa/location-ng3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 100vw, 100w" class="map img-fluid mb-2"></img>
+                        </div>
+                        <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="tab-pane fade" id="walk-route" role="tabpanel" tabindex="0">
+                <div class="d-flex justify-content-evenly">
+                    <div class="me-5">
+                        <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img srcset="/img/content/mapa/location-bg.png 1280w, /img/content/mapa/location-bg2.png 1024w,
+                            /img/content/mapa/location-bg3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                        </div>
+                        <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
+                    </div>
+                    <div>
+                        <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img srcset="/img/content/mapa/location-ng.png 1280w, /img/content/mapa/location-ng2.png 1024w,
+                            /img/content/mapa/location-ng3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                        </div>
+                        <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
+                    </div>
+                </div>
+            </div>              
         </div>
     <div id="carouselExampleControls" class="carousel slide pl-15 pb-4" data-bs-ride="true">
         <div class="carousel-inner mb-3">
@@ -141,4 +166,5 @@
             </button>
         </div>  
     </div>
+    <div id="fullscreen"></div>
 </footer>
