@@ -117,12 +117,12 @@
         position: relative;
         margin-bottom: 90px;
     }
-    .move-arrow{
+    a > :is(.move-arrow){
         transition: .7s;
-        &:hover{
-            margin-right: 0.5rem;
-            transition: .7s;
-        }
+    }
+    a:hover > .move-arrow{
+        transition: .7s;
+        margin-left: 1.5rem!important;
     }
         
     @media only screen and (max-width: 800px) {
