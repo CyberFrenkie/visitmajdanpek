@@ -44,9 +44,10 @@
         <div class="tab-content my-5">
             <div class="tab-pane fade my-5" id="location" role="tabpanel" tabindex="0">
                 <p class="text-center custom-footer-font-size">{{ trans('custom-footer.locations') }}</p>
-                <div class="d-flex justify-content-center align-items-center">
-                <img srcset="/img/content/mapa/location.png 1280w, /img/content/mapa/location2.png 1024w,
-                            /img/content/mapa/location4.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                <div class="d-flex image-container justify-content-center align-items-center">
+                    <img src="/img/content/mapa/location3.png" class="map phone img-fluid mb-2"></img>
+                    <img src="/img/content/mapa/location2.png" class="map laptop img-fluid mb-2"></img>
+                    <img src="/img/content/mapa/location.png" class="map desk img-fluid mb-2"></img>
                 </div>
                 <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
             </div>
@@ -54,17 +55,19 @@
                 <div class="d-flex justify-content-evenly">
                     <div class="me-5">
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img srcset="/img/content/mapa/location-bg.png 1280w, /img/content/mapa/location-bg2.png 1024w,
-                            /img/content/mapa/location-bg3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 100vw, 100w" class="map img-fluid mb-2"></img>
+                        <div class="d-flex image-container justify-content-center align-items-center">
+                            <img src="/img/content/mapa/location-bg.png" class="map desk img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-bg3.png" class="map phone img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-bg2.png" class="map laptop img-fluid mb-2"></img>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                     <div>
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img srcset="/img/content/mapa/location-ng.png 1280w, /img/content/mapa/location-ng2.png 1024w,
-                            /img/content/mapa/location-ng3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 100vw, 100w" class="map img-fluid mb-2"></img>
+                        <div class="d-flex image-container justify-content-center align-items-center">
+                            <img src="/img/content/mapa/location-ng3.png" class="map phone img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-ng2.png" class="map laptop img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-ng.png" class="map desk img-fluid mb-2"></img>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
@@ -74,17 +77,19 @@
                 <div class="d-flex justify-content-evenly">
                     <div class="me-5">
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img srcset="/img/content/mapa/location-bg.png 1280w, /img/content/mapa/location-bg2.png 1024w,
-                            /img/content/mapa/location-bg3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                        <div class="d-flex image-container justify-content-center align-items-center">
+                            <img src="/img/content/mapa/location-bg.png" class="map desk img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-bg3.png" class="map phone img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-bg2.png" class="map laptop img-fluid mb-2"></img>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                     <div>
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <img srcset="/img/content/mapa/location-ng.png 1280w, /img/content/mapa/location-ng2.png 1024w,
-                            /img/content/mapa/location-ng3.png 768w," sizes="(max-width: 425px) 100vw, (max-width: 768px) 50vw" class="map img-fluid mb-2"></img>
+                        <div class="d-flex image-container justify-content-center align-items-center">
+                            <img src="/img/content/mapa/location-ng.png" class="map desk img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-ng3.png" class="map phone img-fluid mb-2"></img>
+                            <img src="/img/content/mapa/location-ng2.png" class="map laptop img-fluid mb-2"></img>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
