@@ -7,11 +7,19 @@ return[
                     'text'=>'Location',
                     'url'=>'https://goo.gl/maps/sgbbEVpLpRhyEr6SA',
                     'icon'=>'fa-solid fa-location-dot me-2',
+                    'target'=>'#location',
             ],
             [
-                    'text'=>'7:30-14:30',
-                    'url'=>'',
-                    'icon'=>'fa-regular fa-clock me-2', 
+                    'text'=>'Car Route',
+                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate',
+                    'icon'=>'fa-solid fa-car me-2',
+                    'target'=>'#car-route',
+            ],
+            [       
+                    'text'=>'Walk Route',
+                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=walking&dir_action=navigate',
+                    'icon'=>'fa-solid fa-person-walking me-2',
+                    'target'=>'#walk-route',
             ],
         ],
         ],
@@ -20,27 +28,16 @@ return[
         [
         'list2Values'=> [
             [
-                    'text'=>'Car Route',
-                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate',
-                    'icon'=>'fa-solid fa-car me-2',
+                    'text'=>'7:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
             ],
-            [
+            [        
                     'text'=>'000-000-0000',
                     'url'=>'',
                     'icon'=>'fa-solid fa-phone-volume me-2',
             ],
-        ],
-        ],
-    ],
-            'list3'=> [
-        [
-        'list3Values'=> [
-            [
-                    'text'=>'Walk Route',
-                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=walking&dir_action=navigate',
-                    'icon'=>'fa-solid fa-person-walking me-2',
-            ],
-            [
+            [        
                     'text'=>'exampleemail2@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
@@ -145,4 +142,8 @@ return[
                 ],
             ]
         ],
+        'locations' => 'Lokacija Znamenitosti',
+        'BG-pravac' => 'Pravac Iz Beograda',
+        'NG-pravac' => 'Pravac Iz Negotina',
+        'Informations' => 'Za vise informacija klikni <a href="https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate" target="_blank" class="default move-arrow">OVDE</a><i class="fa-solid fa-arrow-right ms-2"></i>',
 ];
