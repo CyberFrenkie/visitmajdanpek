@@ -13,6 +13,7 @@
 
 .majdanpek-hero{
     @include overlay;
+    @include flex-center-colum;
 
     background-image: url('../../public/img/content/majdanpek/mpek2.jpg');
     position: relative;
@@ -20,15 +21,20 @@
     width: $full-width;
     height: calc($full-screen-height - $nav-height);
     background-size: cover;
-    padding: $contact-padding;
 
     .news-heading{
         font-size: $font-size-title-primary;
         color: $color-primary;
     }
 
-
-    
+    @media only screen and (max-width: 800px) {
+        height: 20vh;
+        background-size: 100%;
+        .news-heading{
+            font-size: $font-size-title-primary-reduced;
+            color: $color-primary;
+        }
+    }    
 }
 
 .about-majdanpek-section {
@@ -37,7 +43,7 @@
     
 
     @media only screen and (max-width: 480px) {
-        padding: 20px 0;
+        padding: 20px 5px;
     }
 
     .content-wrap {
