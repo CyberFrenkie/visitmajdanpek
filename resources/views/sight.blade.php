@@ -5,7 +5,7 @@
   <div class="wrapper container-fluid">
     
     {{-- Header --}}
-    <div class="header">
+    <div class="header sight-header">
       @include('partials/_navigation')
 
       <div id="custom-hero">
@@ -14,7 +14,7 @@
 
           <div class="container">       
             <h3>{{ $item->head }}</h1>                    
-            <p>{{ $item->par }}</p>  
+            <p id="disappearing-paragraph">{{ $item->par }}</p>  
           </div>
         @endforeach
       </div>
