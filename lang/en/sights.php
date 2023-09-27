@@ -4,6 +4,8 @@ return [
 
   'sights' => [
     'head' => 'Znamenitosti',
+    'head1' => 'Okolina Majdanpeka',
+    'head2' => 'Okolina Donjeg Milanovaca',
 
     'btn' => [
       'class' => 'btn readMore',
@@ -13,24 +15,24 @@ return [
     'content' => [
       [
         'id' => '1',
-        'location' => 'Majdanpek',
+        'location' => 'majdanpek',
         'link' => 'https://www.facebook.com/rajkovapecina/?locale=de_DE',
 
         'img' => 'img/content/Pecina/Rajkova_pećina.jpg',
         'img1' => 'img/content/Pecina/pecina.png',
         'img2' => 'img/content/Pecina/pecina (50).jpg',
         'img3' => 'img/content/Pecina/pecina (60).jpg',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Rajkova pećina',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Rajkova pećina je jedna od najlepših pećina u Srbiji, udaljena 2 km od Majdanpeka. Sa dužinom od 
                     2304 m istraženih hodnika najduža je pećina u Srbiji.
@@ -71,31 +73,31 @@ return [
                     Od njih dve nastaje Mali Pek.                    
                     Rajkova pećina sastojala se iz dve odvojene celine: Ponorske i Izvorske pećine, a svaka celina ima po dva horizonta: rečni i suvi.',
 
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '2',
-        'location' => 'Majdanpek',
+        'location' => 'majdanpek',
         'link' => 'https://www.facebook.com/profile.php?id=100008648025590&locale=de_DE',
 
         'img' => 'img/content/prerast/prerast3.jpg',
         'img1' => 'img/content/prerast/vpReka.jpg',
         'img2' => 'img/content/prerast/odmaraliste.jpg',
         'img3' => 'img/content/prerast/vp2.jpg',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Prerast Šuplja stena',
         'head1' => 'Položaj',
         'head2' => 'Osnovna vrednost',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Prerast Šuplja stena je prirodni kameni most i predstavlja 
                     spomenik prirode od izuzetnog značaja, koji je pod zaštitom države.',
@@ -128,30 +130,30 @@ return [
                     planinsku reku koja ispod nje prolazi. Zajedno čine atraktivan i 
                     veoma značajan turistički ambijentalni prostor.',
 
-        'par5' => '',
-        'par6' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '3',
-        'location' => 'Majdanpek',
-        'link' => '/',
+        'location' => 'majdanpek',
+        // 'link' => '',
 
         'img' => 'img/content/beli-izvorac/slap.jpg',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Beli izvorac',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Spomenik prirode «Bigrena akumulacija Beli izvorac» je 
                     značajan zbog svoje izuzetnosti i očuvanosti kao geomorfološki 
@@ -176,31 +178,31 @@ return [
                     «Bigrena akumulacija Beli izvorac«, uvršten je u Inventar 
                     objekata geonasleđa Srbije.',
 
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '4',
-        'location' => 'Majdanpek',
-        'link' => '/',
+        'location' => 'majdanpek',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Starica',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Starica planina se ističe kao značajna planinska masa u okolini Majdanpeka.
                     Ova planina karakteriše impresivna prirodna lepota i brojni prirodni fenomeni.
@@ -215,32 +217,32 @@ return [
                      S obzirom na svoju raznolikost i prirodne lepote, Starica planina je idealna destinacija za rekreativne aktivnosti,
                      istraživanje prirode i uživanje u miru i tišini planinskog okruženja.',
 
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par3' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '5',
-        'location' => 'Donji Milanovac',
-        'link' => '/',
+        'location' => 'donji_milanovac',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Kovilovo',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Vidikovac Kovilovo smješten je u istočnoj Srbiji, unutar Nacionalnog parka Đerdap.
                   Sa svojih 358 metara nadmorske visine, pruža zadivljujući pogled na čitavu Donjomilanovačku kotlinu,
@@ -257,31 +259,31 @@ return [
                    opustite se i potpuno uživate u trenutku.
                    Vidikovac Kovilovo je mirniji i manje prometan u poređenju sa nekim drugim popularnijim vidikovcima, što ga čini idealnim mestom za opuštanje i kontemplaciju prirode.',
 
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '6',
-        'location' => 'Donji Milanovac',
-        'link' => '/',
+        'location' => 'donji_milanovac',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Nacionalni park Djerdap',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => ' Nacionalni park Đerdap se prostire duž granice između Srbije i Rumunije, duž reke Dunav.
                    Ovaj park obuhvata impresivan Đerdapski kanjon, koji je jedan od najdubljih kanjona na svetu.',
@@ -291,32 +293,32 @@ return [
         'par2' => 'Park je domaćin raznovrsnom biljnom i životinjskom svetu. Tu se mogu naći retke biljne vrste i brojne divlje životinje kao što su divlji konji,
                    orlovi, vidre i mnoge druge vrste. To ga čini idealnim mestom za posmatranje ptica i divlje životinje.',
 
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par3' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '7',
-        'location' => 'Majdanpek',
-        'link' => '/',
+        'location' => 'majdanpek',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Ski centar Rajkovo',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Ski centar "RAJKOVO" se nalazi na severnoj strani brda u neposrednoj blizini Majdanpeka,gde sneg ostaje duže tokom proleća.
                     Pristup centru je omogućen putem asfaltiranog puta koji inače povezuje Majdanpek i Donji Milanovac preko brda.',
@@ -327,32 +329,32 @@ return [
         'par2' => 'Staza od 1000 metara je manje strma i preporučuje se početnicima, dok je druga staza, koja se proteže na 1200 metara (često nazvana "Crna staza"),
                      znatno strmija i pruža pravo uživanje iskusnim ljubiteljima ovog sporta.',
 
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par3' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '8',
-        'location' => 'Donji Milanovac',
-        'link' => '/',
+        'location' => 'donji_milanovac',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Lepenski Vir',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Lepenski Vir, često nazivan i "prapostojbinom evropske civilizacije,"
                     predstavlja jedno od najstarijih i najznačajnijih arheoloških nalazišta u Srbiji i Evropi.
@@ -378,30 +380,30 @@ return [
                      Ovo mesto pruža fascinantan uvid u život i kulturu ljudi koji su tu živeli pre više hiljada godina i predstavlja nezaboravnu destinaciju za istraživače i zaljubljenike u arheologiju.
                      Ne propustite priliku da posetite ovu drevnu oazu na obali Dunava i da se prepustite putovanju kroz vreme.',
 
-        'par5' => '',
-        'par6' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
       [
         'id' => '9',
-        'location' => 'Donji Milanovac',
-        'link' => '/',
+        'location' => 'donji_milanovac',
+        // 'link' => '/',
 
         'img' => 'img/content/content.png',
-        'img1' => '',
-        'img2' => '',
-        'img3' => '',
-        'img4' => '',
-        'img5' => '',
-        'img6' => '',
+        // 'img1' => '',
+        // 'img2' => '',
+        // 'img3' => '',
+        // 'img4' => '',
+        // 'img5' => '',
+        // 'img6' => '',
 
         'head' => 'Donji Milanovac',
-        'head1' => '',
-        'head2' => '',
-        'head3' => '',
-        'head4' => '',
-        'head5' => '',
-        'head6' => '',
+        // 'head1' => '',
+        // 'head2' => '',
+        // 'head3' => '',
+        // 'head4' => '',
+        // 'head5' => '',
+        // 'head6' => '',
 
         'par' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ovaj grad se nalazi u opštini Majdanpek.
                     Vazno je spomenuti da ovaj grad takodje ima i veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
@@ -415,10 +417,10 @@ return [
                      Donji Milanovac je bio deo Rimskog Carstva, a poznat je i po Trajanovom mostu, jednom od najvažnijih mostova u to vreme.
                      Takodje ovaj grad ima nekoliko muzeja uključujući Narodni muzej i Muzej Lepenskog Vira, gde posetioci mogu naučiti više o istoriji ovog područja.,',
 
-        'par3' => '',
-        'par4' => '',
-        'par5' => '',
-        'par6' => '',
+        // 'par3' => '',
+        // 'par4' => '',
+        // 'par5' => '',
+        // 'par6' => '',
       ],
 
     ],
