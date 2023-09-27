@@ -12,6 +12,8 @@ return [
 
     'content' => [
       [
+        'id' => '1',
+        'location' => 'Majdanpek',
         'link' => 'https://www.facebook.com/rajkovapecina/?locale=de_DE',
 
         'img' => 'img/content/Pecina/Rajkova_pećina.jpg',
@@ -75,6 +77,8 @@ return [
       ],
 
       [
+        'id' => '2',
+        'location' => 'Majdanpek',
         'link' => 'https://www.facebook.com/profile.php?id=100008648025590&locale=de_DE',
 
         'img' => 'img/content/prerast/prerast3.jpg',
@@ -129,6 +133,8 @@ return [
       ],
 
       [
+        'id' => '3',
+        'location' => 'Majdanpek',
         'link' => '/',
 
         'img' => 'img/content/beli-izvorac/slap.jpg',
@@ -176,6 +182,8 @@ return [
       ],
 
       [
+        'id' => '4',
+        'location' => 'Majdanpek',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -214,6 +222,8 @@ return [
       ],
 
       [
+        'id' => '5',
+        'location' => 'Donji Milanovac',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -253,6 +263,8 @@ return [
       ],
 
       [
+        'id' => '6',
+        'location' => 'Donji Milanovac',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -286,6 +298,8 @@ return [
       ],
 
       [
+        'id' => '7',
+        'location' => 'Majdanpek',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -320,6 +334,8 @@ return [
       ],
 
       [
+        'id' => '8',
+        'location' => 'Donji Milanovac',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -367,6 +383,8 @@ return [
       ],
 
       [
+        'id' => '9',
+        'location' => 'Donji Milanovac',
         'link' => '/',
 
         'img' => 'img/content/content.png',
@@ -405,5 +423,4 @@ return [
 
     ],
   ],
-
 ];

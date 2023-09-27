@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const customHero = document.getElementById("custom-hero");
   const middleElement = document.getElementById("middle");
   const scrollContainer = document.getElementById("scroller");
+  const paragraph = document.getElementById("disappearing-paragraph");
 
   if (mybutton) {
     mybutton.addEventListener("click", topFunction);
@@ -20,18 +21,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function adjustHeroHeight() {
     const scrollY = window.scrollY;
-    customHero.style.height = scrollY > 20 ? '35vh' : '100vh';
+    customHero.style.height = scrollY > 20 ? '15vh' : '100vh';
+    customHero.style.top = scrollY > 20 ? '110px' : '0';
   }
+
+  function disappearingPar() {
+    const scrollY = window.scrollY;
+    paragraph.style.display = scrollY > 20 ? 'none' : 'block';
+  };
 
   function adjustMiddleMargin() {
     const scrollY = window.scrollY;
-    middleElement.style.marginTop = scrollY > 20 ? '40vh' : '100vh';
+    middleElement.style.marginTop = scrollY > 20 ? '30vh' : '100vh';
   }
 
   window.addEventListener('scroll', () => {
     toggleButtonVisibility();
     adjustHeroHeight();
     adjustMiddleMargin();
+    disappearingPar();
   });
 
   if (scrollContainer) {

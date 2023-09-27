@@ -4,7 +4,6 @@
   
   z-index: 1;
   position: fixed;
-  top: 0;
   height: 100vh;
   width: 100%;
   transition: height 1s ease-out;
@@ -23,18 +22,14 @@
 
     h3 {
       color: $color-primary;
-      font-size: $font-size-title-primary-reduced;
-
-      @media only screen and (max-width:1025px) {
-        font-size: $font-size-title-special;
-      }
+      font-size: $font-size-title-special;
 
       @media only screen and (max-width:500px) {
         font-size: $font-size-title-secondary;
       }
     }
 
-    p {
+    #disappearing-paragraph {
       color: $color-primary;
       font-size: $font-size-text-primary;
 
