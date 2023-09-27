@@ -12,29 +12,30 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('sights', function (Blueprint $table) {
-            $table->id();
-            $table->string('link');
-            $table->string('img');
-            $table->string('img1');
-            $table->string('img2');
-            $table->string('img3');
-            $table->string('img4');
-            $table->string('img5');
-            $table->string('img6');
-            $table->string('head');
-            $table->string('head1');
-            $table->string('head2');
-            $table->string('head3');
-            $table->string('head4');
-            $table->string('head5');
-            $table->string('head6');
-            $table->longText('par');
-            $table->longText('par1');
-            $table->longText('par2');
-            $table->longText('par3');
-            $table->longText('par4');
-            $table->longText('par5');
-            $table->longText('par6');
+            $table->id('id');
+            $table->string('location');
+            $table->string('link')->nullable();
+            $table->string('img')->nullable();
+            $table->string('img1')->nullable();
+            $table->string('img2')->nullable();
+            $table->string('img3')->nullable();
+            $table->string('img4')->nullable();
+            $table->string('img5')->nullable();
+            $table->string('img6')->nullable();
+            $table->string('head')->nullable();
+            $table->string('head1')->nullable();
+            $table->string('head2')->nullable();
+            $table->string('head3')->nullable();
+            $table->string('head4')->nullable();
+            $table->string('head5')->nullable();
+            $table->string('head6')->nullable();
+            $table->longText('par')->nullable();
+            $table->longText('par1')->nullable();
+            $table->longText('par2')->nullable();
+            $table->longText('par3')->nullable();
+            $table->longText('par4')->nullable();
+            $table->longText('par5')->nullable();
+            $table->longText('par6')->nullable();
             $table->timestamps();
         });
     }

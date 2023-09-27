@@ -18,4 +18,17 @@ class sightsController extends Controller
             'sight' => Sight::find($id)
         ]);
     }
+
+    public function showMpekSights() {    
+        return view('mpek', [
+            'mpekSights' => Sight::where('location', 'majdanpek')->get()
+        ]);
+    }
+    
+    public function showMilanovacSights() {    
+        return view('dm', [
+            'dmSights' => Sight::where('location', 'donji_milanovac')->get()
+        ]);
+    }
+    
 }
