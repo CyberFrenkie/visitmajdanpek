@@ -12,6 +12,31 @@ return [
       'text' => 'Pročitaj više',
     ],
 
+    'djerdap' => [
+      [
+        'img' => 'img/content/content.png',
+        'head' => 'Nacionalni park Đerdap',
+        'text' => [
+          [
+            'par' => 'Opština Majdanpek je deo nacionalnog parka Đerdap, 
+            a opštinu Majdanpek pored samog Majdanpeka čini i Donji Milanovac.'
+          ],
+          [
+            'par' => 'Park je poznat po svojim spektakularnim stenskim formacijama, prelepim vidikovcima, šumama i bogatom florom i faunom.',
+          ],
+          [
+            'par' => 'Park je domaćin raznovrsnom biljnom i životinjskom svetu. Tu se mogu naći retke biljne vrste i brojne divlje životinje kao što su divlji konji,
+                      orlovi, vidre i mnoge druge vrste. To ga čini idealnim mestom za posmatranje ptica i divlje životinje.',
+          ],
+          [
+            'par' => ' Nacionalni park Đerdap se prostire duž granice između Srbije i Rumunije, duž reke Dunav.
+                      Ovaj park obuhvata impresivan Đerdapski kanjon, koji je jedan od najdubljih kanjona na svetu.',
+         
+          ]
+        ]
+      ]
+    ],
+
     'content' => [
       [
         'id' => '1',
@@ -236,7 +261,7 @@ return [
         // 'img5' => '',
         // 'img6' => '',
 
-        'head' => 'Kovilovo',
+        'head' => 'Donji Milanovac',
         // 'head1' => '',
         // 'head2' => '',
         // 'head3' => '',
@@ -244,60 +269,25 @@ return [
         // 'head5' => '',
         // 'head6' => '',
 
-        'par' => 'Vidikovac Kovilovo smješten je u istočnoj Srbiji, unutar Nacionalnog parka Đerdap.
-                  Sa svojih 358 metara nadmorske visine, pruža zadivljujući pogled na čitavu Donjomilanovačku kotlinu,
-                  protežući se od Grebena pa sve do Golubinja, što čini preko 25 kilometara panoramske lepote.',
+        'par' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ovaj grad se nalazi u opštini Majdanpek.
+                    Vazno je spomenuti da ovaj grad takodje ima i veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
 
-        'par1' => 'Da biste stigli do ovog prirodnog dragulja, putujte putem od Donjeg Milanovca prema Majdanpeku.
-                   Nakon pređenih nešto više od 3 kilometra, naići ćete na putokaz koji vodi ka vidikovcu.
-                   Na tom mestu možete ostaviti svoj automobil i krenuti pešačkom stazom prema ovom predivnom vidikovcu.',
-        'par2' => 'Staza koja vodi do Vidikovca Kovilovo proteže se na oko 1200 metara kroz šumu.
-                   Sa ukupnim nagibom od samo 3%, staza spada u kategoriju lakših staza.
-                   To znači da ćete stići do odredišta za svega dvadesetak minuta, dok ćete uživati u prirodnom okruženju.',
+        'par1' => 'Donji Milanovac se nalazi na obali reke Dunav, u blizini ušća reke Porečke i Nacionalnog parka Đerdap.
+                     Ovo ga čini idealnim mestom za istraživanje prirodnih lepota i arheoloških nalazišta.
+                     Takodje se nalazi u blizini Nacionalnog parka Đerdap, koji obuhvata impresivne stenske formacije i jedan od najdubljih kanjona na svetu.
+                     Ovde posetioci mogu uživati u planinarenju, vožnji brodom, pecanju i posmatranju divljih životinja.',
 
-        'par3' => 'Na samom vidikovcu, osim zadivljujućeg pogleda na Dunav, možete pronaći stolove i klupice, pružajući vam priliku da sednete,
-                   opustite se i potpuno uživate u trenutku.
-                   Vidikovac Kovilovo je mirniji i manje prometan u poređenju sa nekim drugim popularnijim vidikovcima, što ga čini idealnim mestom za opuštanje i kontemplaciju prirode.',
-
-        // 'par4' => '',
-        // 'par5' => '',
-        // 'par6' => '',
-      ],
-
-      [
-        'id' => '6',
-        'location' => 'donji_milanovac',
-        // 'link' => '/',
-
-        'img' => 'img/content/content.png',
-        // 'img1' => '',
-        // 'img2' => '',
-        // 'img3' => '',
-        // 'img4' => '',
-        // 'img5' => '',
-        // 'img6' => '',
-
-        'head' => 'Nacionalni park Djerdap',
-        // 'head1' => '',
-        // 'head2' => '',
-        // 'head3' => '',
-        // 'head4' => '',
-        // 'head5' => '',
-        // 'head6' => '',
-
-        'par' => ' Nacionalni park Đerdap se prostire duž granice između Srbije i Rumunije, duž reke Dunav.
-                   Ovaj park obuhvata impresivan Đerdapski kanjon, koji je jedan od najdubljih kanjona na svetu.',
-
-        'par1' => 'Park je poznat po svojim spektakularnim stenskim formacijama, prelepim vidikovcima, šumama i bogatom florom i faunom.',
-
-        'par2' => 'Park je domaćin raznovrsnom biljnom i životinjskom svetu. Tu se mogu naći retke biljne vrste i brojne divlje životinje kao što su divlji konji,
-                   orlovi, vidre i mnoge druge vrste. To ga čini idealnim mestom za posmatranje ptica i divlje životinje.',
+        'par2' => 'Donji Milanovac  ima bogatu istoriju, sa tragovima antičkih naselja i rimskih ostataka.
+                     Donji Milanovac je bio deo Rimskog Carstva, a poznat je i po Trajanovom mostu, jednom od najvažnijih mostova u to vreme.
+                     Takodje ovaj grad ima nekoliko muzeja uključujući Narodni muzej i Muzej Lepenskog Vira, gde posetioci mogu naučiti više o istoriji ovog područja.,',
 
         // 'par3' => '',
         // 'par4' => '',
         // 'par5' => '',
         // 'par6' => '',
       ],
+
+
 
       [
         'id' => '7',
@@ -384,7 +374,7 @@ return [
         // 'par6' => '',
       ],
 
-      [
+      [ 
         'id' => '9',
         'location' => 'donji_milanovac',
         // 'link' => '/',
@@ -397,7 +387,7 @@ return [
         // 'img5' => '',
         // 'img6' => '',
 
-        'head' => 'Donji Milanovac',
+        'head' => 'Kovilovo',
         // 'head1' => '',
         // 'head2' => '',
         // 'head3' => '',
@@ -405,19 +395,21 @@ return [
         // 'head5' => '',
         // 'head6' => '',
 
-        'par' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ovaj grad se nalazi u opštini Majdanpek.
-                    Vazno je spomenuti da ovaj grad takodje ima i veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
+        'par' => 'Vidikovac Kovilovo smješten je u istočnoj Srbiji, unutar Nacionalnog parka Đerdap.
+                  Sa svojih 358 metara nadmorske visine, pruža zadivljujući pogled na čitavu Donjomilanovačku kotlinu,
+                  protežući se od Grebena pa sve do Golubinja, što čini preko 25 kilometara panoramske lepote.',
 
-        'par1' => 'Donji Milanovac se nalazi na obali reke Dunav, u blizini ušća reke Porečke i Nacionalnog parka Đerdap.
-                     Ovo ga čini idealnim mestom za istraživanje prirodnih lepota i arheoloških nalazišta.
-                     Takodje se nalazi u blizini Nacionalnog parka Đerdap, koji obuhvata impresivne stenske formacije i jedan od najdubljih kanjona na svetu.
-                     Ovde posetioci mogu uživati u planinarenju, vožnji brodom, pecanju i posmatranju divljih životinja.',
+        'par1' => 'Da biste stigli do ovog prirodnog dragulja, putujte putem od Donjeg Milanovca prema Majdanpeku.
+                   Nakon pređenih nešto više od 3 kilometra, naići ćete na putokaz koji vodi ka vidikovcu.
+                   Na tom mestu možete ostaviti svoj automobil i krenuti pešačkom stazom prema ovom predivnom vidikovcu.',
+        'par2' => 'Staza koja vodi do Vidikovca Kovilovo proteže se na oko 1200 metara kroz šumu.
+                   Sa ukupnim nagibom od samo 3%, staza spada u kategoriju lakših staza.
+                   To znači da ćete stići do odredišta za svega dvadesetak minuta, dok ćete uživati u prirodnom okruženju.',
 
-        'par2' => 'Donji Milanovac  ima bogatu istoriju, sa tragovima antičkih naselja i rimskih ostataka.
-                     Donji Milanovac je bio deo Rimskog Carstva, a poznat je i po Trajanovom mostu, jednom od najvažnijih mostova u to vreme.
-                     Takodje ovaj grad ima nekoliko muzeja uključujući Narodni muzej i Muzej Lepenskog Vira, gde posetioci mogu naučiti više o istoriji ovog područja.,',
+        'par3' => 'Na samom vidikovcu, osim zadivljujućeg pogleda na Dunav, možete pronaći stolove i klupice, pružajući vam priliku da sednete,
+                   opustite se i potpuno uživate u trenutku.
+                   Vidikovac Kovilovo je mirniji i manje prometan u poređenju sa nekim drugim popularnijim vidikovcima, što ga čini idealnim mestom za opuštanje i kontemplaciju prirode.',
 
-        // 'par3' => '',
         // 'par4' => '',
         // 'par5' => '',
         // 'par6' => '',

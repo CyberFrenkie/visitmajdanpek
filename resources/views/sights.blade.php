@@ -11,28 +11,33 @@
 
     {{-- Main section --}}
     <div class="main">
-      <div class="container-xl sights-content">   
-               
+      
+      <div class="container-fluid split-hero">  
+        <div class="main-head">
+          @foreach (__('sights.sights.djerdap') as $item)
+              <h1>{{ $item['head'] }}</h1>
+              @foreach ($item['text'] as $text)
+                  <p>{{ $text['par'] }}</p>
+              @endforeach
 
-          <div class="card-wrap row mx-auto my-5 flex-wrap">  
-            <div class="card col-12 sights-card">  
-              <h1 class="news-heading px-0 ">{{ __('sights.sights.head1') }}</h1>
+          @endforeach
+        </div>
+            <div class="split-card"> 
+
               <a href="/sights/mpek" class="card-link link" >                  
-                <img src="{{ asset('img/content/content.png') }}" alt="" class="card-img img">  
+                <img src="{{ asset('img/content/majdanpek/mpek2.jpg') }}" alt="" class="card-img img"> 
+                <h1 class="split-heading sh1 px-0 ">{{ __('sights.sights.head1') }}</h1> 
               </a>       
             </div>  
           
-            <div class="card col-12 sights-card">  
-              <h1 class="news-heading px-0 ">{{ __('sights.sights.head2') }}</h1>
+            <div class="split-card">  
               <a href="/sights/dm-sights" class="card-link link" >                  
-                <img src="{{ asset('img/content/content.png') }}" alt="" class="card-img img">  
+                <img src="{{ asset('img/content/majdanpek/mpek2.jpg') }}" alt="" class="card-img img"> 
+                <h1 class="split-heading sh2 px-0 ">{{ __('sights.sights.head2') }}</h1> 
               </a>       
             </div>  
           </div>    
-       
-        
-
-      </div>   
+  
     </div>
 
     {{-- Footer --}}

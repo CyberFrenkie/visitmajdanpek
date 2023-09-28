@@ -1,3 +1,48 @@
+.split-hero{
+  @include flex-center-row;
+  @include reset-p-m;
+  position: relative;
+
+  .main-head{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 99999;
+    color: $color-primary;
+    background-color: $color-black-transparent-mid;
+    padding: 20px;
+  }
+  .split-card{    
+    height: calc($full-screen-height - $nav-height);
+    width: auto;
+    position: relative;
+    &:hover{
+      z-index: 1000;
+      animation: scale 3s;
+      animation-fill-mode: forwards;
+    }
+    .img{
+      height: 100%;
+    }
+    .split-heading{
+      @include btn-primary;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 20px;
+      text-align: center;
+      font-size: $font-size-text-primary;
+    }
+
+  }
+}
+@keyframes scale {
+  from {width: 100%;}
+  to {width: 500%;}        
+}
+
 .sights-content {
   padding: 60px 0;
 
