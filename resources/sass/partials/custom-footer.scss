@@ -21,17 +21,17 @@
     .tab-pane{
         height: auto;
     }
-                @media only screen and (min-width:750px) {
-                    @media only screen and (max-width:768px) {
-                    .mr-5:not(.second-list):not(:nth-child(3)){
-                        margin-right: 4.3rem;
-                    }
-                    .mbms-2{
-                       margin-left: 1.5rem;
-                       margin-bottom: 1.5rem;
-                    }
-                    }
+        @media only screen and (min-width:750px) {
+            @media only screen and (max-width:768px) {
+                .mr-5:not(.second-list):not(:nth-child(3)){
+                    margin-right: 4.3rem;
                 }
+                .mbms-2{
+                    margin-left: 1.5rem;
+                    margin-bottom: 1.5rem;
+                }
+            }
+        }
     .custom-footer-font-size,.fa-square-facebook::before,
     .fa-instagram::before,
     .fa-twitter::before{
