@@ -57,3 +57,25 @@
 </div>
 
 {{-- Third section is on news.blade.php --}}
+<div class="container-xl card-wrap row mx-auto justify-content-between my-5 flex-wrap">
+  @php $count = 0 @endphp
+  @foreach (__('news.news.content') as $item)
+  @if($count < 3)
+    <div class="card col-md-3 col-sm-12">      
+      <a href="/news" class="card-link link" >
+        <img src="{{ $item['img'] }}" alt="" class="card-img">
+        <div class="card-content">
+          <h1 class="card-info-header m-2"> {{ $item['head'] }} </h1>
+          <p class="card-info-text m-2"> {{ $item['par'] }} </p>
+        </div>          
+      </a>      
+    </div>
+  @endif
+  @php $count++ @endphp
+  @endforeach 
+  
+  <a href="/news">procitajte sve novosti -> </a>
+</div>
+    
+
+

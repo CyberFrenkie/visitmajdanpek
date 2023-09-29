@@ -1,0 +1,25 @@
+.news-card-wrap{
+    .news-card-link{
+        @include flex-center-row;    
+        @media only screen and (max-width:800px) {
+            flex-direction: column !important;
+        }
+    }
+
+
+    .news-card{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .news-link {
+        @include link-primary;
+        @include arrow-animation;
+        
+        width: auto;
+    }
+    .news-card-img{
+        height: 200px;
+        
+    }
+}

@@ -7,17 +7,18 @@ use Illuminate\Http\Request;
 
 class homeController extends Controller
 {
-  
-
-
     public function index() {
+        return view('home');
+    }
 
-        return view('news' , [
-            'news' => News::latest()->paginate(3)
+    public function news() {
+        return view('components.news' , [
+            'news' => News::latest()->paginate(9)
         ]);
     }
+
     public function show(News $id) {
-        return view('new' , [
+        return view('components.new' , [
             'new' => News::find($id)
         ]);
     }
