@@ -4,19 +4,19 @@ return[
         [
         'list1Values'=> [
             [
-                    'text'=>'Location',
+                    'text'=>'Lokacija',
                     'url'=>'https://goo.gl/maps/sgbbEVpLpRhyEr6SA',
                     'icon'=>'fa-solid fa-location-dot me-2',
                     'target'=>'#location',
             ],
             [
-                    'text'=>'Car Route',
+                    'text'=>'Ruta Autom',
                     'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate',
                     'icon'=>'fa-solid fa-car me-2',
                     'target'=>'#car-route',
             ],
             [       
-                    'text'=>'Walk Route',
+                    'text'=>'Ruta peske',
                     'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=walking&dir_action=navigate',
                     'icon'=>'fa-solid fa-person-walking me-2',
                     'target'=>'#walk-route',

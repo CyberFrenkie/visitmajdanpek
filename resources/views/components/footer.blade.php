@@ -29,7 +29,7 @@
                 @foreach (trans('footer.right-list') as $list)    
                     @foreach ( ($list['rightListValues']) as $listValue)
                         <li>
-                            <a href="{{ $listValue['url'] }}" class="{{ $listValue['class'] }} {{ trans('footer.default-class') }}">{{ $listValue['text'] }}</a>
+                            <a href="{{ $listValue['url'] }}" target="_blank" class="{{ $listValue['class'] }} {{ trans('footer.default-class') }}">{{ $listValue['text'] }}</a>
                         </li>
                     @endforeach
                 @endforeach 

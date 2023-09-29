@@ -8,6 +8,9 @@
     .mr-5{
         margin-right: 5rem;
     }
+        .mr-5:not(.second-list):nth-child(2){
+            margin-right:3.8rem;
+        }
     .mr-4{
         margin-right: 4rem;
     }
@@ -26,9 +29,15 @@
                 .mr-5:not(.second-list):not(:nth-child(3)){
                     margin-right: 4.3rem;
                 }
+                .mr-5:not(.second-list):nth-child(2){
+                    margin-right: 3.5rem;
+                }
                 .mbms-2{
                     margin-left: 1.5rem;
                     margin-bottom: 1.5rem;
+                }
+                .google-map{
+                    width: 330px!important;
                 }
             }
         }
@@ -108,12 +117,6 @@
         transition: .7s;
         margin-left: 1.5rem!important;
     }
-    .phone,.laptop{
-        display: none;
-    }
-    .desk{
-        display: block;
-    }
         
     @media only screen and (max-width: 800px) {
         .seperator {
@@ -167,6 +170,19 @@
                 padding-left: 15px;
             }
         }
+        .google-map{
+            max-width: 100%;
+                list-style: none;
+                transition: none;
+                overflow: hidden;
+                width: 500px;
+                height: 400px;
+        }
+        .google-map-overlay{
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+        }
         @media only screen and (min-width:320px){
             @media only screen and (max-width:425px){
                 .flex-d-column{
@@ -175,6 +191,12 @@
                 .mr-5,.mr-4{
                     margin-right: 0;
                     margin-bottom: 20px;
+                }
+                .mr-0{
+                    margin-right: 0!important;
+                }
+                .mr-5:not(.second-list):nth-child(2){
+                    margin-right: 0;
                 }
                     .margin-b{
                         margin-bottom: 20px;
@@ -192,28 +214,22 @@
                 .carousel-control-prev {
                     left: 20%;
                 }
-                .phone{
-                    display: block;
-                }
-                .laptop,.desk{
-                    display: none
-                }
+                .google-map{
+                    width: 320px!important;
             }
         }
+    }
         @media only screen and (min-width:960px){
             @media only screen and (max-width:1024px){
                 .custom-footer-font-size{
                     font-size: 20px;
-                }
-                .desk{
-                    display: none;
                 }
                 .mr-5:not(.second-list):first-child {
                     margin-right: 1.5rem;
                 }
                             
                 .mr-5:not(.second-list):nth-child(2) {
-                    margin-right: 2.5rem;
+                    margin-right: 1.5rem;
                 }
                         
                 .mr-5 {
@@ -225,32 +241,5 @@
                         
             }
         }
-        #fullscreen{
-            display: none;
-            position: absolute;
-            z-index: 9999;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 115vh;
-            object-fit: contain;
-            background-repeat: no-repeat no-repeat;
-            background-position: center center;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        .map{
-            border-radius: $border-radius;
-            cursor: pointer;
-        }
-        @media only screen and (min-width:768px) {
-            @media only screen and (max-width:1024px){
-                .laptop{
-                    display: block;
-                }
-                .desk{
-                    display: none;
-                }
-        }
-    }
 }
 
