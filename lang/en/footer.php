@@ -10,9 +10,9 @@ return [
         'copyright' => '© 2023 Visit Majdanpek',
         'copyright-class' => 'copyright fw-bold',
         'left-title' => 'Visit Majdanpek',
-        'right-title' => 'Relevant Websites',
+        'right-title' => 'Sajtovi od Znacaja',
         'list-title-class' => 'font1',
-        'social-title' => 'Follow Us',
+        'social-title' => 'Zapratite nas',
         'social-class' => 'font2',
         'default-class' => 'default',
         'left-list' => [
@@ -20,63 +20,45 @@ return [
                 'leftListValues' => [
                         [
                 
-                        'text' => 'Things to do',        
-                        'url' => '/',
+                        'text' => 'O Majdanpeku',        
+                        'url' => '/about-majdanpek',
                         'class' => 'list',
                         ],
                         [
-                        'text' => 'Flights to Iceland',
-                        'url' => '/',
+                        'text' => 'Okolina Majdanpeka',
+                        'url' => '/sights/mpek',
                         'class' => 'list',
                         ],
                         [
-                        'text' => 'Accommodations',
-                        'url' => '/',
+                        'text' => 'Okolina Milanovca',
+                        'url' => '/sights/dm-sights',
                         'class' => 'list',
-                        ],    
-                
-                        [
-                
-                        'text' => 'Safe travel in Iceland',
-                        'url' => '/',
-                        'class' => 'list',
-                        ]
-                      
-                        ]
-                ]
+                        ],   
+                ],
+        ],
         ],
         'right-list' => [
                 [
                 'rightListValues' => [
 
                         [
-                        'text' => 'Travel Trade',        
-                        'url' => '/',
+                        'text' => 'Nacionalni park Djerdap',        
+                        'url' => 'https://npdjerdap.rs',
                         'class' => 'list',
                         ],
                 
                         [
-                        'text' => 'Media & Press',
-                        'url' => '/',
+                        'text' => 'Geopark Djerdap',
+                        'url' => 'https://npdjerdap.rs/geopark-djerdap/',
                         'class' => 'list',
                         ],
                         [
-                        'text' => 'Icelandic Met Office',
-                        'url' => '/',
+                        'text' => 'Turisticka organizacija Majdanpek',
+                        'url' => 'https://toom.rs',
                         'class' => 'list',
                         ],
-                        [
-                        'text' => 'Road Conditions',
-                        'url' => '/',
-                        'class' => 'list',
-                        ],
-                        [
-                        'text' => 'Icelandic Tourist Board',
-                        'url' => '/',
-                        'class' => 'list',
-                        ],
-                        ],
-                ]
+                ],
+        ],
         ],
         'social' => [
                 [
@@ -101,8 +83,8 @@ return [
 
                         ],
 
-                        ]
-                ]
+                ],
+        ],
         
         ],
 

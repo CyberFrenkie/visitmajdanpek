@@ -44,57 +44,62 @@
         <div class="tab-content my-5">
             <div class="tab-pane fade my-5" id="location" role="tabpanel" tabindex="0">
                 <p class="text-center custom-footer-font-size">{{ trans('custom-footer.locations') }}</p>
-                <div class="d-flex image-container justify-content-center align-items-center">
-                    <img src="/img/content/mapa/location3.png" class="map phone img-fluid mb-2"></img>
-                    <img src="/img/content/mapa/location2.png" class="map laptop img-fluid mb-2"></img>
-                    <img src="/img/content/mapa/location.png" class="map desk img-fluid mb-2"></img>
+                <div class="container d-flex justify-content-center pb-2">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5224.395476590407!2d21.95219135969145!3d44.440917724553586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47516f327533d39d%3A0xa001196a77495ff9!2z0KDQsNGY0LrQvtCy0LAg0L_QtdGb0LjQvdCw!5e0!3m2!1ssr!2srs!4v1695993075352!5m2!1ssr!2srs" width="1024" height="600" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
             </div>
             <div class="tab-pane fade" id="car-route" role="tabpanel" tabindex="0">
-                <div class="d-flex justify-content-evenly">
-                    <div class="me-5">
+                <div class="d-flex flex-d-column justify-content-evenly">
+                    <div class="me-3 mr-0">
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
-                        <div class="d-flex image-container justify-content-center align-items-center">
-                            <img src="/img/content/mapa/location-bg.png" class="map desk img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-bg3.png" class="map phone img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-bg2.png" class="map laptop img-fluid mb-2"></img>
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <div class="google-map">
+                                <div id="google-maps-display" class="google-map-overlay">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Belgrade,+Serbia&destination=Rajko's+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div>
+                            </div>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                     <div>
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
-                        <div class="d-flex image-container justify-content-center align-items-center">
-                            <img src="/img/content/mapa/location-ng3.png" class="map phone img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-ng2.png" class="map laptop img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-ng.png" class="map desk img-fluid mb-2"></img>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="google-map">
+                                <div id="google-maps-display" class="google-map-overlay">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Rajko's+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div>
+                            </div>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                 </div>
             </div> 
             <div class="tab-pane fade" id="walk-route" role="tabpanel" tabindex="0">
-                <div class="d-flex justify-content-evenly">
-                    <div class="me-5">
+               <div class="d-flex flex-d-column justify-content-evenly">
+                    <div class="me-3 mr-0">
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.BG-pravac') }}</p>
-                        <div class="d-flex image-container justify-content-center align-items-center">
-                            <img src="/img/content/mapa/location-bg.png" class="map desk img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-bg3.png" class="map phone img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-bg2.png" class="map laptop img-fluid mb-2"></img>
+                        <div class="d-flex justify-content-center align-items-center pb-2">
+                            <div class="google-map">
+                                <div id="google-maps-display" class="google-map-overlay">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Belgrade,+Serbia&destination=Rajko's+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div>
+                            </div>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                     <div>
                         <p class="text-center custom-footer-font-size">{{ trans('custom-footer.NG-pravac') }}</p>
-                        <div class="d-flex image-container justify-content-center align-items-center">
-                            <img src="/img/content/mapa/location-ng.png" class="map desk img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-ng3.png" class="map phone img-fluid mb-2"></img>
-                            <img src="/img/content/mapa/location-ng2.png" class="map laptop img-fluid mb-2"></img>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="google-map">
+                                <div id="google-maps-display" class="google-map-overlay">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Rajko's+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div>
+                            </div>
                         </div>
                         <p class="text-center custom-footer-font-size">{!! trans('custom-footer.Informations') !!}</p>
                     </div>
                 </div>
-            </div>              
         </div>
     <div id="carouselExampleControls" class="carousel slide pl-15 pb-4" data-bs-ride="true">
         <div class="carousel-inner mb-3">
