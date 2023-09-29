@@ -13,13 +13,19 @@
     <div class="main">
       
       <div class="container-fluid split-hero">  
-        <div class="main-head">
+        <div class="main-head text-center">
+          
           @foreach (__('sights.sights.djerdap') as $item)
+          
               <h1>{{ $item['head'] }}</h1>
+              @php $count = 0 @endphp
               @foreach ($item['text'] as $text)
+                @if($count < 1)
                   <p>{{ $text['par'] }}</p>
+                @endif
+                @php $count++ @endphp
               @endforeach
-
+          
           @endforeach
         </div>
             <div class="split-card"> 

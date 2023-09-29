@@ -45,8 +45,7 @@
         background-color: transparent;
     }
 
-    .card-img,
-    .news-img {
+    .card-img {
         width: $full-width;
     }
 
@@ -134,12 +133,7 @@
         }
     }
 
-    .news-link {
-        @include link-primary;
-        @include arrow-animation;
-        
-        width: auto;
-    }
+    
 }
 
 @media only screen and (max-width: 800px) {

@@ -3,7 +3,7 @@
 return [
 
   'news' => [
-      'head' => 'Znamenitosti',
+      'head' => 'Novosti',
 
       'content' => [
         [

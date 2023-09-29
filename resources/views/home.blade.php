@@ -9,8 +9,6 @@
 
         <div class="main">
             @include('components.main')
-
-            @yield('news')
         </div>
 
         <div class="footer">

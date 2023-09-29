@@ -25,6 +25,10 @@ use App\Http\Controllers\sightsController;
 
 Route::get('/', [homeController::class, 'index']);
 
+//News page
+Route::get('/news', [homeController::class, 'news']);
+
+
 Route::get('/new/{id}', [homeController::class, 'show']);
 
 
@@ -44,16 +48,16 @@ Route::get('/institutions', function () {
 });
 
 
-
-
-
 // Sights page
 Route::get('/sights', [sightsController::class, 'index']);
 Route::get('/sights/mpek', [sightsController::class, 'showMpekSights']);
 Route::get('/sights/dm-sights', [sightsController::class, 'showMilanovacSights']);
 
+
+
 // Sight sigle page
 Route::get('/sight/{id}', [sightsController::class, 'show']);
+
 
 
 // Majdanpek page
@@ -70,6 +74,7 @@ Route::get('/about-us', function () {
 Route::get('/contact', function () {
   return view('contact') ;
 });
+
 
 
 
