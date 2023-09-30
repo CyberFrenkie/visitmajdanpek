@@ -7,18 +7,21 @@
   <div class="wrapper container-fluid">
 
     {{-- Header --}}
-    <div class="header">
+    <div class="header fixed-nav">
       @include('partials/_navigation')
+
+      <div id="custom-hero">
+        <img src="{{ asset('img/content/majdanpek/mpek-nocu.jpg') }}" alt="" class="img">
+        <div class="container">
+          <h3>{{ __('sights.sights.head2') }}</h1>
+          <p id="disappearing-paragraph">{{ __('sights.sights.par2') }}</p>
+        </div>
+      </div>
     </div>
 
     {{-- Main section --}}
-    <div class="main">
+    <div class="main" id="middle">
       <div class="container-xl sights-content">
-        <div class="sights-text-con">
-          <h1 class="news-heading px-0">{{ __('sights.sights.head2') }}</h1>
-          <hr class="seperator col-md-4 col-sm-12 marg">
-        </div>
-
         <div class="card-wrap row mx-auto my-5 flex-wrap">
           @foreach ($dmSights as $item)
             <div class="card col-md-4 col-sm-12 sights-card">

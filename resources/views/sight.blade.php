@@ -7,14 +7,14 @@
   <div class="wrapper container-fluid">
 
     {{-- Header --}}
-    <div class="header sight-header">
+    <div class="header fixed-nav">
       @include('partials/_navigation')
 
       <div id="custom-hero">
         @foreach ($sight as $item)
           <img src="{{asset($item->img)}}" alt="" class="img">
           <div class="container">
-            <h3>{{ $item->head }}</h1>
+            <h3>{{ $item->head }}</h3>
             <p id="disappearing-paragraph">{{ $item->par }}</p>
           </div>
         @endforeach

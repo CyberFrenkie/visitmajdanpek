@@ -1,46 +1,68 @@
-.split-hero{
+.split-hero {
   @include flex-center-row;
   @include reset-p-m;
   position: relative;
+  width: 100%;
 
-  .main-head{
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    z-index: 99999;
-    color: $color-primary;
-    background-color: $color-black-transparent-mid;
-    padding: 20px;
-  }
-  .split-card{    
+  .split-card {    
     height: calc($full-screen-height - $nav-height);
-    width: auto;
-    position: relative;
-    &:hover{
-      z-index: 1000;
-      animation: scale 3s;
-      animation-fill-mode: forwards;
+    width: 56%;
+    position: absolute;
+    transition: $transition;
+
+    &:hover {
+      @include overlay;
+
+      .head {
+        top: 40%;
+      }
+
+      .par {
+        display: block;
+        top: 60%;
+      }
     }
-    .img{
+    
+    .img {
       height: 100%;
     }
-    .split-heading{
-      @include btn-primary;
+
+    .head,
+    .par {
+      z-index: 2;
       position: absolute;
-      top: 50%;
+      text-align: center;
       left: 50%;
       transform: translate(-50%,-50%);
+    }
+
+    .head {
+      @include btn-primary;
+      top: 50%;
       padding: 20px;
-      text-align: center;
       font-size: $font-size-text-primary;
     }
 
+    .par {
+      display: none;
+      font-size: 1.6rem;
+      color: $color-primary;
+    }
   }
-}
-@keyframes scale {
-  from {width: 100%;}
-  to {width: 500%;}        
+
+  .one {
+    left: 0;
+    top: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%); 
+  }
+
+  .two {
+    right: 0;
+    top: 0;
+    -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%); 
+  }
 }
 
 .sights-content {
@@ -91,4 +113,8 @@
       -webkit-box-orient: vertical;
     }
   }
+}
+
+.margin-100vh {
+  margin-top: 100vh;
 }

@@ -12,35 +12,25 @@
     {{-- Main section --}}
     <div class="main">
       <div class="container-fluid split-hero">
-        <div class="main-head text-center">
-          @foreach (__('sights.sights.djerdap') as $item)
-            <h1>{{ $item['head'] }}</h1>
-            @php $count = 0 @endphp
-            @foreach ($item['text'] as $text)
-              @if($count < 1)
-                <p>{{ $text['par'] }}</p>
-              @endif
-              @php $count++ @endphp
-            @endforeach
-          @endforeach
-        </div>
-        <div class="split-card">
+        <div class="split-card one">
           <a href="/sights/mpek" class="card-link link">
-            <img src="{{ asset('img/content/majdanpek/mpek2.jpg') }}" alt="" class="card-img img">
-            <h1 class="split-heading sh1 px-0">{{ __('sights.sights.head1') }}</h1>
+            <img src="{{ asset('img/content/majdanpek/majdanpek.jpg') }}" alt="" class="card-img img">
+            <h1 class="head">{{ __('sights.sights.head1') }}</h1>
+            <p class="par">{{ __('sights.sights.par1') }}</p>
           </a>
         </div>
-        <div class="split-card">
+        <div class="split-card two">
           <a href="/sights/dm-sights" class="card-link link">
-            <img src="{{ asset('img/content/majdanpek/mpek2.jpg') }}" alt="" class="card-img img">
-            <h1 class="split-heading sh2 px-0">{{ __('sights.sights.head2') }}</h1>
+            <img src="{{ asset('img/content/majdanpek/mpek-nocu.jpg') }}" alt="" class="card-img img">
+            <h1 class="head">{{ __('sights.sights.head2') }}</h1>
+            <p class="par">{{ __('sights.sights.par2') }}</p>
           </a>
         </div>
       </div>
     </div>
 
     {{-- Footer --}}
-    <div class="footer">
+    <div class="footer margin-100vh">
       @include('components.footer')
     </div>
 
