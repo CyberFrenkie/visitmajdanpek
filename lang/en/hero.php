@@ -17,7 +17,7 @@ return [
   ],
 
   'slides' => [
-    'slide1' => [
+    [
       'class' => 'carousel-item active',
 
       'img' => [
@@ -46,8 +46,7 @@ return [
         ],
       ],
     ],
-
-    'slide2' => [
+    [
       'class' => 'carousel-item',
 
       'img' => [
@@ -76,8 +75,7 @@ return [
         ],
       ],
     ],
-
-    'slide3' => [
+    [
       'class' => 'carousel-item',
 
       'img' => [
@@ -107,7 +105,4 @@ return [
       ],
     ],
   ],
-
-  
-
 ];

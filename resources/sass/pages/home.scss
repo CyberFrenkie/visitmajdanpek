@@ -1,10 +1,10 @@
-body,.home-wrapper, .wrapper{
+body,.home-wrapper, .wrapper {
     @include reset-p-m;
     background-color: $color-primary;
     overflow-x: hidden;
 }
 
-.home-wrapper{
+.home-wrapper {
     overflow-y: hidden;
 }
 
@@ -55,4 +55,17 @@ body,.home-wrapper, .wrapper{
     .fa-arrow-right {
         transform: translateX(8px);
     }
+}
+
+.backBtn {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 99;
+    border: none;
+}
+
+.overlay {
+    @include overlay;
 }

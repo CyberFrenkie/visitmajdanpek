@@ -100,6 +100,8 @@
     }
 
     .slide-link {
+        z-index: 2;
+        
         @include absolute-position(
             absolute,
             13%,

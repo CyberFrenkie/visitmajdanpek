@@ -2,6 +2,8 @@
 @section('title', 'VisitMajdanpek - Znamenitosti')
 @section('wrapper')
 
+  <button onclick="history.back()" class="readMore backBtn">Go Back</button>
+
   <div class="wrapper container-fluid">
 
     {{-- Header --}}

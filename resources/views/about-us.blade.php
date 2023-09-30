@@ -11,9 +11,9 @@
 
   {{-- Main section --}}
   <div class="main-about-us mx-auto">
+
     {{-- about-us first section --}}
     <div class="about-us container-xl about-mpek-text-con">
-      
       @foreach( __('about-us.about-us.header') as $hero)
         <div class="col-md-12">
           <div class="text-con">
@@ -42,9 +42,8 @@
       <hr class="seperator col-md-4 col-sm-12 marg">
       <div class="row justify-content-between text-center">
         @foreach( __('about-us.partners.header') as $partners)
-
           <div class="col-md-12">
-            <h1 class="heading text-center">{{ $partners['heading'] }}</h1> 
+            <h1 class="heading text-center">{{ $partners['heading'] }}</h1>
             <p class="header-paragraph">{{ $partners['paragraph'] }}</p>
           </div>
 
@@ -52,16 +51,14 @@
             @foreach ( $partners['images'] as $i)
               <div class="col-md-3 col-sm-12 px-2 about-us-card ">
                 <a href="{{ $i['url'] }}" class="about-us-link" target="blank">
-                  <img src="{{ $i['img'] }}" alt="" class="about-us-img ">
-                  
+                  <img src="{{ $i['img'] }}" alt="" class="about-us-img">
                 </a>
               </div>
             @endforeach
           </div>
-
         @endforeach
       </div>
-    </div>       
+    </div>
   </div>
 
   {{-- Footer --}}
@@ -70,4 +67,5 @@
   </div>
 
 </div>
+
 @endsection

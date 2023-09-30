@@ -3,17 +3,16 @@
 return [
 
   'list' => [
-    'listItem1' => [
+    [
       'class' => 'nav-item',
-      
+
       'button' => [
         'url' => '/',
         'class' => 'button',
         'text' => 'Pocetna',
       ],
     ],
-
-    'listItem2' => [
+    [
       'class' => 'nav-item',
       
       'button' => [
@@ -22,8 +21,7 @@ return [
         'text' => 'Znamenitosti',
       ],
     ],
-
-    'listItem3' => [
+    [
       'class' => 'nav-item',
         
       'button' => [
@@ -32,8 +30,7 @@ return [
         'text' => 'O Majdanpeku',
       ],
     ],
-
-    'listItem4' => [
+    [
       'class' => 'nav-item',
       
       'button' => [
@@ -42,8 +39,7 @@ return [
         'text' => 'O nama',
       ],
     ],
-
-    'listItem5' => [
+    [
       'class' => 'nav-item',
       
       'button' => [
@@ -52,8 +48,7 @@ return [
         'text' => 'Kontakt',
       ],
     ],
-
-    'listItem6' => [
+    [
       'class' => 'nav-item nav-item-right',
       
       'button' => [
@@ -63,7 +58,7 @@ return [
       ],
     ],
 
-    // 'listItem7' => [
+    // [
     //   'class' => 'nav-item',
       
     //   'button' => [
@@ -73,5 +68,4 @@ return [
     //   ],
     // ],
   ],
-
 ];
