@@ -6,6 +6,8 @@ return [
     'head' => 'Znamenitosti',
     'head1' => 'Okolina Majdanpeka',
     'head2' => 'Okolina Donjeg Milanovaca',
+    'par1' => 'Majdanpek je administrativni centar opštine, naselje na 350 mnv, smešteno u dolini reke Mali Pek, okruženo planinskim masivima. Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom.',
+    'par2' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ima veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
 
     'btn' => [
       'class' => 'btn readMore',
@@ -35,6 +37,16 @@ return [
           ]
         ]
       ]
+    ],
+
+    'milanovac' => [
+      'head' => 'Donji Milanovac',
+
+      'par' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ovaj grad se nalazi u opštini Majdanpek. Vazno je spomenuti da ovaj grad takodje ima i veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
+
+      'par1' => 'Donji Milanovac se nalazi na obali reke Dunav, u blizini ušća reke Porečke i Nacionalnog parka Đerdap. Ovo ga čini idealnim mestom za istraživanje prirodnih lepota i arheoloških nalazišta. Takodje se nalazi u blizini Nacionalnog parka Đerdap, koji obuhvata impresivne stenske formacije i jedan od najdubljih kanjona na svetu. Ovde posetioci mogu uživati u planinarenju, vožnji brodom, pecanju i posmatranju divljih životinja.',
+
+      'par2' => 'Donji Milanovac  ima bogatu istoriju, sa tragovima antičkih naselja i rimskih ostataka. Donji Milanovac je bio deo Rimskog Carstva, a poznat je i po Trajanovom mostu, jednom od najvažnijih mostova u to vreme. Takodje ovaj grad ima nekoliko muzeja uključujući Narodni muzej i Muzej Lepenskog Vira, gde posetioci mogu naučiti više o istoriji ovog područja.',
     ],
 
     'content' => [
@@ -247,47 +259,6 @@ return [
         // 'par5' => '',
         // 'par6' => '',
       ],
-
-      [
-        'id' => '5',
-        'location' => 'donji_milanovac',
-        // 'link' => '/',
-
-        'img' => 'img/content/content.png',
-        // 'img1' => '',
-        // 'img2' => '',
-        // 'img3' => '',
-        // 'img4' => '',
-        // 'img5' => '',
-        // 'img6' => '',
-
-        'head' => 'Donji Milanovac',
-        // 'head1' => '',
-        // 'head2' => '',
-        // 'head3' => '',
-        // 'head4' => '',
-        // 'head5' => '',
-        // 'head6' => '',
-
-        'par' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ovaj grad se nalazi u opštini Majdanpek.
-                    Vazno je spomenuti da ovaj grad takodje ima i veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
-
-        'par1' => 'Donji Milanovac se nalazi na obali reke Dunav, u blizini ušća reke Porečke i Nacionalnog parka Đerdap.
-                     Ovo ga čini idealnim mestom za istraživanje prirodnih lepota i arheoloških nalazišta.
-                     Takodje se nalazi u blizini Nacionalnog parka Đerdap, koji obuhvata impresivne stenske formacije i jedan od najdubljih kanjona na svetu.
-                     Ovde posetioci mogu uživati u planinarenju, vožnji brodom, pecanju i posmatranju divljih životinja.',
-
-        'par2' => 'Donji Milanovac  ima bogatu istoriju, sa tragovima antičkih naselja i rimskih ostataka.
-                     Donji Milanovac je bio deo Rimskog Carstva, a poznat je i po Trajanovom mostu, jednom od najvažnijih mostova u to vreme.
-                     Takodje ovaj grad ima nekoliko muzeja uključujući Narodni muzej i Muzej Lepenskog Vira, gde posetioci mogu naučiti više o istoriji ovog područja.,',
-
-        // 'par3' => '',
-        // 'par4' => '',
-        // 'par5' => '',
-        // 'par6' => '',
-      ],
-
-
 
       [
         'id' => '7',
