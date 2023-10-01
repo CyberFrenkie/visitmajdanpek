@@ -9,68 +9,57 @@ return [
 
                 'img' => '/img/content/mi.jpg',
 
-                'paragraph' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aspernatur alias veniam neque ratione beatae cupiditate fuga. 
-                Voluptatum iste est, facere, quis iusto, 
-                magnam non rem nostrum magni obcaecati quisquam sit.',
+                'paragraph' => 'Projekat "Visit Majdanpek" je finalni projekat polaznika kursa za web programiranje. 
+                                Nakon uspešnog završetka kursa, naša grupa je bila organizovana u nekoliko timova kako bi se projekt realizovao efikasno:
+                                grupa za sakupljanje informacija, grupa za dizajn (Web Design), grupa za izradu sajta (Web Development).
+                                Naš cilj je bio stvoriti resurs koji će promovisati Majdanpek na najbolji mogući način i omogućiti svima da bolje upoznaju ovu predivnu destinaciju.
+                                Naša strast prema web programiranju i predanost projektu rezultirali su ovim sajtom koji je dostupan svima koji žele da saznaju više o Majdanpeku.
+                                Hvala na podršci i poseti našem sajtu!',
             ],
         ],
-        
+
         'images' => [
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Dejan',
                 'url' => '#',
+                'team' => 'Instruktor web programiranja'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Dimitrije',
                 'url' => '#',
+                'team' => 'Asistent instruktor'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Sofija',
                 'url' => '#',
+                'team' => 'Web developer'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Milos',
                 'url' => '#',
+                'team' => 'Lead developer'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Nikola',
                 'url' => '#',
+                'team' => 'Web developer'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Petar',
                 'url' => '#',
+                'team' => 'Web developer'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Natalija',
                 'url' => '#',
-            ],
-            [
-                'img' => '/img/content/dejan.jpg',
-                'text' => 'Micko',
-                'url' => '#',
+                'team' => 'Web designer'
             ],
         ]
     ],
@@ -92,7 +81,7 @@ return [
                     [
                         'img' => '/img/content/partners/mpeklogo.png',
                         'title' => 'Opština Majdanpek',
-                        'desciption' => 'Sponzor kursa za Web programiranje.',                        
+                        'desciption' => 'Sponzor kursa za Web programiranje.',
                         'url' => 'https://majdanpek.rs/',
                     ],
                     [
@@ -128,5 +117,5 @@ return [
                 ],
             ],
         ]
-    ] 
+    ]
 ];
