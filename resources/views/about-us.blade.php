@@ -28,7 +28,7 @@
       <div class="row about-us-card justify-content-between">
         @foreach ( __('about-us.about-us.images') as $i)
         <div class="col-md-3 col-sm-12 px-2 about-us-card">
-          <a href="{{ $i['url'] }}" class="about-us-link">
+          <a href="{{ $i['url'] }}" class="about-us-link" target="_blank">
             <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
             <h1 class="img-header text-center">{{ $i['text'] }}</h1>
             <p class="text-center about-us-team">{{ $i['team'] }}</p>
