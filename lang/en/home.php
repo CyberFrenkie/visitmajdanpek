@@ -5,19 +5,21 @@ return [
     'article' => [
         [
             'heading' => 'Inspiracija za vaše sledeće putovanje',
-            'paragraph' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur alias veniam neque ratione beatae cupiditate fuga. Voluptatum iste est, facere, quis iusto, magnam non rem nostrum magni obcaecati quisquam sit.',
-            
+            'paragraph' => 'Majdanpek i Donji Milanovac, dva neodoljiva dragulja istočne Srbije, spojena prirodnim lepotama je idealna destinacija za turiste.
+                            Ovde ćete pronaći mnogo zanimljivih aktivnosti i mesta za istraživanje, pružajući vam nezaboravno iskustvo tokom upoznavanja ovih čarobnih destinacija.
+                            Pre dolaska se informišite o našim institucijama, smeštaju i prevozu',
+
             'btn' => [
                 [
                     'img' => 'img/content/homepage/emergency.jpg',
                     'text' => 'Ustanove od značaja',
                     'link' => '/institutions',
-                ],    
+                ],
                 [
                     'img' => 'img/content/homepage/hotel.jpg',
                     'text' => 'Smeštaj',
                     'link' => '/hotels',
-                ],   
+                ],
                 [
                     'img' => 'img/content/homepage/bus2.jpg',
                     'text' => 'Prevoz',
@@ -64,21 +66,21 @@ return [
                 [
                     'img' => 'img/content/majdanpek/mpek-nocu.jpg',
                     'title' => 'Preporučujemo',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Planer putovanja',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/dm-sights',
                 ],
                 [
                     'img' => 'img/content/majdanpek/majdanpek.jpg',
                     'title' => 'Popularno',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Planer putovanja',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/mpek',
                 ],
                 [
                     'img' => 'img/content/majdanpek/mpek2.jpg',
                     'title' => 'Manje poznato',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Planer putovanja',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/about-majdanpek',
                 ],

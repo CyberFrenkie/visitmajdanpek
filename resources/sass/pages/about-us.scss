@@ -1,50 +1,58 @@
 .main-about-us {
     min-height: 100vh;
 
-    .about-us{
-        .about-mpek-text-con {      
+    .about-us {
+        .about-mpek-text-con {
             .header-paragraph {
-               padding: 30px 0;
-            }            
+                padding: 30px 0;
+            }
         }
-        .about-us-card{            
+        .about-us-card {
             @include flex-center-row;
-        } 
+        }
+        .header-paragraph {
+            margin-top: 20px;
+            color: $color-black;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
     }
-    
+
     .about-us-card {
         margin: $card-margin;
 
-        @media only screen and (max-width:770px) {
+        @media only screen and (max-width: 770px) {
             margin: 20px auto;
         }
-        
 
         .about-us-link {
             @include reset-default-text;
             @include link-hover-transition;
-            height: 100%;            
+            height: 100%;
         }
 
-        .about-us-img{
+        .about-us-img {
             @include scale-transition;
             border-radius: $border-radius;
         }
 
-        .img-header {            
+        .img-header {
             color: $color-black;
             font-size: $font-size-title-secondary;
             margin: $card-margin;
         }
+        .about-us-team {
+            color: $color-black;
+            font-size: $font-size-text-secondary;
+        }
     }
 
-    .partners{
-        .about-us-img{
+    .partners {
+        .about-us-img {
             max-width: 200px;
             max-height: 100px;
             background-color: $color-primary;
             border-radius: 0;
         }
     }
-
 }
