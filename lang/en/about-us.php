@@ -32,16 +32,16 @@ return [
                 'team' => 'Asistent instruktor'
             ],
             [
+                'img' => '/img/content/ekipa/milos.jpg',
+                'text' => 'Milos',
+                'url' => 'https://www.linkedin.com/in/milos-djordjevic-9422ab58',
+                'team' => 'Lead developer'
+            ],
+            [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Sofija',
                 'url' => '#',
                 'team' => 'Web developer'
-            ],
-            [
-                'img' => '/img/content/dejan.jpg',
-                'text' => 'Milos',
-                'url' => '#',
-                'team' => 'Lead developer'
             ],
             [
                 'img' => '/img/content/dejan.jpg',
