@@ -9,7 +9,7 @@ return [
     'content' => [
       [
         'link' => 'https://www.facebook.com/profile.php?id=100082812855313',
-        'img' => 'img/content/news/12 septembar.jpg',
+        'img' => 'img/content/news/12sept.jpg',
         'head' => 'Dan opštine Majdanpek',
         'par' => 'Dan opštine Majdanpek, 12. septembar.Pečenje volova na donjem stadionu gde će se održati i koncert te večeri.
                   Za Majdanpečane i njihove goste će svirati trubači Dejana Petrovića i pevati Milica Pavlović',
