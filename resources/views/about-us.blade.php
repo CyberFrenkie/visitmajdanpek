@@ -29,22 +29,49 @@
         @foreach ( __('about-us.about-us.images') as $i)
         <div class="col-md-3 col-sm-12 px-2 about-us-card">
           <a href="{{ $i['url'] }}" class="about-us-link" target="_blank">
-            <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
+            <div class="inner-wrap">
+              <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
+            </div>
+            
             <h1 class="img-header text-center">{{ $i['text'] }}</h1>
             <p class="text-center about-us-team">{{ $i['team'] }}</p>
           </a>
         </div>
         @endforeach
       </div>
+      <div class="row about-us-card justify-content-between">
+        <div>
+          @foreach( __('about-us.about-us.header') as $head)
+            <h1>{{$head['mentor-heading']}}</h1>
+            <p>{{$head['mentor-paragraph']}}</p>
+          @endforeach  
+          <hr class="seperator col-md-4 col-sm-12 marg">
+        </div>
+        
+       
+        @foreach ( __('about-us.about-us.mentors') as $i)
+        <div class="col-md-3 col-sm-12 px-2 about-us-card">
+          <a href="{{ $i['url'] }}" class="about-us-link" target="_blank">
+            <div class="inner-wrap">
+              <img src="{{ $i['img'] }}" alt="" class="about-us-img img-fluid">
+            </div>
+            
+            <h1 class="img-header text-center">{{ $i['text'] }}</h1>
+            <p class="text-center about-us-team">{{ $i['team'] }}</p>
+          </a>
+        </div>
+        @endforeach
+      </div>
+
     </div>
 
     {{-- Partners second section --}}
     <div class="partners container-xl">
       <hr class="seperator col-md-4 col-sm-12 marg">
-      <div class="row justify-content-between text-center">
+      <div class="row justify-content-between">
         @foreach( __('about-us.partners.header') as $partners)
         <div class="col-md-12">
-          <h1 class="heading text-center">{{ $partners['heading'] }}</h1>
+          <h1 class="heading">{{ $partners['heading'] }}</h1>
           <p class="header-paragraph">{{ $partners['paragraph'] }}</p>
         </div>
 

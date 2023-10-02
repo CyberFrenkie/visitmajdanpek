@@ -6,6 +6,7 @@ return [
         'header' => [
             [
                 'heading' => 'Naša priča',
+                'mentor-heading' => 'Mentori',
 
                 'img' => '/img/content/mi.jpg',
 
@@ -15,22 +16,13 @@ return [
                                 Naš cilj je bio stvoriti resurs koji će promovisati Majdanpek na najbolji mogući način i omogućiti svima da bolje upoznaju ovu predivnu destinaciju.
                                 Naša strast prema web programiranju i predanost projektu rezultirali su ovim sajtom koji je dostupan svima koji žele da saznaju više o Majdanpeku.
                                 Hvala na podršci i poseti našem sajtu!',
+
+                'mentor-paragraph' => 'Posebno se zahvaljujemo mentorima koji su nam pruzili priliku da zapocnemo novu karijeru!',
             ],
         ],
 
         'images' => [
-            [
-                'img' => '/img/content/dejan.jpg',
-                'text' => 'Dejan',
-                'url' => '#',
-                'team' => 'Instruktor web programiranja'
-            ],
-            [
-                'img' => '/img/content/dejan.jpg',
-                'text' => 'Dimitrije',
-                'url' => '#',
-                'team' => 'Asistent instruktor'
-            ],
+         
             [
                 'img' => '/img/content/ekipa/milos.jpg',
                 'text' => 'Milos',
@@ -61,7 +53,21 @@ return [
                 'url' => '#',
                 'team' => 'Web designer'
             ],
-        ]
+        ],
+        "mentors" => [
+            [
+                'img' => '/img/content/dejan.jpg',
+                'text' => 'Dejan',
+                'url' => '#',
+                'team' => 'Instruktor web programiranja'
+            ],
+            [
+                'img' => '/img/content/dejan.jpg',
+                'text' => 'Dimitrije',
+                'url' => '#',
+                'team' => 'Asistent instruktor'
+            ],
+        ],
     ],
 
     'partners' => [
@@ -72,7 +78,7 @@ return [
 
                 'img' => '/img/content/content.png',
 
-                'paragraph' => 'Posebno se zahvaljujemo svima koji su direktno i indirektno učestvovali 
+                'paragraph' => 'Takođe se zahvaljujemo svima koji su direktno i indirektno učestvovali 
                 u ovom projektu, bilo to informacijama, sredstvima ili samo podrškom! Pomenućemo neke od 
                 njih...',
 

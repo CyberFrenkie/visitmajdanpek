@@ -11,6 +11,7 @@
             @include flex-center-row;
         }
         .header-paragraph {
+            padding: $distance-pading;
             margin-top: 20px;
             color: $color-black;
             font-size: 1.1rem;
@@ -20,8 +21,15 @@
 
     .about-us-card {
         margin: $card-margin;
-        display: flex;
         flex-direction: column;
+        .inner-wrap{            
+            .about-us-img{
+                @include scale-transition;
+                border-radius: $border-radius;
+                max-height: 300px;
+                max-width: 100%;
+            }
+        }
 
         @media only screen and (max-width: 770px) {
             margin: 20px auto;
@@ -30,16 +38,10 @@
         .about-us-link {
             @include reset-default-text;
             @include link-hover-transition;
+            @include flex-center-colum;
             height: 100%;
         }
 
-        .about-us-img {
-            @include scale-transition;
-            border-radius: $border-radius;
-            width: 27vh;
-            height: 21vw;
-            object-fit: cover;
-        }
 
         .img-header {
             color: $color-black;
@@ -53,6 +55,12 @@
     }
 
     .partners {
+        .about-us-link{
+            border: none;
+            &:hover{
+                border: none;
+            }
+        }
         .about-us-img {
             max-width: 200px;
             max-height: 100px;
