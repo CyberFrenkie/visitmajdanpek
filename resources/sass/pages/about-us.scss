@@ -20,6 +20,8 @@
 
     .about-us-card {
         margin: $card-margin;
+        display: flex;
+        flex-direction: column;
 
         @media only screen and (max-width: 770px) {
             margin: 20px auto;
@@ -34,6 +36,9 @@
         .about-us-img {
             @include scale-transition;
             border-radius: $border-radius;
+            width: 27vh;
+            height: 21vw;
+            object-fit: cover;
         }
 
         .img-header {
