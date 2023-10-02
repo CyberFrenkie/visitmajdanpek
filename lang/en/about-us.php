@@ -5,7 +5,7 @@ return [
 
         'header' => [
             [
-                'heading' => 'Our story',
+                'heading' => 'Naša priča',
 
                 'img' => '/img/content/mi.jpg',
 
@@ -52,7 +52,7 @@ return [
             [
                 'img' => '/img/content/dejan.jpg',
                 'text' => 'Petar',
-                'url' => '#',
+                'url' => 'https://www.linkedin.com/in/petar-vlku-a6445b294/',
                 'team' => 'Web developer'
             ],
             [

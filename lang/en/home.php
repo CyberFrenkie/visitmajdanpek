@@ -4,10 +4,10 @@ return [
 
     'article' => [
         [
-            'heading' => 'Inspiracija za vaše sledeće putovanje',
+            'heading' => 'Informacije od značaja',
             'paragraph' => 'Majdanpek i Donji Milanovac, dva neodoljiva dragulja istočne Srbije, spojena prirodnim lepotama je idealna destinacija za turiste.
                             Ovde ćete pronaći mnogo zanimljivih aktivnosti i mesta za istraživanje, pružajući vam nezaboravno iskustvo tokom upoznavanja ovih čarobnih destinacija.
-                            Pre dolaska se informišite o našim institucijama, smeštaju i prevozu',
+                            Pre dolaska se informišite o našim institucijama, smeštaju i prevozu.',
 
             'btn' => [
                 [
@@ -66,21 +66,21 @@ return [
                 [
                     'img' => 'img/content/majdanpek/mpek-nocu.jpg',
                     'title' => 'Preporučujemo',
-                    'text' => 'Planer putovanja',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/dm-sights',
                 ],
                 [
                     'img' => 'img/content/majdanpek/majdanpek.jpg',
                     'title' => 'Popularno',
-                    'text' => 'Planer putovanja',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/mpek',
                 ],
                 [
                     'img' => 'img/content/majdanpek/mpek2.jpg',
                     'title' => 'Manje poznato',
-                    'text' => 'Planer putovanja',
+                    'text' => 'Prepoznajte destinaciju iz snova!',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/about-majdanpek',
                 ],
