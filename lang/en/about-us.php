@@ -50,7 +50,7 @@ return [
                 'team' => 'Web developer'
             ],
             [
-                'img' => '/img/content/dejan.jpg',
+                'img' => '/img/content/ekipa/peconji.jpg',
                 'text' => 'Petar',
                 'url' => 'https://www.linkedin.com/in/petar-vlku-a6445b294/',
                 'team' => 'Web developer'

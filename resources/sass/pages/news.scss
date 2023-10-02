@@ -1,13 +1,12 @@
-.news-card-wrap{
-    .news-card-link{
-        @include flex-center-row;    
-        @media only screen and (max-width:800px) {
+.news-card-wrap {
+    .news-card-link {
+        @include flex-center-row;
+        @media only screen and (max-width: 800px) {
             flex-direction: column !important;
         }
     }
 
-
-    .news-card{
+    .news-card {
         padding: 10px;
         margin: 10px;
     }
@@ -15,11 +14,12 @@
     .news-link {
         @include link-primary;
         @include arrow-animation;
-        
+
         width: auto;
     }
-    .news-card-img{
-        height: 200px;
-        
+    .news-card-img {
+        width: 35vh;
+        height: 13vw;
+        object-fit: cover;
     }
 }
