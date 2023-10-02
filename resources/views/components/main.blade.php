@@ -61,12 +61,12 @@
     <h1 class="col-md-6 col-sm-12 news-heading px-0">{{__('news.news.head')}}</h1>
   </div>
 
-  <div class="card-wrap row mx-auto justify-content-between my-5 flex-wrap">
+  <div class="news-card-wrap row mx-auto justify-content-between my-5 flex-wrap">
     @php $count = 0 @endphp
     @foreach (__('news.news.content') as $item)
     @if($count < 3) <div class="card col-md-3 col-sm-12 news-card">
       <a href="/news" class="card-link link">
-        <img src="{{ $item['img'] }}" alt="" class="card-img">
+        <img src="{{ $item['img'] }}" alt="" class="news-card-img">
         <div class="card-content">
           <h1 class="card-info-header m-2">{{ $item['head'] }}</h1>
           <p class="card-info-text m-2">{{ $item['par'] }}</p>

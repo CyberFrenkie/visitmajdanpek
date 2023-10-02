@@ -1,6 +1,8 @@
 .news-card-wrap {
     .news-card-link {
-        @include flex-center-row;
+        @include custom-flex(space-between, center, row);
+        padding: $distance-pading;
+        
         @media only screen and (max-width: 800px) {
             flex-direction: column !important;
         }
@@ -18,8 +20,7 @@
         width: auto;
     }
     .news-card-img {
-        width: 35vh;
-        height: 13vw;
-        object-fit: cover;
+        width: auto;
+        height: 200px;
     }
 }
