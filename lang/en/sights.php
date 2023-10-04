@@ -6,8 +6,11 @@ return [
     'head' => 'Znamenitosti',
     'head1' => 'Okolina Majdanpeka',
     'head2' => 'Okolina Donjeg Milanovaca',
+    'cta-text' => 'Pročitaj više',
     'par1' => 'Majdanpek je administrativni centar opštine, naselje na 350 mnv, smešteno u dolini reke Mali Pek, okruženo planinskim masivima. Majdanpek je savremeno uređeno naselje sa uređenim gradskim parkom i trgom.',
     'par2' => 'Donji Milanovac je grad smešten u istočnom delu Srbije, na desnoj obali reke Dunav. Ima veoma bogatu istoriju i obilje prirodnih lepota koje ga čine atraktivnom destinacijom za turiste i ljubitelje prirode.',
+    'url1' => '/sights/mpek',
+    'url2' => '/sights/dm-sights',
 
     'btn' => [
       'class' => 'btn readMore',

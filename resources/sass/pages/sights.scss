@@ -17,9 +17,21 @@
         top: 40%;
       }
 
-      .par {
-        display: block;
-        top: 60%;
+      .par {  
+        @include flex-center-colum;
+        top: 70%;
+        .cta{
+          @include cta;
+          @include reset-default-text;
+        }
+        .cta:hover > .arrow-right {
+          margin-left: 1rem !important;
+        }
+          
+        .cta > .arrow-right {
+          transition-property: margin-left;
+          transition-duration: .7s;
+        }
       }
     }
     

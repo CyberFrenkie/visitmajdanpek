@@ -119,11 +119,12 @@
         .send-button {
             @include btn-primary;
             background-color: $border-bottom--hover--color;
-            color: $color-black;
             margin-top: 1.5rem;
 
             &:hover{
-                background-color: #09b450;
+                transition: $transition;
+                background: $nav-color--grey;
+                color: $color-black !important;
             }
         }
     

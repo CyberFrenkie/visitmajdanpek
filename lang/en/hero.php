@@ -7,12 +7,14 @@ return [
       'class' => 'carousel-control-prev',
       'slide' => 'prev',
       'label' => 'Previous',
+      'icon' => 'carousel-control-prev-icon',
     ],
 
     'next' => [
       'class' => 'carousel-control-next',
       'slide' => 'next',
       'label' => 'Next',
+      'icon' => 'carousel-control-next-icon',
     ],
   ],
 
@@ -34,7 +36,7 @@ return [
 
       'text' => [
         'class' => 'carousel-caption center',
-
+        'link' => '/about-majdanpek',
         'title' => [
           'class' => 'title',
           'text' => 'U srcu',
@@ -43,6 +45,10 @@ return [
         'lead' => [
           'class' => 'lead',
           'text' => 'Majdanpek',
+        ],
+        'cta'=> [
+          'class' => 'cta',
+          'text' => 'Pročitaj više',
         ],
       ],
     ],
@@ -63,6 +69,7 @@ return [
 
       'text' => [
         'class' => 'carousel-caption center',
+        'link' => '/',
 
         'title' => [
           'class' => 'title',
@@ -72,6 +79,10 @@ return [
         'lead' => [
           'class' => 'lead',
           'text' => 'Donji Milanovac',
+        ],
+          'cta'=> [
+          'class' => 'cta',
+          'text' => 'Pročitaj više',
         ],
       ],
     ],
@@ -92,7 +103,7 @@ return [
 
       'text' => [
         'class' => 'carousel-caption center',
-
+        'link' => '/sight/8',
         'title' => [
           'class' => 'title',
           'text' => 'Arheolosko nalaziste',
@@ -101,6 +112,10 @@ return [
         'lead' => [
           'class' => 'lead',
           'text' => 'Lepenski vir',
+        ],
+          'cta'=> [
+          'class' => 'cta',
+          'text' => 'Pročitaj više',
         ],
       ],
     ],

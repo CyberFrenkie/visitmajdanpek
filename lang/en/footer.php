@@ -9,15 +9,15 @@ return [
         'bottom-text-class' => 'bottom-text',
         'copyright' => '© 2023 Visit Majdanpek',
         'copyright-class' => 'copyright fw-bold',
-        'left-title' => 'Visit Majdanpek',
-        'right-title' => 'Sajtovi od Znacaja',
+        'right-title' => 'Visit Majdanpek',
+        'left-title' => 'Znamenitosti',
         'list-title-class' => 'font1',
         'social-title' => 'Zapratite nas',
         'social-class' => 'font2',
         'default-class' => 'default',
-        'left-list' => [
+        'right-list' => [
           [      
-                'leftListValues' => [
+                'rightListValues' => [
                         [
                 
                         'text' => 'O Majdanpeku',        
@@ -25,36 +25,41 @@ return [
                         'class' => 'list',
                         ],
                         [
-                        'text' => 'Okolina Majdanpeka',
-                        'url' => '/sights/mpek',
-                        'class' => 'list',
-                        ],
-                        [
-                        'text' => 'Okolina Milanovca',
-                        'url' => '/sights/dm-sights',
+                        'text' => 'O Milanovcu',
+                        'url' => '/',
                         'class' => 'list',
                         ],   
                 ],
         ],
         ],
-        'right-list' => [
+        'left-list' => [
                 [
-                'rightListValues' => [
+                'leftListValues' => [
 
                         [
-                        'text' => 'Nacionalni park Djerdap',        
-                        'url' => 'https://npdjerdap.rs',
+                        'text' => 'Rajkova pećina',        
+                        'url' => '/sight/1',
                         'class' => 'list',
                         ],
                 
                         [
-                        'text' => 'Geopark Djerdap',
-                        'url' => 'https://npdjerdap.rs/geopark-djerdap/',
+                        'text' => 'Prerast šuplja stena',
+                        'url' => '/sight/2',
                         'class' => 'list',
                         ],
                         [
-                        'text' => 'Turisticka organizacija Majdanpek',
-                        'url' => 'https://toom.rs',
+                        'text' => 'Beli Izvorac',
+                        'url' => '/sight/3',
+                        'class' => 'list',
+                        ],
+                        [
+                        'text' => 'Starica',
+                        'url' => '/sight/4',
+                        'class' => 'list',
+                        ],
+                        [
+                        'text' => 'Ski centar Rajkovo',
+                        'url' => '/sight/5',
                         'class' => 'list',
                         ],
                 ],
