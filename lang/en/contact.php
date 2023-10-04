@@ -14,16 +14,16 @@ return [
             'name' => 'email',
         ],
         'inquiry' => [
-            'placeholder' => 'Kazite nam nesto vise',
+            'placeholder' => 'Kažite nam nešto više',
             'class' => 'form-control',
             'name' => 'message',
         ]
     ],
-    'send' => 'Posalji',
-    'btn-class' => 'send-button',
+    'send' => 'Pošalji',
+    'btn-class' => 'send-button text-light',
     'contact-us-header-text' => 'Kontaktirajte nas',
     'form-class' => 'form-styling',
     'contact-us-header-class' => 'contact-header-title',
     'contact-us-text' => 'Drago nam je da ste na našem sajtu, ukoliko imate pitanja, sugestije i kritike u vezi sajta pišite nam ovde.',
-    'contact-us-email' => 'Takodje nas mozete kontaktirati putem:<span class="d-block contact-us-email"><i class="fa-regular fa-envelope me-1"></i><a href="mailto:visitmajdanpek@gmail.com" class="default">visitmajdanpek@gmail.com</a></span>'
+    'contact-us-email' => 'Takodje nas možete kontaktirati putem:<span class="d-block contact-us-email"><i class="fa-regular fa-envelope me-1"></i><a href="mailto:visitmajdanpek@gmail.com" class="default">visitmajdanpek@gmail.com</a></span>'
 ];

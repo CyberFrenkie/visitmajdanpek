@@ -16,7 +16,7 @@ return[
                     'target'=>'#car-route',
             ],
             [       
-                    'text'=>'Ruta peske',
+                    'text'=>'Ruta peške',
                     'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=walking&dir_action=navigate',
                     'icon'=>'fa-solid fa-person-walking me-2',
                     'target'=>'#walk-route',
@@ -45,103 +45,23 @@ return[
         ],
         ],
     ],
-
-     'social' => [
-                [
-                'socialValues' => [
-
-                        [
-                        'icon' => 'fa-brands fa-square-facebook',
-                        'url' => '/',
-                        'class' => 'me-3',
-
-                        ],
-                        [
-                        'icon' => 'fa-brands fa-instagram',
-                        'url' => '/',
-                        'class' => 'me-3',
-
-                        ],
-                        [
-                        'icon' => 'fa-brands fa-twitter',
-                        'url' => '/',
-                        'class' => 'me-3',
-
-                        ],
-                        [
-                        'icon' => 'fa-solid fa-hashtag',
-                        'url' => '/',
-                        'class' => 'me-3',
-                        ],
-
-                        ]
-                ]
-        
-        ],
         'slider' => [
             [
-                'sliderValues1' => [
+                'sliderValues' => [
                     [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text'=> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+                        'src' => '/img/content/content.png',
                     ],
                     [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+                        'src' => '/img/content/content.png',
                     ],
                     [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
+                        'src' => '/img/content/content.png',
                     ],
-                ],
-                'sliderValues2'=>[
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-                    ],
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit'
-                    ],
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-                    ],
-                ],
-                    'sliderValues3'=>[
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-                    ],
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-                    ],
-                    [
-                    'url' => '/',
-                    'src' => '/img/content/content.png',
-                    'header' => 'Placeholder',
-                    'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit',
-                    ],
-                ],
+                    
             ]
         ],
+    ],
+        'arrow-icon' => 'fa-solid fa-arrow-right',
         'locations' => 'Lokacija Znamenitosti',
         'BG-pravac' => 'Pravac Iz Beograda',
         'NG-pravac' => 'Pravac Iz Negotina',

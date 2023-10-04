@@ -59,6 +59,20 @@
     font-weight: $font-weight-medium;
 }
 
+@mixin cta{
+        @include btn-primary;
+        background-color: $border-bottom--hover--color;
+        color: #ffffff;
+        padding: 12px 0px;
+        border: none;
+        border-radius: 8px;
+        &:hover {
+            transition: $transition;
+            background: $nav-color--grey;
+            color: $color-black !important;
+        }
+}
+
 // Animation & Transition
 
 @mixin arrow-animation {
