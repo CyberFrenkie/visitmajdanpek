@@ -24,14 +24,6 @@
           @include cta;
           @include reset-default-text;
         }
-        .cta:hover > .arrow-right {
-          margin-left: 1rem !important;
-        }
-          
-        .cta > .arrow-right {
-          transition-property: margin-left;
-          transition-duration: .7s;
-        }
       }
     }
     

@@ -15,7 +15,7 @@
         <div class="{{ $slides['text']['class'] }}">
           <h1 class="{{ $slides['text']['title']['class'] }}">{{ $slides['text']['title']['text'] }}</h1>
           <p class="{{ $slides['text']['lead']['class'] }}">{{ $slides['text']['lead']['text'] }}</p>
-          <a href="{{ $slides['text']['link'] }} " class="{{ $slides['text']['cta']['class'] }} ">{{ $slides['text']['cta']['text'] }}<i class="{{ trans('custom-footer.arrow-icon') }} ms-2 arrow-right"></i></a>
+          <a href="{{ $slides['text']['link'] }} " class="{{ $slides['text']['cta']['class'] }} ">{{ $slides['text']['cta']['text'] }} <i class="{{ trans('custom-footer.arrow-icon') }}"></i></a>
         </div>
       </div>
     @endforeach

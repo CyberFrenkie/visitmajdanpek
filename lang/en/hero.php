@@ -47,7 +47,7 @@ return [
           'text' => 'Majdanpek',
         ],
         'cta'=> [
-          'class' => 'cta',
+          'class' => 'cta readMore',
           'text' => 'Pročitaj više',
         ],
       ],
@@ -81,7 +81,7 @@ return [
           'text' => 'Donji Milanovac',
         ],
           'cta'=> [
-          'class' => 'cta',
+          'class' => 'cta readMore',
           'text' => 'Pročitaj više',
         ],
       ],
@@ -114,7 +114,7 @@ return [
           'text' => 'Lepenski vir',
         ],
           'cta'=> [
-          'class' => 'cta',
+          'class' => 'cta readMore',
           'text' => 'Pročitaj više',
         ],
       ],

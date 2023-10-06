@@ -26,14 +26,5 @@
     .cta{
         @include cta;
         @include reset-default-text;
-        padding: 12px 0px 12px 60px;
     }
-         .cta:hover > .arrow-right {
-             margin-left: 1rem !important;
-         }
-    
-         .cta > .arrow-right {
-             transition-property: margin-left;
-             transition-duration: .7s;
-         }
 }

@@ -62,10 +62,11 @@
 @mixin cta{
         @include btn-primary;
         background-color: $border-bottom--hover--color;
-        color: #ffffff;
-        padding: 12px 0px;
-        border: none;
-        border-radius: 8px;
+        padding: 13px 20px;
+        margin-top: 20px;
+        width: 190px;
+        color: $color-primary;
+        border-radius: 10px;
         &:hover {
             transition: $transition;
             background: $nav-color--grey;
