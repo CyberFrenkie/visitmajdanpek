@@ -28,7 +28,7 @@
             <div class="news-card-content col-md-8 col-sm-12">
               <h1 class="card-info-header m-2">{{ $content->head }}</h1>
               <p class="card-info-text m-2">{{ $content->par }}</p>
-              <a href="/new/{{ $content['id'] }}" class="cta d-block">{{ __('news.news.btn_text') }}<i class="{{ trans('custom-footer.arrow-icon') }} ms-2 arrow-right"></i></a>
+              <a href="/new/{{ $content['id'] }}" class="cta readMore d-block">{{ __('news.news.btn_text') }} <i class="{{ trans('custom-footer.arrow-icon') }}"></i></a>
             </div>
           </a>
           </div>

@@ -6,14 +6,14 @@
             <ul class="d-flex default justify-content-between nav-tabs flex-d-column mb-2" role="tablist">
             @foreach(trans('custom-footer.list1') as $list)
                 @foreach(($list['list1Values']) as $listValue)
-                    <li class="mr-5"><button class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover fw-extra-medium" type="button" data-bs-toggle="tab" data-bs-target="{{ $listValue['target'] }}" role="tab"><i class="{{ $listValue['icon'] }} custom-footer-font-size"></i>{{ $listValue['text'] }}<i class="{{ trans('custom-footer.arrow-icon') }} ms-2 mt-2 custom-footer-arrow"></i></button></li>
+                    <li class="mr-5"><button class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover readMore fw-extra-medium" type="button" data-bs-toggle="tab" data-bs-target="{{ $listValue['target'] }}" role="tab"><i class="{{ $listValue['icon'] }} custom-footer-font-size"></i>{{ $listValue['text'] }} <i class="{{ trans('custom-footer.arrow-icon') }} mt-2"></i></button></li>
                 @endforeach
             @endforeach
             </ul>
             <ul class="d-flex justify-content-between flex-d-column default mb-3">
                 @foreach( trans('custom-footer.list2') as $list)
                     @foreach( ($list['list2Values']) as $listValue)
-                    <li class="@if ($loop -> first ) mr-5 second-list @endif "><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p></li>
+                    <li class="@if ($loop -> first ) mr-8 second-list @endif "><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p></li>
                     @endforeach
                 @endforeach
                 </ul>      
