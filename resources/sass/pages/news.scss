@@ -2,6 +2,7 @@
     .news-card-link {
         @include custom-flex(space-between, center, row);
         padding: $distance-pading;
+       
         
         @media only screen and (max-width: 800px) {
             flex-direction: column !important;
