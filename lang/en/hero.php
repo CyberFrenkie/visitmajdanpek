@@ -24,7 +24,7 @@ return [
 
       'img' => [
         'class' => 'img-fluid h-100vh',
-        'src' => 'img/hero/default-img.png',
+        'src' => 'img/hero/majdanpek.jpg',
         'alt' => 'First slide',
       ],
 
@@ -57,7 +57,7 @@ return [
 
       'img' => [
         'class' => 'img-fluid h-100vh',
-        'src' => 'img/hero/default-img.png',
+        'src' => 'img/hero/Panorama_DM.jpg',
         'alt' => 'First slide',
       ],
 
