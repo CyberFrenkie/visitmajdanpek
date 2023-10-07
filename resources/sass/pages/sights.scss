@@ -20,13 +20,17 @@
       .par {  
         @include flex-center-colum;
         top: 70%;
-        .cta{
-          @include cta;
-          @include reset-default-text;
-        }
+       
       }
     }
-    
+    .cta{
+      @include cta;
+      @include reset-default-text;
+      position: absolute;
+      bottom: 5%;
+      left: 40%;
+      z-index: 5;
+    }
     .img {
       height: 100%;
     }
@@ -116,6 +120,38 @@
 }
 
 
-.margin-100vh {
+
+.sights-footer {
   margin-top: 100vh;
+}
+@media only screen and (max-width:1000px) {
+  .head {
+    top: 60% !important;
+  }
+
+  .split-hero{
+    height: calc($full-screen-height - $nav-height) !important;
+    flex-direction: column !important;
+  }
+  .split-card{
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: $color-link;
+    @include overlay;
+  }
+  .one,.two {
+    right: 0;
+    top: 0;
+    -webkit-clip-path: none !important;
+    clip-path: none !important; 
+  }
+  .par{
+    display: none !important;
+  }
+  
+  .sights-footer {
+    margin-top: auto;
+  }
+  
 }
