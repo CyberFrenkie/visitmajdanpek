@@ -20,7 +20,7 @@
     </div>
 
     {{-- Main section --}}
-    <div class="main" id="middle">
+    <div class="main">
       <div class="container-xl sights-content">
         <div class="card-wrap row mx-auto my-5 flex-wrap">
           @foreach ($mpekSights as $item)

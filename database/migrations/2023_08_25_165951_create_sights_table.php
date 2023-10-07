@@ -36,6 +36,7 @@ return new class extends Migration
             $table->longText('par4')->nullable();
             $table->longText('par5')->nullable();
             $table->longText('par6')->nullable();
+            $table->string('izvor')->nullable();
             $table->timestamps();
         });
     }
