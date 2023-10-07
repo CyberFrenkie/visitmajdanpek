@@ -11,16 +11,19 @@
       @include('partials/_navigation')
 
       <div id="custom-hero">
-        <img src="{{ asset('img/content/majdanpek/mpek-nocu.jpg') }}" alt="" class="img">
-        <div class="container">
-          <h3>{{ __('sights.sights.head2') }}</h1>
-          <p id="disappearing-paragraph">{{ __('sights.sights.par2') }}</p>
-        </div>
+        @foreach (__('sights.sights.milanovac') as $info)
+          <img src="{{ asset($info['img']) }}" alt="" class="img">
+          <div class="container">
+            <h3>{{ $info['head'] }}</h1>
+            <p id="disappearing-paragraph">{{ $info['par'] }}</p>
+          </div>
+        @endforeach
+        
       </div>
     </div>
 
     {{-- Main section --}}
-    <div class="main" id="middle">
+    <div class="main">
       <div class="container-xl sights-content">
         <div class="card-wrap row mx-auto my-5 flex-wrap">
           @foreach ($dmSights as $item)

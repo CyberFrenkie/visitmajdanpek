@@ -22,7 +22,7 @@
     </div>
 
     {{-- Main section --}}
-    <div id="middle">
+    <div >
       <div class="container">
         <div class="row sight">
           @foreach( $sight as $index => $content )
@@ -58,6 +58,9 @@
               </div>
             </div>
             </div>
+            <p class="text-center">
+              {{ $content['izvor'] }}
+            </p>
           @endforeach
         </div>
       </div>
