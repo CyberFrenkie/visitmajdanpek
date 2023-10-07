@@ -1,12 +1,13 @@
 .header {
   .video-wrap{
-    height: 100vh;
-    z-index: -1;
-    
     @include overlay;
+    @include custom-flex(center,center,column);
+    max-height: 100vh;
+    z-index: -1;
   }
 
   .img-wrap{
+    @include overlay;
     display: none;
   }
 
@@ -30,9 +31,7 @@
   }
 
   .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include custom-flex(center,center,column);
     top: 50%;
     transform: translate(0, -50%);
   }
