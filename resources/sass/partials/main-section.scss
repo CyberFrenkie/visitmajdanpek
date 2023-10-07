@@ -96,10 +96,13 @@
     .hero-mid {
         height: $slider-height;
         .carousel,
-        img,
         .carousel-inner,
         .carousel-item {
-            height: $full-width;
+            height: $full-height;
+        }
+
+        .carousel-item{
+            @include overlay;
         }
     }
 
@@ -136,7 +139,6 @@
             @include news-card-img-param;
             @include scale-transition;
         }
-
     }
     .news-card-wrap{        
         .news-card {
@@ -145,13 +147,7 @@
                 .news-card-img {
                    max-width: 100%;
                 }
-
-                .card-info-text{
-                    @include shorten-text;
-                }
-            
-            }  
-                    
+            }            
         }
     }
     
@@ -162,6 +158,13 @@
     .main {
         @include flex-center-colum;
     }
+    .hero-mid{
+        height: 40vh !important;
+        .carousel-item,img{
+            height: 40vh !important;
+        }
+    }
+
 }
 
 
