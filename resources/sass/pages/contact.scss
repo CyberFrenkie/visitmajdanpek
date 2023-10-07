@@ -117,7 +117,7 @@
         color: white;
 
         .send-button {
-            @include btn-primary;
+            @include cta;
             background-color: $border-bottom--hover--color;
             margin-top: 1.5rem;
 
