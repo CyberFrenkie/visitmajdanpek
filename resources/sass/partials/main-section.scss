@@ -136,6 +136,7 @@
             @include news-card-img-param;
             @include scale-transition;
         }
+
     }
     .news-card-wrap{        
         .news-card {
@@ -144,7 +145,13 @@
                 .news-card-img {
                    max-width: 100%;
                 }
-            }            
+
+                .card-info-text{
+                    @include shorten-text;
+                }
+            
+            }  
+                    
         }
     }
     

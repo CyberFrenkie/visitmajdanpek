@@ -108,16 +108,13 @@
         scale: 1.1;
       }
     }
-
     .shorten {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 3; 
-      -webkit-box-orient: vertical;
+      @include shorten-text;
     }
+   
   }
 }
+
 
 .margin-100vh {
   margin-top: 100vh;
