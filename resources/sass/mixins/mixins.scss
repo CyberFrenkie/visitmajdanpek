@@ -83,6 +83,13 @@
     }
 }
 
+@mixin left-arrow-animation {
+    &:hover .fa-arrow-left {
+        transform: translateX(-15px);
+        transition: 0.2s;
+    }
+}
+
 @mixin scale-transition {
     transition: $transition;
     &:hover {

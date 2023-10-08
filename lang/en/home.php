@@ -2,6 +2,8 @@
 
 return [
 
+    'backBtn' => 'Nazad',
+
     'article' => [
         [
             'heading' => 'Informacije od značaja',
