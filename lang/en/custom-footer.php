@@ -49,10 +49,10 @@ return[
             [
                 'sliderValues' => [
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/Pecina/pecina (60).jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/Pecina/pecina (50).jpg',
                     ],
                     [
                         'src' => '/img/content/content.png',

@@ -2,18 +2,18 @@
     <hr class="seperator col-md-4 col-sm-12">
     <div class="container">
         <div class="row ps-3">
-            <div class="col-lg-12 d-flex p-0 flex-column">
-            <ul class="d-flex default justify-content-between nav-tabs flex-d-column mb-2" role="tablist">
+            <div class="col-lg-12 d-flex p-0 flex-d-column justify-content-between">
+            <ul class=" default nav-tabs mb-2" role="tablist">
             @foreach(trans('custom-footer.list1') as $list)
                 @foreach(($list['list1Values']) as $listValue)
-                    <li class="mr-5"><button class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover readMore fw-extra-medium" type="button" data-bs-toggle="tab" data-bs-target="{{ $listValue['target'] }}" role="tab"><i class="{{ $listValue['icon'] }} custom-footer-font-size"></i>{{ $listValue['text'] }} <i class="{{ trans('custom-footer.arrow-icon') }} mt-2"></i></button></li>
+                    <li><button class="{{ trans('footer.default-class') }} custom-footer-font-size green-hover readMore fw-extra-medium" type="button" data-bs-toggle="tab" data-bs-target="{{ $listValue['target'] }}" role="tab"><i class="{{ $listValue['icon'] }} custom-footer-font-size"></i>{{ $listValue['text'] }} <i class="{{ trans('custom-footer.arrow-icon') }} mt-2"></i></button></li>
                 @endforeach
             @endforeach
             </ul>
-            <ul class="d-flex justify-content-between flex-d-column default mb-3">
+            <ul class="d-flex flex-column justify-content-between default mt-3">
                 @foreach( trans('custom-footer.list2') as $list)
                     @foreach( ($list['list2Values']) as $listValue)
-                    <li class="@if ($loop -> first ) mr-8 second-list @endif "><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p></li>
+                    <li><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium pr-26"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['text'] }}</p></li>
                     @endforeach
                 @endforeach
                 </ul>      
