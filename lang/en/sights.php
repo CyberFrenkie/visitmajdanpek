@@ -61,6 +61,86 @@ return [
      
 
     ],
+    'pecina-images'=> [
+      'Name' =>'images',
+      'images' => [
+
+        [
+          'image' => 'img/content/Pecina/Rajkova_pećina.jpg',
+        ],
+        [
+          'image' => 'img/content/Pecina/pecina.png',
+        ],
+        [
+          'image' => 'img/content/Pecina/pecina (50).jpg',
+        ],
+        [
+          'image' => 'img/content/Pecina/pecina (60).jpg',
+        ],
+      ],
+    ],
+    'prerast-images'=> [
+      'Name' =>'images',
+      'images' => [
+        
+        [
+          'image'=>'img/content/prerast/prerast3.jpg',
+        ],
+        [
+          'image'=>'img/content/prerast/vpReka.jpg',
+        ],
+        [
+          'image'=>'img/content/prerast/vp2.jpg',
+        ],
+        [
+          'image'=>'img/content/prerast/odmaraliste.jpg',
+        ]
+
+      ]
+    ],
+    'beli-izvorac-images'=> [
+      'Name' =>'images',
+      'images' => [
+        [
+            'image' => 'img/content/beli-izvorac/slap.jpg',
+        ],
+      ]
+    ],
+    'starica-images'=> [
+      'Name' =>'images',
+      'images' => [
+        [
+          'image' => 'img/content/content.png',
+        ],
+      ]
+    ],
+    'ski-centar-images'=> [
+      'Name' =>'images',
+      'images' => [
+        [
+          'image' => 'img/content/content.png',
+        ],
+      ]
+    ],
+    'lepenski-vir-images'=> [
+      'Name' =>'images',
+      'images' => [
+        [
+          'image' => 'img/content/content.png',
+        ]
+      ]
+    ],
+    'kovilovovo-images'=> [
+      'Name' =>'images',
+      'images' => [
+          [
+            'image' => 'img/content/kovilovo/Kovilovo-Sara Stanković.jpg',
+          ],
+          [
+            'image' => 'img/content/kovilovo/kovilovo1.jpg',
+          ],
+      ]
+    ],
 
     'content' => [
       [
