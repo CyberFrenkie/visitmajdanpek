@@ -27,18 +27,19 @@ return[
         'list2'=> [
         [
         'list2Values'=> [
-            [
-                    'text'=>'7:30-14:30',
+            [       
+                    'outer-text'=>'Radno Vreme: ',
+                    'inner-text'=>'7:30-14:30',
                     'url'=>'',
                     'icon'=>'fa-regular fa-clock me-2',
             ],
-            [        
-                    'text'=>'000-000-0000',
+            [       'outer-text'=>'Kontakt Telefon: ',
+                    'inner-text'=>'000-000-0000',
                     'url'=>'',
                     'icon'=>'fa-solid fa-phone-volume me-2',
             ],
-            [        
-                    'text'=>'exampleemail2@gmail.com',
+            [       'outer-text'=>'Email: ', 
+                    'inner-text'=>'exampleemail2@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
             ],

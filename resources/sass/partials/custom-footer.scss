@@ -2,11 +2,23 @@
     .custom-margin{
         margin-right: 0!important;
     }
+    .fade-transition{
+        transition: opacity 0.3s ease-in-out;
+    }
+    .readMore.active{
+        background: $nav-color--grey;
+        color: $color-black !important;
+    }
+    .readMore.active .fa-arrow-right{
+        transform: translateX(15px);
+        transition:$transition;
+    }
     .fw-extra-medium{
         font-weight: $font-weight-thick;
     }
     .nav-tabs{
         border: none !important;
+        margin-right: 3rem;
     }
     .tab-pane{
         height: auto;
@@ -176,6 +188,9 @@
             }
             .flex-d-column{
                 flex-direction: column !important;
+            }
+            .nav-tabs{
+                margin-right: 0!important;
             }
         }
     }
