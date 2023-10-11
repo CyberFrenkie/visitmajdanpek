@@ -27,7 +27,13 @@
     }
     .first-content {
         .card {
-            @include scale-transition;
+            .link{
+                 overflow: hidden;
+            }
+            .card-img{
+                 @include scale-transition;
+            }
+           
         }
     }
 
@@ -142,17 +148,20 @@
     }
     .news-card-wrap{        
         .news-card {
+            &:hover{
+                border-color: $color-link;
+            }
             .card-link{
                 @include custom-flex(center, center, column);
+
                 .news-card-img {
-                   max-width: $full-width;
+                   max-width: 100%;                   
                 }
-            }  
+            }
             .card-info-text{
                 @include shorten-text;
-            }
+            }            
         }
-        
     }
     
     

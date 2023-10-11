@@ -9,7 +9,7 @@ return [
       'button' => [
         'url' => '/',
         'class' => 'button',
-        'text' => 'Pocetna',
+        'text' => 'Početna',
       ],
     ],
     [
