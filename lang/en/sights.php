@@ -275,10 +275,10 @@ return [
         // 'link' => '',
 
         'img' => 'img/content/beli-izvorac/slap.jpg',
-        // 'img1' => '',
-        // 'img2' => '',
-        // 'img3' => '',
-        // 'img4' => '',
+        'img1' => '/img/content/beli-izvorac/beli_izvorac1.jpg',
+        'img2' => '/img/content/beli-izvorac/beli_izvorac2.jpg',
+        'img3' => '/img/content/beli-izvorac/beli_izvorac3.jpg',
+        'img4' => '/img/content/beli-izvorac/beli_izvorac4.jpg',
         // 'img5' => '',
         // 'img6' => '',
 
@@ -325,9 +325,9 @@ return [
         'location' => 'majdanpek',
         // 'link' => '/',
 
-        'img' => 'img/content/content.png',
-        // 'img1' => '',
-        // 'img2' => '',
+        'img' => '/img/content/starica/starica1.jpg',
+        'img1' => '/img/content/starica/starica1.jpg',
+        'img2' => '/img/content/starica/starica2.jpg',
         // 'img3' => '',
         // 'img4' => '',
         // 'img5' => '',
@@ -367,10 +367,10 @@ return [
         'location' => 'majdanpek',
         // 'link' => '/',
 
-        'img' => 'img/content/content.png',
-        // 'img1' => '',
-        // 'img2' => '',
-        // 'img3' => '',
+        'img' => 'img/content/ski-centar/rajkovo1.jpg',
+        'img1' => 'img/content/ski-centar/rajkovo2.jpg',
+        'img2' => 'img/content/ski-centar/rajkovo-skica.jpg',
+        'img3' => 'img/content/ski-centar/rajkovo1.jpg',
         // 'img4' => '',
         // 'img5' => '',
         // 'img6' => '',
@@ -392,12 +392,16 @@ return [
         'par2' => 'Staza od 1000 metara je manje strma i preporučuje se početnicima, dok je druga staza, koja se proteže na 1200 metara (često nazvana "Crna staza"),
                      znatno strmija i pruža pravo uživanje iskusnim ljubiteljima ovog sporta.',
 
-        // 'par3' => '',
-        // 'par4' => '',
+        'par3' => 'Poslednjih nekoliko godina skijaliste nije u funkciji. Ski lift i ratrak zahtevaju investicije u remont. Staze su zarasle.
+                   2011. godine došlo je do pomaka pre svega zahvaljujuci Skijaškom klubu "Starica" iz Majdanpeka. 
+                   Uspeli su da realizuju svoju inicijativu i dobili finansiranje javnih radova na čišćenju i 
+                   krčenju ski staza na Rajkovu kao i staze duž pružanja ski lifta. 
+                   Takođe ima pomaka i u rešavanju imovinsko pravnih odnosa vezanih za zemljiste na kome je skijaliste.',
+        'par4' => '',
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija',
+        'izvor' => 'Izvor informacija : skijanje.rs',
       ],
 
       [

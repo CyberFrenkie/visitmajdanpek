@@ -17,7 +17,11 @@
                 @foreach( trans('custom-footer.list2.content') as $list)
                     @foreach( ($list['list2Values']) as $listValue)
                         @if(   $list['id'] == $currentPageId)
-                            <li><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['inner-text'] }}</p></li>
+                            <li>
+                                <p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium">
+                                    <i class="{{ $listValue['icon'] }}"></i> {{ $listValue['inner-text'] }}
+                                </p>
+                            </li>
                         @endif
                     @endforeach
                 @endforeach
@@ -90,7 +94,7 @@
                @foreach( $slider['sliderValues'] as $sliderValue)
                     @if($slider['id'] == $currentPageId)
                     <div class="carousel-item @if($loop -> first) active @else @endif" data-bs-interval="4000">
-                        <img src="{{ $sliderValue['src'] }}" class="img-fluid slider-image">
+                        <img src="{{ asset($sliderValue['src']) }}" class="slider-image">
                     </div>
                     @endif
                  @endforeach

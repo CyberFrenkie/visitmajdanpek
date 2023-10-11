@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('sights', function (Blueprint $table) {
             $table->id('id');
-            $table->string('location');
+            $table->string('location')->nullable();
             $table->string('link')->nullable();
             $table->string('img')->nullable();
             $table->string('img1')->nullable();

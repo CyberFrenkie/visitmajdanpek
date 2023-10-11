@@ -145,10 +145,14 @@
             .card-link{
                 @include custom-flex(center, center, column);
                 .news-card-img {
-                   max-width: 100%;
+                   max-width: $full-width;
                 }
-            }            
+            }  
+            .card-info-text{
+                @include shorten-text;
+            }
         }
+        
     }
     
     

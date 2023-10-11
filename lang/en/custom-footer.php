@@ -43,7 +43,7 @@ return[
                 ],
             
                 [
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: pecina@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -64,7 +64,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: prerast@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -85,7 +85,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: beli_izvorac@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -106,7 +106,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: starica@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -127,7 +127,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: ski_centar_rajkovo',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -149,7 +149,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: lepenski_vir@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -170,7 +170,7 @@ return[
                     'icon'=>'fa-solid fa-phone-volume me-2',
                 ],
                 [ 
-                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'inner-text'=>'Email: kovilovo@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
                 ],
@@ -224,10 +224,16 @@ return[
                         'src' => '/img/content/beli-izvorac/slap.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/beli-izvorac/beli_izvorac1.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/beli-izvorac/beli_izvorac2.jpg',
+                    ],                     
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac3.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac4.jpg',
                     ],  
                 ],
             ],
@@ -236,14 +242,12 @@ return[
             'name'=> 'starica',  
             'sliderValues' => [
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/starica/starica1.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => '/img/content/starica/starica2.jpg',
                     ],
-                    [
-                        'src' => '/img/content/content.png',
-                    ],  
+
                 ],
             ],
             [
@@ -251,13 +255,13 @@ return[
             'name'=> 'ski_centar_rajkovo',  
             'sliderValues' => [
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => 'img/content/ski-centar/rajkovo1.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => 'img/content/ski-centar/rajkovo2.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
+                        'src' => 'img/content/ski-centar/rajkovo-skica.jpg',
                     ],  
                 ],
             ],
@@ -286,9 +290,7 @@ return[
                     [
                         'src' => '/img/content/kovilovo/kovilovo1.jpg',
                     ],
-                    [
-                        'src' => '/img/content/content.png',
-                    ],  
+ 
                 ],
             ],
     ],
