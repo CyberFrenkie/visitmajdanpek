@@ -10,10 +10,15 @@
                 @endforeach
             @endforeach
             </ul>
+            @php
+                $currentPageId=request()->segment(2);
+            @endphp    
             <ul class="gap-align default">
-                @foreach( trans('custom-footer.list2') as $list)
+                @foreach( trans('custom-footer.list2.content') as $list)
                     @foreach( ($list['list2Values']) as $listValue)
-                    <li><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['inner-text'] }}</p></li>
+                        @if(   $list['id'] == $currentPageId)
+                            <li><p class="{{ trans('footer.default-class') }} custom-footer-font-size fw-extra-medium"><i class="{{ $listValue['icon'] }}"></i>{{ $listValue['inner-text'] }}</p></li>
+                        @endif
                     @endforeach
                 @endforeach
                 </ul>      
@@ -81,11 +86,13 @@
         </div>
     <div id="carouselExampleControls" class="carousel slide pl-15 pb-4" data-bs-ride="carousel">
         <div class="carousel-inner mb-3">
-            @foreach( trans('custom-footer.slider') as $slider)
+            @foreach( trans('custom-footer.slider.content') as $slider)
                @foreach( $slider['sliderValues'] as $sliderValue)
+                    @if($slider['id'] == $currentPageId)
                     <div class="carousel-item @if($loop -> first) active @else @endif" data-bs-interval="4000">
                         <img src="{{ $sliderValue['src'] }}" class="img-fluid slider-image">
                     </div>
+                    @endif
                  @endforeach
             @endforeach                              
         </div>
