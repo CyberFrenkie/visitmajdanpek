@@ -16,9 +16,18 @@
     .fw-extra-medium{
         font-weight: $font-weight-thick;
     }
+    .gap-align:not(.nav-tabs){
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        margin-top: 0.6rem;
+    }
     .nav-tabs{
         border: none !important;
         margin-right: 3rem;
+        display: flex;
+        flex-direction: column;;
+        gap: 20px;
     }
     .tab-pane{
         height: auto;
@@ -35,6 +44,10 @@
             @media only screen and (max-width:768px) {
                 .google-map{
                     width: 330px!important;
+                }
+                .gap-align:not(.nav-tabs){
+                    row-gap: 52px;
+                    margin-top: 1rem;
                 }
                 
             }
@@ -122,7 +135,8 @@
         .green-hover{
              @include cta;
              width: 250px;
-             border: none;   
+             border: none;
+             margin-top: 0;   
         }
         @media only screen and (max-width: 768px) {
             .custom-footer-font-size {
@@ -192,12 +206,19 @@
             .nav-tabs{
                 margin-right: 0!important;
             }
+            .gap-align:not(.nav-tabs){
+                gap: 0;
+            }
         }
     }
         @media only screen and (min-width:960px){
             @media only screen and (max-width:1024px){
                 .custom-footer-font-size{
                     font-size: 20px;
+                }
+                .gap-align:not(.nav-tabs){
+                    gap: 51px;
+                    margin-top: 1rem;
                 }           
             }
         }
