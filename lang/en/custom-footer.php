@@ -24,31 +24,247 @@ return[
         ],
         ],
     ],
-        'list2'=> [
+'list2'=> [
+    'content'=> [
         [
-        'list2Values'=> [
-            [       
-                    
-                    'inner-text'=>'Radno Vreme: 7:30-14:30',
+            'id' => '1',
+            'name'=> 'rajkova_pecina',   
+            'list2Values'=> [
+                [   
+                    'inner-text'=>'Radno Vreme: 9:30-14:30',
                     'url'=>'',
                     'icon'=>'fa-regular fa-clock me-2',
-            ],
-            [
+                ],
+            
+                [
                     'inner-text'=>'Kontakt Telefon: 000-000-0000',
                     'url'=>'',
                     'icon'=>'fa-solid fa-phone-volume me-2',
-            ],
-            [ 
+                ],
+            
+                [
                     'inner-text'=>'Email: exampleemail2@gmail.com',
                     'url'=>'',
                     'icon'=>'fa-regular fa-envelope me-2',
+                ],
             ],
         ],
+        [
+            'id' => '2',
+            'name'=> 'prerast',
+            'list2Values'=> [
+                [                          
+                    'inner-text'=>'Radno Vreme: 10:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
+        ],
+        [
+            'id' => '3',
+            'name'=> 'beli_izvorac',
+            'list2Values'=> [
+                [       
+                    'inner-text'=>'Radno Vreme: 11:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
+        ],
+        [
+            'id' => '4',
+            'name'=> 'starica',
+            'list2Values'=> [
+                [       
+                    'inner-text'=>'Radno Vreme: 12:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
+        ],
+        [
+            'id' => '7',
+            'name'=> 'ski_centar_rajkovo',
+            'list2Values'=> [
+                [      
+                    'inner-text'=>'Radno Vreme: 13:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
+        ],
+        [
+            'id' => '8',
+            'name'=> 'lepenski_vir',
+            'list2Values'=> [
+                [       
+                    
+                    'inner-text'=>'Radno Vreme: 14:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
+        ],
+        [
+            'id' => '9',
+            'name'=> 'kovilovo',
+            'list2Values'=> [
+                [       
+                    'inner-text'=>'Radno Vreme: 15:30-14:30',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-clock me-2',
+                ],
+                [
+                    'inner-text'=>'Kontakt Telefon: 000-000-0000',
+                    'url'=>'',
+                    'icon'=>'fa-solid fa-phone-volume me-2',
+                ],
+                [ 
+                    'inner-text'=>'Email: exampleemail2@gmail.com',
+                    'url'=>'',
+                    'icon'=>'fa-regular fa-envelope me-2',
+                ],
+            ],
         ],
     ],
-        'slider' => [
+],
+'slider' => [
+        'content' => [
             [
-                'sliderValues' => [
+            'id' => '1',
+            'name'=> 'rajkova_pecina',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/Pecina/pecina (60).jpg',
+                    ],
+                    [
+                        'src' => '/img/content/Pecina/pecina (50).jpg',
+                    ],
+                    [
+                        'src' => '/img/content/Pecina/Rajkova_pećina.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/Pecina/pecina.png',
+                    ],  
+                ],
+            ],
+            [
+            'id' => '2',
+            'name'=> 'prerast',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/prerast/prerast3.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/vpReka.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/odmaraliste.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/vp2.jpg',
+                    ],   
+                ],
+            ],
+            [
+            'id' => '3',
+            'name'=> 'beli_izvorac',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/beli-izvorac/slap.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],  
+                ],
+            ],
+            [
+            'id' => '4',
+            'name'=> 'starica',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/content.png',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],  
+                ],
+            ],
+            [
+            'id' => '7',
+            'name'=> 'ski_centar_rajkovo',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/content.png',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],  
+                ],
+            ],
+            [
+            'id' => '8',
+            'name'=> 'lepenski_vir',  
+            'sliderValues' => [
                     [
                         'src' => '/img/content/Pecina/pecina (60).jpg',
                     ],
@@ -57,11 +273,26 @@ return[
                     ],
                     [
                         'src' => '/img/content/content.png',
+                    ],  
+                ],
+            ],
+            [
+            'id' => '9',
+            'name'=> 'kovilovo',  
+            'sliderValues' => [
+                    [
+                        'src' => '/img/content/kovilovo/Kovilovo-Sara Stanković.jpg',
                     ],
-                    
-            ]
-        ],
+                    [
+                        'src' => '/img/content/kovilovo/kovilovo1.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/content.png',
+                    ],  
+                ],
+            ],
     ],
+],
         'arrow-icon' => 'fa-solid fa-arrow-right',
         'locations' => 'Lokacija Znamenitosti',
         'BG-pravac' => 'Pravac Iz Beograda',
