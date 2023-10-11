@@ -26,17 +26,17 @@
         border: none !important;
         margin-right: 3rem;
         display: flex;
-        flex-direction: column;;
+        flex-direction: column;
         gap: 20px;
     }
     .tab-pane{
         height: auto;
     }
     .carousel-item{
-        height: 40vh;
+        height: 60vh;
     }
     .carousel-item > img{
-        object-fit: cover;
+        object-fit: fill;
         height: 100%;
         width: 100%;
     }
@@ -77,14 +77,13 @@
     }
     .image-wrapper{
         height:150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-center-row;
     }
     .image-wrapper > a > img{
         max-width: 90%;
         max-height: 90%;
     }
+   
     .seperator {
         margin-left: 40px;
         margin-bottom: 25px;
@@ -236,4 +235,5 @@
             background-color: rgba(0, 0, 0, 0.9);
         }
 }
+
 
