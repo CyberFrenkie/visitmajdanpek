@@ -34,7 +34,8 @@
       @foreach( __('home.hero.carousel.slides') as $index => $slide)
       <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
 
-        <img src="{{ $slide['img'] }}" class="d-block w-100 h-100" alt="Carousel Image">
+        <img src="{{ $slide['img'] }}" class="pc-slide" alt="Carousel Image">
+        <img src="{{ $slide['imgMobile'] }}" class="mobile-slide" alt="Carousel Image">
 
         <div class="slide-link">
           <h1 class="slide-title">{{ $slide['title'] }}</h1>
