@@ -103,14 +103,32 @@
 
     .hero-mid {
         height: $slider-height;
+        width: $full-width;
         .carousel,
         .carousel-inner,
         .carousel-item {
             height: $full-height;
+            width: $full-width;
         }
 
         .carousel-item{
             @include overlay;
+            width: $full-width;
+            .pc-slide,.mobile-slide{
+                width: $full-width;
+                position: center;
+                @media only screen and (max-width: 800px) {
+                    display: none;
+                }
+            }
+            .mobile-slide{
+                display: none;
+                height: $full-height;
+                @media only screen and (max-width: 800px) {
+                    display: block;
+                }
+
+            }
         }
     }
 
@@ -173,12 +191,12 @@
     .main {
         @include flex-center-colum;
     }
-    .hero-mid{
-        height: 40vh !important;
-        .carousel-item,img{
-            height: 40vh !important;
-        }
-    }
+    // .hero-mid{
+    //     height: 40vh !important;
+    //     .carousel-item,img{
+    //         height: 40vh !important;
+    //     }
+    // }
 
 }
 

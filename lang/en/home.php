@@ -66,23 +66,26 @@ return [
 
             'slides' => [
                 [
-                    'img' => 'img/content/majdanpek/mpek-nocu.jpg',
+                    'img' => 'img/content/dm/Panorama_DM.jpg',
+                    'imgMobile' => 'img/content/dm/Panorama_DM-Mobile.jpg',
                     'title' => 'Preporučujemo',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Donji Milanovac',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/dm-sights',
                 ],
                 [
                     'img' => 'img/content/majdanpek/majdanpek.jpg',
+                    'imgMobile' => 'img/content/majdanpek/majdanpek-mobile.jpg',
                     'title' => 'Popularno',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Poseta Majdanpeka',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/sights/mpek',
                 ],
                 [
-                    'img' => 'img/content/majdanpek/mpek2.jpg',
+                    'img' => 'img/content/majdanpek/mpek-nocu.jpg',
+                    'imgMobile' => 'img/content/majdanpek/mpek-nocu-mobile.jpg',
                     'title' => 'Manje poznato',
-                    'text' => 'Prepoznajte destinaciju iz snova!',
+                    'text' => 'Upoznajte opštinu Majdanpek',
                     'button_text' => 'Pročitaj više',
                     'button_link' => '/about-majdanpek',
                 ],
