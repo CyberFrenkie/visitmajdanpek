@@ -68,7 +68,7 @@
     {{-- Partners second section --}}
     <div class="partners container-xl">
       <hr class="seperator col-md-4 col-sm-12 marg">
-      <div class="row justify-content-between">
+      <div class="row justify-content-between partner-card-wrap">
         @foreach( __('about-us.partners.header') as $partners)
         <div class="col-md-12">
           <h1 class="heading">{{ $partners['heading'] }}</h1>

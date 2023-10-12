@@ -26,7 +26,7 @@
       <div class="container">
         <div class="row sight">
           @foreach( $sight as $index => $content )
-            <div class="d-flex align-items-center justify-content-evenly flex-column }}">
+            <div class="sight-content-wrap d-flex align-items-center justify-content-evenly flex-column">
               <div class="row sight-content text-center">
                 <div class="col-md-7 col-sm-12">
                   <h3 class="title col-12">{{ $content['head1'] }}</h3>

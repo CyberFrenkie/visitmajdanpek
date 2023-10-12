@@ -181,7 +181,10 @@
 //spacing
 
 @mixin content-space{
-    margin: 3% 0; 
+    margin: 35px 0; 
+}
+@mixin content-padding-space{
+    padding: 3% 0; 
 }
 
 @mixin shorten-text{

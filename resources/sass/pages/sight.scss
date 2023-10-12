@@ -2,6 +2,9 @@
   margin-top: 100vh;
   transition: margin 1s ease;
 }
+.sight-content-wrap{
+  @include content-padding-space;
+}
 
 .sight-content {
   @include flex-center-row;
