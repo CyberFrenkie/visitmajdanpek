@@ -14,7 +14,6 @@
 .majdanpek-hero{
     @include overlay;
     @include flex-center-colum;
-
     background-image: url('../../public/img/content/majdanpek/majdanpek.jpg');
     position: relative;
     background-repeat: no-repeat;
@@ -28,10 +27,11 @@
     }
 
     @media only screen and (max-width: 800px) {
-        height: 20vh;
-        background-size: 100%;
+        background-image: url('../../public/img/content/majdanpek/majdanpek-mobile.jpg');
+        background-position: center;
+
         .news-heading{
-            font-size: $font-size-title-primary-reduced;
+            font-size: $font-size-title-special;
             color: $color-primary;
         }
     }    

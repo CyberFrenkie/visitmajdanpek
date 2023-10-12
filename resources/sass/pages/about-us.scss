@@ -22,12 +22,14 @@
     .about-us-card {
         margin: $card-margin;
         flex-direction: column;
-        .inner-wrap{            
+        .inner-wrap{          
+            border-radius: $border-radius;            
+            max-width: $full-width; 
+            overflow: hidden; 
             .about-us-img{
                 @include scale-transition;
-                border-radius: $border-radius;
                 max-height: 300px;
-                max-width: 100%;
+                
             }
         }
 
@@ -39,7 +41,7 @@
             @include reset-default-text;
             @include link-hover-transition;
             @include flex-center-colum;
-            height: 100%;
+            height: $full-height;
         }
 
 
@@ -55,17 +57,28 @@
     }
 
     .partners {
+
         .about-us-link{
             border: none;
+            max-width: 200px;
+            max-height: 100px;
             &:hover{
                 border: none;
             }
         }
         .about-us-img {
-            max-width: 200px;
-            max-height: 100px;
+            @include scale-transition;
+            max-width: $full-width;
+            max-height: $full-height;
             background-color: $color-primary;
             border-radius: 0;
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .about-us-card{
+                width: $full-width;
+                @include flex-center-colum;
+            }
         }
     }
 }
