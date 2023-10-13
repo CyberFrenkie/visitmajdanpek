@@ -48,8 +48,9 @@ return [
         'text' => 'Kontakt',
       ],
     ],
+
     [
-      'class' => 'nav-item nav-item-right',
+      'class' => 'nav-item display',
       
       'button' => [
         'url' => '#',
@@ -57,7 +58,27 @@ return [
         'text' => 'RS',
       ],
     ],
+    // [
+    //   'class' => 'nav-item display',
+      
+    //   'button' => [
+    //     'url' => '#',
+    //     'class' => 'button disable icon-search',
+    //     'text' => '',
+    //   ],
+    // ],
+  ],
 
+  'list2' => [
+    [
+      'class' => 'nav-item',
+      
+      'button' => [
+        'url' => '#',
+        'class' => 'button disable icon icon-lang',
+        'text' => 'RS',
+      ],
+    ],
     // [
     //   'class' => 'nav-item',
       
