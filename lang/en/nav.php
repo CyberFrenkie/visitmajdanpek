@@ -71,7 +71,7 @@ return [
 
   'list2' => [
     [
-      'class' => 'nav-item',
+      'class' => 'nav-item margin-right',
       
       'button' => [
         'url' => '#',
