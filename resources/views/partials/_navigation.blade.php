@@ -7,8 +7,20 @@
 		</button>
 
 		<div class="collapse navbar-collapse nav-container" id="navbarNavDropdown">
-			<ul class="navbar-nav w-100">
+			<ul class="navbar-nav">
 				@foreach( __('nav.list') as $list)
+					<li class="{{ $list['class'] }}">
+						<a href="{{ $list['button']['url'] }}" class="{{ $list['button']['class'] }}">
+							{{ $list['button']['text'] }}
+						</a>
+					</li>
+				@endforeach
+			</ul>
+		</div>
+
+		<div class="collapse navbar-collapse nav-container">
+			<ul class="navbar-nav">
+				@foreach( __('nav.list2') as $list)
 					<li class="{{ $list['class'] }}">
 						<a href="{{ $list['button']['url'] }}" class="{{ $list['button']['class'] }}">
 							{{ $list['button']['text'] }}

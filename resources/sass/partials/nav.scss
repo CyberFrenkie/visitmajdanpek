@@ -10,6 +10,11 @@
     .nav-box {
       padding: 0 80px;
       display: flex;
+      justify-content: space-between;
+
+      .navbar-collapse {
+        flex-grow: 0;
+      }
 
       .navbar-brand {
         margin-right: 0!important;
@@ -33,118 +38,102 @@
         box-shadow: none;
       }
 
-      .nav-container {
-        margin-left: 230px;
-
-        @media only screen and (max-width:1700px) {
-          margin-left: 100px;
-        }
-
-        @media only screen and (max-width:1400px) {
-          margin-left: 20px;
-        }
-
+      .display {
+        display: none;
+        
         @media only screen and (max-width:1200px) {
-          margin: 15px 0 0 0;
+          display: block;
+        }
+      }
+
+      .nav-item {
+        @media only screen and (max-width:1200px) {
+          background: #111;
+          opacity: 0.9;
         }
 
-        .nav-item-right {
-          margin-left: auto;
+        .button {
+          display: block;
+          padding: 27px 40px;
+          color: $nav-color--grey;
+          text-decoration: none;
+          font-size: 19px;
+          border-bottom: 2px solid transparent;
 
-          @media only screen and (max-width:1200px) {
-            margin-left: 0;
+          @media (min-width: 1200px) {
+            &:not(.disable):hover {
+              border-bottom-color: $color-link;
+              transition: $transition;
+            }
+          }
+
+          @media only screen and (max-width:1330px) {
+            padding: 27px 30px;
+            font-size: 18px;
+            text-align: center;
           }
         }
 
-        .nav-item {
-          @media only screen and (max-width:1200px) {
-            background: #111;
-            opacity: 0.9;
-          }
-
-          .button {
-            display: block;
-            padding: 27px 40px;
-            color: $nav-color--grey;
-            text-decoration: none;
-            font-size: 19px;
-            border-bottom: 2px solid transparent;
-
-            @media (min-width: 1200px) {
-              &:not(.disable):hover {
-                border-bottom-color: $color-link;
-                transition: $transition;
+        .icon {
+          font-weight: $font-weight-thick;
+          padding: 27px 40px;
+        }
+  
+        $icons: ("lang": "\f0ac", "search": "\f002");
+        @each $value, $icons in $icons {
+          .icon-#{$value} {
+            position: relative;
+  
+            &::after {
+              content: "#{$icons}";
+              font: normal 900 1em/1 "Font Awesome 6 Free";
+              font-weight: 900;
+              font-size: 20px;
+              color: $nav-color--grey;
+              top: 32px;
+              right: 22px;
+              width: 5px;
+              height: 30px;
+              display: block;
+              position: absolute;
+              transform: translate(-50%);
+  
+              @media only screen and (max-width:500px) {
+                font-size: 18px;
               }
             }
+          }
 
-            @media only screen and (max-width:1330px) {
-              padding: 27px 30px;
-              font-size: 18px;
-              text-align: center;
+          .icon-search {
+            &::after {
+              @media only screen and (max-width:1200px) {
+                top: 50%;
+                right: 50%;
+                transform: translate(-50%, -50%);
+              }
             }
           }
 
-          .icon {
-            font-weight: $font-weight-thick;
-            padding: 27px 40px;
-          }
-    
-          $icons: ("lang": "\f0ac", "search": "\f002");
-          @each $value, $icons in $icons {
-            .icon-#{$value} {
-              position: relative;
-    
-              &::after {
-                content: "#{$icons}";
-                font: normal 900 1em/1 "Font Awesome 6 Free";
-                font-weight: 900;
-                font-size: 20px;
-                color: $nav-color--grey;
-                top: 32px;
-                right: 22px;
-                width: 5px;
-                height: 30px;
-                display: block;
-                position: absolute;
-                transform: translate(-50%);
-    
-                @media only screen and (max-width:500px) {
-                  font-size: 18px;
-                }
+          .icon-lang {
+            &::after {
+              @media only screen and (max-width:1200px) {
+                right: 46%;
+                transform: translate(-46%);
               }
-            }
 
-            .icon-search {
-              &::after {
-                @media only screen and (max-width:1200px) {
-                  top: 50%;
-                  right: 50%;
-                  transform: translate(-50%, -50%);
-                }
+              @media only screen and (max-width:800px) {
+                right: 44%;
+                transform: translate(-44%);
               }
-            }
 
-            .icon-lang {
-              &::after {
-                @media only screen and (max-width:1200px) {
-                  right: 46%;
-                  transform: translate(-46%);
-                }
+              @media only screen and (max-width:600px) {
+                right: 40%;
+                transform: translate(-40%);
+              }
 
-                @media only screen and (max-width:800px) {
-                  right: 44%;
-                  transform: translate(-44%);
-                }
-
-                @media only screen and (max-width:600px) {
-                  right: 40%;
-                  transform: translate(-40%);
-                }
-
-                @media only screen and (max-width:400px) {
-                  right: 36%;
-                  transform: translate(-36%);
-                }
+              @media only screen and (max-width:400px) {
+                right: 36%;
+                transform: translate(-36%);
               }
             }
           }
@@ -152,7 +141,6 @@
       }
     }
   }
-
 }
 
 .wrapper {
