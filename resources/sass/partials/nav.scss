@@ -8,9 +8,10 @@
     position: absolute;
   
     .nav-box {
-      padding: 0;
+      padding: 24px 0;
       display: flex;
       justify-content: space-between;
+
 
       .navbar-collapse {
         flex-grow: 0;
@@ -63,6 +64,7 @@
         @media only screen and (max-width:1200px) {
           background: #111;
           opacity: 0.9;
+          
         }
 
         .button {
@@ -73,14 +75,15 @@
           font-size: 19px;
           border-bottom: 2px solid transparent;
 
-          @media (min-width: 1200px) {
+          @media (min-width: 1200px) {            
             &:not(.disable):hover {
               border-bottom-color: $color-link;
               transition: $transition;
             }
           }
 
-          @media only screen and (max-width:1330px) {
+          @media only screen and (max-width:1330px) {    
+            border-bottom-color: $color-link;
             padding: 27px 30px;
             font-size: 18px;
             text-align: center;
