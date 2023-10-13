@@ -5,19 +5,16 @@ return[
         'list1Values'=> [
             [
                     'text'=>'Lokacija',
-                    'url'=>'https://goo.gl/maps/sgbbEVpLpRhyEr6SA',
                     'icon'=>'fa-solid fa-location-dot me-2',
                     'target'=>'#location',
             ],
             [
                     'text'=>'Ruta Autom',
-                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate',
                     'icon'=>'fa-solid fa-car me-2',
                     'target'=>'#car-route',
             ],
             [       
                     'text'=>'Ruta peške',
-                    'url'=>'https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=walking&dir_action=navigate',
                     'icon'=>'fa-solid fa-person-walking me-2',
                     'target'=>'#walk-route',
             ],
@@ -295,9 +292,183 @@ return[
             ],
     ],
 ],
+'maps'  => [
+        'content' => [
+            [
+                'id' => '1',
+                'name'=> 'rajkova_pecina',
+                'location' => [
+                    [
+                        
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5224.395476590407!2d21.95219135969145!3d44.440917724553586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47516f327533d39d%3A0xa001196a77495ff9!2z0KDQsNGY0LrQvtCy0LAg0L_QtdGb0LjQvdCw!5e0!3m2!1ssr!2srs!4v1695993075352!5m2!1ssr!2srs',
+                    ],
+                ],
+                'car-route' => [
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Belgrade,+Serbia&destination=Rajko\'s+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Rajko\'s+Cave,+Капетанска,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'walk-route' => [
+                    
+                    ],
+                ],
+                [
+                'id' => '2',
+                'name'=> 'prerast',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Ваља+Прераст+-+Шупља+Cтена,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'car-route' => [
+                    
+                
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Ваља+Прераст+-+Шупља+Cтена,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Ваља+Прераст+-+Шупља+Cтена,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ]
+                    ],
+                    'walk-route' => [
+                    
+                    ],
+                ],
+                [
+                'id' => '3',
+                'name'=> 'beli_izvorac',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Beli+Izvorac,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'car-route' => [
+                    
+                
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Beli+Izvorac,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Beli+Izvorac,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ]
+
+                    ],
+                    'walk-route' => [
+                    
+                    ],
+                ],
+                [
+                'id' => '4',
+                'name'=> 'starica',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Starica,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'car-route' => [
+                    
+                
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Starica,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Starica,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ]
+                ],
+                'walk-route' => [
+                    
+                ],
+
+            ],
+            [
+                'id' => '7',
+                'name'=> 'ski_centar_rajkovo',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Rajkovo+Ski+Center,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+
+                    ],
+                ],
+                'car-route' => [
+                    
+                
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Rajkovo+Ski+Center,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Rajkovo+Ski+Center,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ]
+                    ],
+                    'walk-route' => [
+                    
+                    ],
+                ],
+                [
+                'id' => '8',
+                'name'=> 'lepenski_vir',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Lepenski+Vir+archeological+site,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'car-route' => [
+                    
+                
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Lepenski+Vir+archeological+site,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Lepenski+Vir+archeological+site,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                    ],
+                'walk-route' => [
+                    
+                    ],
+                ],
+                [
+                'id' => '9',
+                'name'=> 'kovilovo',
+                'location' => [
+                    [
+                        'target'=>'location',
+                        'head'=>'Lokacija:',
+                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Vidikovac+Kovilovo,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ],
+                ],
+                'car-route' => [
+                    [
+                        'target'=>'car-route',
+                        'head'=>'Ruta Autom:',
+                        'src1'=>'https://www.google.com/maps/embed/v1/directions?origin=Beograd,+Serbia&destination=Vidikovac+Kovilovo,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src2'=>'https://www.google.com/maps/embed/v1/directions?origin=Negotin,+Serbia&destination=Vidikovac+Kovilovo,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                    ]
+                    ],
+                'walk-route' => [
+                    
+                    ],
+                ],
+
+        ],
+    ],
+    
         'arrow-icon' => 'fa-solid fa-arrow-right',
         'locations' => 'Lokacija Znamenitosti',
         'BG-pravac' => 'Pravac Iz Beograda',
         'NG-pravac' => 'Pravac Iz Negotina',
-        'Informations' => '<a href="https://www.google.com/maps/dir/?api=1&destination=Rajkova+Pecina&travelmode=driving&dir_action=navigate" target="_blank" class="default">Za vise informacija klikni OVDE<i class="move-arrow fa-solid fa-arrow-right ms-2"></i></a>',
+        'information' => 'Za vise informacija klikni OVDE',
 ];
