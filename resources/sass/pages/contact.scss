@@ -66,14 +66,15 @@
 
     .contact-bg-image {
         @include overlay;
-
-        background-image: url('../../public/img/content/majdanpek/majdanpek-starica.jpg');
+        @include flex-center-colum;  
         position: relative;
+        background-image: url('../../public/img/content/majdanpek/majdanpek-starica.jpg');
+        background-size: cover;        
         background-repeat: no-repeat;
+        background-position: center;
         width: $full-width;
         height: calc($full-screen-height - $nav-height);
-        background-size: cover;
-        padding: $contact-padding;
+        
 
         .contact-header-fs{
             font-size: $font-size-title-primary;
@@ -87,11 +88,8 @@
     @media only screen and (max-width:850px){
         height: auto;
         overflow-y: auto;
-
-        .contact-bg-image{
+        .contact-bg-image{                      
             padding: 0;
-            padding-top: $contact-padding;
-            background-position: center;
 
             .contact-header-fs{
                 font-size:$font-size-title-primary-reduced;
@@ -114,7 +112,7 @@
     .form-styling {
         position: relative;
         width: 40%;
-        color: white;
+        color: $color-primary;
 
         .send-button {
             @include cta;

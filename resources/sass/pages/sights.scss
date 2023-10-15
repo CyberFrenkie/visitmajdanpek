@@ -99,17 +99,26 @@
       padding: 30px;
     }
 
+    .card-content{
+      @include flex-center-colum;
+      text-align: justify;
+    }
+
     .sights-card-header {
       font-size: 30px;
     }
 
     .img {
-      height: 220px;
+      height: 220px;      
       margin-bottom: 20px;
       transition: $transition; 
 
       &:hover{
         scale: 1.1;
+      }
+
+      @media only screen and (max-width:800px) {
+        max-width: 300px;
       }
     }
     .shorten {

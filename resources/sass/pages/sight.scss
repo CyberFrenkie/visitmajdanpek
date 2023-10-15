@@ -8,8 +8,9 @@
 
 .sight-content {
   @include flex-center-row;
-  @include content-space;
   flex-wrap: wrap;
+  margin: $distance-pading;
+  padding: $distance-pading;  
   
   .img{
     max-height: 300px;
