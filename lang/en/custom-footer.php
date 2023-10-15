@@ -302,7 +302,7 @@ return[
                         
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5224.395476590407!2d21.95219135969145!3d44.440917724553586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47516f327533d39d%3A0xa001196a77495ff9!2z0KDQsNGY0LrQvtCy0LAg0L_QtdGb0LjQvdCw!5e0!3m2!1ssr!2srs!4v1695993075352!5m2!1ssr!2srs',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32235.00644859903!2d21.93051697823268!3d44.429076098575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47516f327533d39d%3A0xa001196a77495ff9!2z0KDQsNGY0LrQvtCy0LAg0L_QtdGb0LjQvdCw!5e0!3m2!1ssr!2srs!4v1697405650904!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
@@ -324,7 +324,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Ваља+Прераст+-+Шупља+Cтена,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68368.3558225769!2d21.95610853579171!3d44.37363897543251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4751677818eb325b%3A0x623ca7e9a356b99a!2sValja%20prerast!5e0!3m2!1ssr!2srs!4v1697405743764!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
@@ -348,7 +348,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Beli+Izvorac,+Rudna+Glava,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59175.571081635986!2d21.9455046050193!3d44.373376919047566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475167361e2e3e6f%3A0x293a50bd87ab1111!2z0JHQuNCz0YDQtdC90LAg0LDQutGD0LzRg9C70LDRhtC40ZjQsCDQkdC10LvQuCDQmNC30LLQvtGA0LDRhg!5e0!3m2!1ssr!2srs!4v1697405827551!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
@@ -373,7 +373,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Starica,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55816.54057928451!2d21.922467160533504!3d44.41296069152896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4751692b90c7c7b5%3A0x79b3169cde476687!2sStarica!5e0!3m2!1ssr!2srs!4v1697405929661!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
@@ -398,7 +398,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Rajkovo+Ski+Center,+Majdanpek,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55813.75373917265!2d21.912571616404385!3d44.41588054097539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475168dc1519cab1%3A0xa54d9d606c906272!2z0KHQutC4INGG0LXQvdGC0LDRgCDQoNCw0ZjQutC-0LLQvg!5e0!3m2!1ssr!2srs!4v1697405998348!5m2!1ssr!2srs',
 
                     ],
                 ],
@@ -423,7 +423,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Lepenski+Vir+archeological+site,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111470.18249489786!2d21.959416027744318!3d44.4982348883118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4751711e67f48b73%3A0xb239db1206563e17!2z0JvQtdC_0LXQvdGB0LrQuCDQktC40YAg0LDRgNGF0LXQvtC70L7RiNC60Lgg0LvQvtC60LDQu9C40YLQtdGC!5e0!3m2!1ssr!2srs!4v1697406079187!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
@@ -447,7 +447,7 @@ return[
                     [
                         'target'=>'location',
                         'head'=>'Lokacija:',
-                        'src'=>'https://www.google.com/maps/embed/v1/place?q=Vidikovac+Kovilovo,+Donji+Milanovac,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8',
+                        'src'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111482.13102389159!2d21.965371280124515!3d44.49198446419444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47516590ea2f4a03%3A0x78adbaac8a7db140!2sVidikovac%20Kovilovo!5e0!3m2!1ssr!2srs!4v1697406200586!5m2!1ssr!2srs',
                     ],
                 ],
                 'car-route' => [
