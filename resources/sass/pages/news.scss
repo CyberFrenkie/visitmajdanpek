@@ -1,24 +1,21 @@
 .news-card-wrap {
-    .news-card-link {
-        @include custom-flex(space-between, center, row);
-        padding: $distance-pading;
-       
-        
-        @media only screen and (max-width: 800px) {
-            flex-direction: column !important;
-        }
+    @include custom-flex(center, center, row);
+    flex-wrap: wrap;
+    .news-card-link,.news-card-content {        
+        @include custom-flex(center, center, column);
+        padding: $distance-pading;       
     }
 
     .news-card {
         padding: 10px;
         margin: 10px;
+        max-width: 350px;
+        text-align: center;
     }
 
     .news-link {
         @include link-primary;
         @include arrow-animation;
-
-        width: auto;
     }
     .news-card-img {
         width: auto;

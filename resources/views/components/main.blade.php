@@ -72,11 +72,11 @@
           <h1 class="card-info-header m-2">{{ $item['head'] }}</h1>
           <p class="card-info-text m-2">{{ $item['par'] }}</p>
         </div>
+        <a href="/news" class="btn readMore newsBtn">{{ __('news.news.btn_text') }}<i class="fa-solid fa-arrow-right"></i></a>
       </a>
   </div>
   @endif
   @php $count++ @endphp
   @endforeach
 </div>
-<a href="/news" class="btn readMore newsBtn">{{ __('news.news.btn_text') }}<i class="fa-solid fa-arrow-right"></i></a>
 </div>
