@@ -12,7 +12,6 @@
       display: flex;
       justify-content: space-between;
 
-
       .navbar-collapse {
         flex-grow: 0;
       }
@@ -64,7 +63,6 @@
         @media only screen and (max-width:1200px) {
           background: #111;
           opacity: 0.9;
-          
         }
 
         .button {
@@ -82,7 +80,7 @@
             }
           }
 
-          @media only screen and (max-width:1330px) {    
+          @media only screen and (max-width:1200px) {    
             border-bottom-color: $color-link;
             padding: 27px 30px;
             font-size: 18px;

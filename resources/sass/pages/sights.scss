@@ -10,29 +10,50 @@
     position: absolute;
     transition: $transition;
 
-    &:hover {
-      @include overlay;
+    @media only screen and (min-width:1024px) {
+      &:hover {
+        @include overlay;
+        transition: $transition;
 
-      .head {
-        top: 40%;
-      }
+        .head {
+          top: 30%!important;
 
-      .par {  
-        @include flex-center-colum;
-        top: 70%;
-       
+          @media only screen and (max-width:1450px) {
+            top: 25%;
+          }
+        }
+
+        .par {  
+          display: block;
+          top: 55%;
+        }
+
+        .cta {
+          top: 70%;
+
+          @media only screen and (max-width:1450px) {
+            top: 75%;
+          }
+        }
       }
     }
+
     .cta{
       @include cta;
       @include reset-default-text;
       position: absolute;
-      bottom: 5%;
-      left: 40%;
+      left: 41%;
+      top: 55%;
       z-index: 5;
+
+      @media only screen and (max-width:500px) {
+        left: 20%;
+      }
     }
+    
     .img {
       height: 100%;
+      object-fit: cover;
     }
 
     .head,
@@ -46,15 +67,29 @@
 
     .head {
       @include btn-primary;
-      top: 50%;
+      top: 40%!important;
       padding: 20px;
       font-size: $font-size-text-primary;
+
+      @media only screen and (max-width:1450px) {
+        padding: 15px 10px;
+      }
+
+      @media only screen and (max-width:1024px) {
+        background: transparent;
+        color: $color-primary;
+        padding: 0;
+      }
     }
 
     .par {
       display: none;
       font-size: 1.6rem;
       color: $color-primary;
+
+      @media only screen and (max-width:1450px) {
+        font-size: 1.4rem;
+      }
     }
   }
 
@@ -124,11 +159,8 @@
     .shorten {
       @include shorten-text;
     }
-   
   }
 }
-
-
 
 .sights-footer {
   margin-top: 100vh;
@@ -162,5 +194,4 @@
   .sights-footer {
     margin-top: auto;
   }
-  
 }

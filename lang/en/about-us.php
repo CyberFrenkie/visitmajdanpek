@@ -115,7 +115,7 @@ return [
                         'url' => 'https://geoparkdjerdap.rs/?pismo=lat',
                     ],
                     [
-                        'img' => '/img/content/partners/k-ка.jpg',
+                        'img' => '/img/content/partners/logo_TooM.png',
                         'title' => 'Turistička organizacija Majdanpek',
                         'desciption' => 'Izvor većine informacija na sajtu.',
                         'url' => 'https://www.toom.rs/',
