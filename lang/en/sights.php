@@ -72,10 +72,10 @@ return [
           'image' => 'img/content/Pecina/pecina.png',
         ],
         [
-          'image' => 'img/content/Pecina/pecina (50).jpg',
+          'image' => 'img/content/Pecina/Rajkova pećina 1.jpg',
         ],
         [
-          'image' => 'img/content/Pecina/pecina (60).jpg',
+          'image' => 'img/content/Pecina/Rajkova pećina 2.jpg',
         ],
       ],
     ],
@@ -148,10 +148,10 @@ return [
         'location' => 'majdanpek',
         'link' => 'https://www.facebook.com/rajkovapecina/?locale=de_DE',
 
-        'img' => 'img/content/Pecina/Rajkova_pećina.jpg',
-        'img1' => 'img/content/Pecina/pecina.png',
-        'img2' => 'img/content/Pecina/pecina (50).jpg',
-        'img3' => 'img/content/Pecina/pecina (60).jpg',
+        'img' => 'img/content/Pecina/pecina.png',
+        'img1' => 'img/content/Pecina/Rajkova_pećina.jpg',
+        'img2' => 'img/content/Pecina/Majdanpek 19.jpg',
+        'img3' => 'img/content/Pecina/Rajkova pecina 2.jpg',
         // 'img4' => '',
         // 'img5' => '',
         // 'img6' => '',

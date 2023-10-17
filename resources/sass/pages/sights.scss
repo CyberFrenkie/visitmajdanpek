@@ -9,6 +9,7 @@
     width: 56%;
     position: absolute;
     transition: $transition;
+    
 
     @media only screen and (min-width:1024px) {
       &:hover {
@@ -22,19 +23,11 @@
             top: 25%;
           }
         }
-
         .par {  
           display: block;
           top: 55%;
         }
 
-        .cta {
-          top: 70%;
-
-          @media only screen and (max-width:1450px) {
-            top: 75%;
-          }
-        }
       }
     }
 
@@ -42,13 +35,10 @@
       @include cta;
       @include reset-default-text;
       position: absolute;
-      left: 41%;
-      top: 55%;
+      left: 50%;
+      top: 70%;
+      transform: translateX(-50%);
       z-index: 5;
-
-      @media only screen and (max-width:500px) {
-        left: 20%;
-      }
     }
     
     .img {
@@ -67,18 +57,19 @@
 
     .head {
       @include btn-primary;
+      background-color: $color-primary-transparent !important;
       top: 40%!important;
-      padding: 20px;
-      font-size: $font-size-text-primary;
-
-      @media only screen and (max-width:1450px) {
-        padding: 15px 10px;
-      }
-
+      padding: 20px 10px;
+      border-radius: $border-radius;
+      font-size: $font-size-title-secondary;
+      text-shadow: 0 0 5px $color-primary;
+      
       @media only screen and (max-width:1024px) {
-        background: transparent;
+        background-color: transparent !important;
         color: $color-primary;
         padding: 0;
+        font-size: $font-size-title-secondary;
+        text-shadow: 0 0 5px $color-black;
       }
     }
 
@@ -166,26 +157,35 @@
   margin-top: 100vh;
 }
 @media only screen and (max-width:1000px) {
-  .head {
-    top: 60% !important;
-  }
 
   .split-hero{
     height: calc($full-screen-height - $nav-height) !important;
     flex-direction: column !important;
   }
   .split-card{
+    @include custom-flex(space-between,center,column);  
     position: relative !important;
     width: 100% !important;
-    height: 100% !important;
-    background-color: $color-link;
-    @include overlay;
+    height: 100% !important;    
+
+    .card-img{
+      display: none;
+    }
   }
   .one,.two {
+    @include overlay;
     right: 0;
     top: 0;
     -webkit-clip-path: none !important;
     clip-path: none !important; 
+    background-position: center;
+    background-size: cover;
+  }
+  .one{
+    background-image: url('../../public/img/content/majdanpek/majdanpek.jpg');
+  }
+  .two{
+    background-image: url('../../public/img/content/dm/DonjiMilanovac2.jpg');
   }
   .par{
     display: none !important;
