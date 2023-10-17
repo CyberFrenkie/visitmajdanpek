@@ -328,7 +328,7 @@ return [
         'img' => '/img/content/starica/starica1.jpg',
         'img1' => '/img/content/starica/starica1.jpg',
         'img2' => '/img/content/starica/starica2.jpg',
-        // 'img3' => '',
+        'img3' => '/img/content/starica/starica.jpg',
         // 'img4' => '',
         // 'img5' => '',
         // 'img6' => '',
@@ -341,20 +341,23 @@ return [
         // 'head5' => '',
         // 'head6' => '',
 
-        'par' => 'Starica planina se ističe kao značajna planinska masa u okolini Majdanpeka.
+        'par' => 'Симбол и заштитни знак Мајданпека представља планина Старица (796 м) са које се пружа поглед на рударске копове и 
+                  град, чија главна улица се налази на 200 метара надморске висине. На Старици се налази уређена скијашка стаза Рајково. ',
+
+        'par1' => 'Starica planina se ističe kao značajna planinska masa u okolini Majdanpeka.
                     Ova planina karakteriše impresivna prirodna lepota i brojni prirodni fenomeni.
                     Visina planine varira, a najviši vrhovi pružaju spektakularne poglede na okolinu.',
 
-        'par1' => 'Planina obiluje raznovrsnom florom i faunom, što je čini privlačnom za ljubitelje prirode i planinarenje.
+        'par2' => 'Planina obiluje raznovrsnom florom i faunom, što je čini privlačnom za ljubitelje prirode i planinarenje.
                      Na Starici planini možete pronaći brojne staze i puteve za planinarenje koji vode do najlepših vidikovaca,
                      šuma i planinskih potoka.',
 
-        'par2' => 'Osim prirodne lepote, Starica planina je i arheološki značajna oblast.
+        'par3' => 'Osim prirodne lepote, Starica planina je i arheološki značajna oblast.
                      Na njenim padinama i u okolini pronađeni su arheološki nalazi koji svedoče o bogatoj istoriji ovog područja.
                      S obzirom na svoju raznolikost i prirodne lepote, Starica planina je idealna destinacija za rekreativne aktivnosti,
                      istraživanje prirode i uživanje u miru i tišini planinskog okruženja.',
 
-        // 'par3' => '',
+       
         // 'par4' => '',
         // 'par5' => '',
         // 'par6' => '',

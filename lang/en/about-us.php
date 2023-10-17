@@ -95,13 +95,7 @@ return [
                         'title' => 'Biznis inkubator',
                         'desciption' => 'Inicijator i organizator kursa za Web programiranje.',
                         'url' => 'https://www.bimajdanpek.rs/',
-                    ],
-                    [
-                        'img' => '/img/content/partners/k-ка.jpg',
-                        'title' => 'Klčesko Milan',
-                        'desciption' => 'Izvor fotografija i snimaka na sajtu.',
-                        'url' => 'https://www.facebook.com/profile.php?id=100009556535467',
-                    ],
+                    ],                 
                     [
                         'img' => '/img/content/partners/NPDjerdap.svg',
                         'title' => 'Turistička organizacija Majdanpek',
@@ -119,6 +113,18 @@ return [
                         'title' => 'Turistička organizacija Majdanpek',
                         'desciption' => 'Izvor većine informacija na sajtu.',
                         'url' => 'https://www.toom.rs/',
+                    ],
+                    [
+                        'img' => '/img/content/partners/Dragoslav_Ilic.png',
+                        'title' => 'Dragoslav Ilic',
+                        'desciption' => 'Izvor fotografija i snimaka na sajtu.',
+                        'url' => '#',
+                    ],
+                    [
+                        'img' => '/img/content/partners/k-ка.png',
+                        'title' => 'Klčesko Milan',
+                        'desciption' => 'Izvor fotografija i snimaka na sajtu.',
+                        'url' => 'https://www.facebook.com/profile.php?id=100009556535467',
                     ],
                 ],
             ],
