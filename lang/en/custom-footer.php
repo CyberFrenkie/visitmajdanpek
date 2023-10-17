@@ -182,13 +182,13 @@ return[
             'name'=> 'rajkova_pecina',  
             'sliderValues' => [
                     [
-                        'src' => '/img/content/Pecina/pecina (60).jpg',
+                        'src' => '/img/content/Pecina/Rajkova pećina 1.jpg',
                     ],
                     [
-                        'src' => '/img/content/Pecina/pecina (50).jpg',
+                        'src' => '/img/content/Pecina/Rajkova pecina 2.jpg',
                     ],
                     [
-                        'src' => '/img/content/Pecina/Rajkova_pećina.jpg',
+                        'src' => '/img/content/Pecina/Rajkova pecina 4.jpg',
                     ],
                     [
                         'src' => '/img/content/Pecina/pecina.png',
