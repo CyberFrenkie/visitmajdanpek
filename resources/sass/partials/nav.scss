@@ -8,36 +8,46 @@
     position: absolute;
   
     .nav-box {
-      padding: 24px 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include custom-flex(space-between,center,row);
+      
+      @media only screen and (max-width:800px) {
+        padding: 24px 0;            
+      }
 
       .navbar-collapse {
         flex-grow: 0;
+       
+        
       }
 
       .navbar-brand {
         margin-right: 0!important;
-        
-
-        @media only screen and (max-width:400px) {
-          margin-left: 40px;
-        }
 
         .nav-img {
-          max-height: 150px;
+          max-height: 50px;
+          padding: 0 10px;
           object-fit: contain;
+          @media only screen and (max-width:800px) {
+            max-height: 50px !important;            
+          }
+          @media only screen and (max-width:300px) {
+            display: none;            
+          }
         }
+        
       }
 
       .navbar-toggler {
         border-radius: 1px;
         border: 0.1px solid $nav-color--grey;
-        margin: 10px 85px 0 0;
+        margin: 0 85px 0 0;
 
-        @media only screen and (max-width:400px) {
-          margin-right: 40px;
+        @media only screen and (max-width:800px) {
+          margin-right: 20px;
+        }
+        @media only screen and (max-width:300px) {
+          margin-right: 50%;  
+          transform: translateX(50%);          
         }
       }
 
