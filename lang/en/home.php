@@ -82,8 +82,8 @@ return [
                     'button_link' => '/sights/mpek',
                 ],
                 [
-                    'img' => 'img/content/majdanpek/mpek-nocu.jpg',
-                    'imgMobile' => 'img/content/majdanpek/mpek-nocu-mobile.jpg',
+                    'img' => 'img/content/majdanpek/Sneg 011.jpg',
+                    'imgMobile' => 'img/content/majdanpek/Sneg 011-mobile.jpg',
                     'title' => 'Manje poznato',
                     'text' => 'Upoznajte opštinu Majdanpek',
                     'button_text' => 'Pročitaj više',

@@ -3,11 +3,13 @@
 return [
 
   'head' => 'O Majdanpeku',
+  'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a><strong>',
+
   'content' => [
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/mpek-nocu.jpg',
+        'src' => 'img/content/majdanpek/Majdanpek 9.jpg',
       ],
 
       'title' => 'Opština Majdanpek',
@@ -38,7 +40,7 @@ return [
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/mpek-nocu.jpg',
+        'src' => 'img/content/majdanpek/Majdanpek 14.jpg',
       ],
 
       'title' => 'Majdanpek',
@@ -57,7 +59,7 @@ return [
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/spomenik.jpg',
+        'src' => 'img/content/majdanpek/turisticka_karta_2.jpg',
       ],
 
       'title' => 'Turizam',
@@ -70,6 +72,18 @@ return [
           kapaciteta 1.100 skijaša na sat. Lift savladava visinsku razliku od 200 metara i opslužuje dve skijaške 
           staze dužina 1.000 m i 1.200 m. Osim toga, skijalište Rajkovo raspolaže i motornim sankama i ski-tabačem za uređivanje staze.',
         ],
+
+      ],
+    ],
+
+    [
+      'img' => [
+        'link' => '#',
+        'src' => 'img/content/majdanpek/mpek.jpg',
+      ],
+
+      'title' => '',
+      'lead' => [
         [
           'text' => ' Pod Staricom, u mešovitoj šumi bukve, javora i hrasta smeštena je Rajkova pećina, na svega 3,5 
           kilometara od Majdanpeka, u čijoj okolini se nalazi 110 pećina i potkapina. Rajkova pećina je 
@@ -91,7 +105,47 @@ return [
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/mpek.jpg',
+        'src' => 'img/content/majdanpek/Majdanpek 2.jpg',
+      ],
+
+      'title' => 'Crkva Svetih apostola Petra i Pavla',
+      'lead' => [
+        [
+          'text' => ' Crkva Svetih apostola Petra i Pavla izgrađena je u 
+                      periodu od 1856-1858. godine od strane srpske Vlade koja je 
+                      dovela stručnjake i radnike iz inostranstva, za rad u 
+                      obnovljenom rudniku. Stvarajući uslove da ih veže za srpsko 
+                      tle i pravoslavlje 1856. godine istovremeno je započela gradnja crkve, 
+                      škole, stambenih objekata i rudarskih postrojenja.
+                      Izrada plana crkve poverena je slikaru Urošu Kneževiću 
+                      koji se odlučio za tzv. „švajcarski stil“, rasprostranjen u Evropi  
+                      onog vremena. Posvećena je Sv. apostolima Petru i Pavlu koje su 
+                      majdanpečki rudari uzeli za svoje zaštitnike, pa se do danas, 
+                      12. jula, slavi i Slava rudnika i 
+                      Crkvena slava uz veliku svetkovinu celog grada.',
+        ],
+      ],
+    ],
+
+    [
+      'img' => [
+        'link' => '#',
+        'src' => 'img/content/majdanpek/spomenik2.jpg',
+      ],
+
+      'title' => 'Spomenik oslobodiocima Majdanpeka ',
+      'lead' => [
+        [
+          'text' => ' Spomenik podignut u čast palim borcima i civilima
+                      iz šireg regiona koji su stradali u toku NOB-a.',
+        ],
+      ],
+    ],
+
+    [
+      'img' => [
+        'link' => '#',
+        'src' => 'img/content/majdanpek/Majdanpek_1962.jpg',
       ],
 
       'title' => 'Istorija',
@@ -113,7 +167,7 @@ return [
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/rudnik.jpg',
+        'src' => 'img/content/majdanpek/BAKARNI SUTON.jpg',
       ],
 
       'title' => '',
@@ -133,10 +187,12 @@ return [
       ],
     ],
 
+
+
     [
       'img' => [
         'link' => '#',
-        'src' => 'img/content/majdanpek/rudnik.jpg',
+        'src' => 'img/content/dm/DonjiMilanovac2.jpg',
       ],
 
       'title' => 'Donji Milanovac',
