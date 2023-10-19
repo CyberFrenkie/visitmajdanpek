@@ -59,7 +59,7 @@
             </div>
             </div>
             <p class="text-center">
-              {{ $content['izvor'] }}
+              {!! $content['izvor'] !!}
             </p>
           @endforeach
         </div>

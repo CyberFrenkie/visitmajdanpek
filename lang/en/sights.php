@@ -208,7 +208,7 @@ return [
         // 'par6' => '',
 
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija i Nacionalni park Đerdap',
+        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">Nacionalni park Đerdap</a><strong>',
       ],
 
       [
@@ -266,7 +266,9 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija i Turistička organizacija Majdanpek',
+        'izvor' => '
+        <strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://www.toom.rs/" target="_blank" class="">Turistička organizacija Majdanpek</a> </strong>
+        ',
       ],
 
       [
@@ -317,7 +319,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija i  Geopark Đerdap.',
+        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://geoparkdjerdap.rs/" target="_blank" class="">Geopark Đerdap</a><strong>',
       ],
 
       [
@@ -362,7 +364,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija',
+        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a><strong>',
       ],
 
       [
@@ -404,7 +406,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : skijanje.rs',
+        'izvor' => '<strong>Izvor informacija : <a href="https://www.skijanje.rs/ski-centri/srbija/rajkovo-majdanpek/" target="_blank" class="">Skijanje.rs</a><strong>',
       ],
 
       [
@@ -455,7 +457,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija',
+        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a><strong>',
       ],
 
       [ 
@@ -498,8 +500,8 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => 'Izvor informacija : Wikipedia - Slobodna online enciklopedija i nacionalni park Đerdap',
-      ],
+        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">Nacionalni park Đerdap</a><strong>',
+        ],
 
     ],
   ],
