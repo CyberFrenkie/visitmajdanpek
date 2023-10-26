@@ -7,15 +7,20 @@
 }
 
 .sight-content {
-  @include flex-center-row;
-  flex-wrap: wrap;
+  @include custom-flex(space-between,center,row);
+  flex-wrap: wrap;  
   margin: $distance-pading;
   padding: $distance-pading;  
   
-  .img{
-    max-height: 300px;
-    width: 100%;
+  .img-wrap{
+    width: auto;
+      .img{
+        max-width: 350px;
+        max-height: 300px;
+        width: auto;
+      }
   }
+
 
   .lead{
     text-align: justify;

@@ -208,7 +208,7 @@ return [
         // 'par6' => '',
 
 
-        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">Nacionalni park Đerdap</a><strong>',
+        'izvor' => '<strong>Izvor informacija : <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">www.npdjerdap.rs</a> i <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a><strong>',
       ],
 
       [
@@ -267,7 +267,7 @@ return [
         // 'par6' => '',
 
         'izvor' => '
-        <strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://www.toom.rs/" target="_blank" class="">Turistička organizacija Majdanpek</a> </strong>
+        <strong>Izvor informacija : <a href="https://www.toom.rs/" target="_blank" class="">www.toom.rs</a> i <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a></strong>
         ',
       ],
 
@@ -319,7 +319,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://geoparkdjerdap.rs/" target="_blank" class="">Geopark Đerdap</a><strong>',
+        'izvor' => '<strong>Izvor informacija :  <a href="https://geoparkdjerdap.rs/" target="_blank" class="">www.geoparkdjerdap.rs</a> i <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> <strong>',
       ],
 
       [
@@ -414,11 +414,11 @@ return [
         'location' => 'donji_milanovac',
         // 'link' => '/',
 
-        'img' => 'img/content/content.png',
-        // 'img1' => '',
-        // 'img2' => '',
-        // 'img3' => '',
-        // 'img4' => '',
+        'img' => 'img/content/lepenski-vir/LP3.jpg',
+        'img1' => 'img/content/lepenski-vir/LP5.jpg',
+        'img2' => 'img/content/lepenski-vir/LP6.jpg',
+        'img3' => 'img/content/lepenski-vir/LP1.jpg',
+        'img4' => 'img/content/lepenski-vir/LP6.jpg',
         // 'img5' => '',
         // 'img6' => '',
 
@@ -457,7 +457,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a><strong>',
+        'izvor' => '<strong>Izvor informacija : <a href="http://www.lepenski-vir.rs/" target="_blank" class="">www.lepenski-vir.rs</a> i <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> <strong> ',
       ],
 
       [ 
@@ -500,7 +500,7 @@ return [
         // 'par5' => '',
         // 'par6' => '',
 
-        'izvor' => '<strong>Izvor informacija : <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> i <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">Nacionalni park Đerdap</a><strong>',
+        'izvor' => '<strong>Izvor informacija : <a href="https://npdjerdap.rs/?pismo=lat" target="_blank" class="">www.npdjerdap.rs</a> i <a href="https://sr.wikipedia.org" target="_blank" class="">Wikipedia - Slobodna online enciklopedija</a> <strong>',
         ],
 
     ],

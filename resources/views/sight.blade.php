@@ -32,7 +32,7 @@
                   <h3 class="title col-12">{{ $content['head1'] }}</h3>
                   <p class="lead">{{ $content['par1'] }}</p>
                 </div>
-                <div class="col-md-5 col-sm-12">
+                <div class="img-wrap col-md-5 col-sm-12">
                   <img src="{{asset($item->img1)}}" class="card-img img col-5"  alt="img{{ $item->id }}">
                 </div>
               </div>
@@ -42,7 +42,7 @@
                   <h3 class="title col-12">{{ $content['head2'] }}</h3>
                   <p class="lead">{{ $content['par2'] }}</p>
                 </div>
-                <div class="col-md-5 col-sm-12">
+                <div class="img-wrap col-md-5 col-sm-12">
                   <img src="{{asset($item->img2)}}" class="card-img img col-5" alt="img{{ $item->id }}">
                 </div>
               </div>
