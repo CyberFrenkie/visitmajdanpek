@@ -30,9 +30,9 @@ return [
                 'team' => 'Lead developer'
             ],
             [
-                'img' => '/img/content/dejan.jpg',
+                'img' => '/img/content/ekipa/sofija.jpg',
                 'text' => 'Sofija',
-                'url' => '#',
+                'url' => 'https://www.linkedin.com/in/sofija-tomasevic',
                 'team' => 'Web developer'
             ],
             [
@@ -95,6 +95,12 @@ return [
                         'title' => 'Biznis inkubator',
                         'desciption' => 'Inicijator i organizator kursa za Web programiranje.',
                         'url' => 'https://www.bimajdanpek.rs/',
+                    ],
+                    [
+                        'img' => '/img/content/partners/logo_TooM.png',
+                        'title' => 'Turistička organizacija Majdanpek',
+                        'desciption' => 'Izvor većine informacija na sajtu.',
+                        'url' => 'https://www.toom.rs/',
                     ],                 
                     [
                         'img' => '/img/content/partners/NPDjerdap.svg',
@@ -109,10 +115,10 @@ return [
                         'url' => 'https://geoparkdjerdap.rs/?pismo=lat',
                     ],
                     [
-                        'img' => '/img/content/partners/logo_TooM.png',
-                        'title' => 'Turistička organizacija Majdanpek',
+                        'img' => '/img/content/partners/LP-logo.jpg',
+                        'title' => 'Arheološko nalazište Lepenski vir',
                         'desciption' => 'Izvor većine informacija na sajtu.',
-                        'url' => 'https://www.toom.rs/',
+                        'url' => 'http://www.lepenski-vir.rs/',
                     ],
                     [
                         'img' => '/img/content/partners/Dragoslav_Ilic.png',
