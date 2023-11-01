@@ -36,9 +36,9 @@ return [
                 'team' => 'Web developer'
             ],
             [
-                'img' => '/img/content/dejan.jpg',
+                'img' => '/img/content/ekipa/nikola.jpg',
                 'text' => 'Nikola',
-                'url' => '#',
+                'url' => 'https://www.instagram.com/krajniii__/',
                 'team' => 'Web developer'
             ],
             [
