@@ -210,6 +210,18 @@ return[
                     ],
                     [
                         'src' => '/img/content/prerast/vp2.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/prerast1.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/stena-reka.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/valja-prerast.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/prerast/stena.jpg',
                     ],   
                 ],
             ],
@@ -231,7 +243,40 @@ return[
                     ],
                     [
                         'src' => '/img/content/beli-izvorac/beli_izvorac4.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac5.jpg',
                     ],  
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac6.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac7.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac8.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac9.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac10.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac11.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac12.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac22.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac111.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/beli-izvorac/beli_izvorac322.jpg',
+                    ]
                 ],
             ],
             [
@@ -243,6 +288,9 @@ return[
                     ],
                     [
                         'src' => '/img/content/starica/starica2.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/starica/STARICA.jpg',
                     ],
 
                 ],
@@ -267,14 +315,20 @@ return[
             'name'=> 'lepenski_vir',  
             'sliderValues' => [
                     [
-                        'src' => '/img/content/Pecina/pecina (60).jpg',
+                        'src' => '/img/content/lepenski-vir/LP1.jpg',
                     ],
                     [
-                        'src' => '/img/content/Pecina/pecina (50).jpg',
+                        'src' => '/img/content/lepenski-vir/LP2.jpg',
                     ],
                     [
-                        'src' => '/img/content/content.png',
-                    ],  
+                        'src' => '/img/content/lepenski-vir/LP3.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/lepenski-vir/LP5.jpg',
+                    ],
+                    [
+                        'src' => '/img/content/lepenski-vir/LP6.jpg',
+                    ]  
                 ],
             ],
             [
